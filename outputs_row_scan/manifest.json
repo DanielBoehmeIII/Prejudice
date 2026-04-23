@@ -1,0 +1,813 @@
+{
+  "source_image": "/home/dboehmeiii/Desktop/repos/Prejudice/sprite-sheet01.png",
+  "source_size": {
+    "width": 1536,
+    "height": 1024
+  },
+  "sprite_count": 34,
+  "group_count": 6,
+  "sprites": [
+    {
+      "id": 0,
+      "file": "sprites/sprite_0.png",
+      "bbox": [
+        219,
+        46,
+        267,
+        159
+      ],
+      "center": [
+        243.0,
+        102.5
+      ],
+      "size": [
+        48,
+        113
+      ]
+    },
+    {
+      "id": 1,
+      "file": "sprites/sprite_1.png",
+      "bbox": [
+        289,
+        46,
+        339,
+        159
+      ],
+      "center": [
+        314.0,
+        102.5
+      ],
+      "size": [
+        50,
+        113
+      ]
+    },
+    {
+      "id": 2,
+      "file": "sprites/sprite_2.png",
+      "bbox": [
+        356,
+        46,
+        404,
+        159
+      ],
+      "center": [
+        380.0,
+        102.5
+      ],
+      "size": [
+        48,
+        113
+      ]
+    },
+    {
+      "id": 3,
+      "file": "sprites/sprite_3.png",
+      "bbox": [
+        486,
+        49,
+        536,
+        156
+      ],
+      "center": [
+        511.0,
+        102.5
+      ],
+      "size": [
+        50,
+        107
+      ]
+    },
+    {
+      "id": 4,
+      "file": "sprites/sprite_4.png",
+      "bbox": [
+        572,
+        46,
+        643,
+        159
+      ],
+      "center": [
+        607.5,
+        102.5
+      ],
+      "size": [
+        71,
+        113
+      ]
+    },
+    {
+      "id": 5,
+      "file": "sprites/sprite_5.png",
+      "bbox": [
+        1026,
+        46,
+        1140,
+        160
+      ],
+      "center": [
+        1083.0,
+        103.0
+      ],
+      "size": [
+        114,
+        114
+      ]
+    },
+    {
+      "id": 6,
+      "file": "sprites/sprite_6.png",
+      "bbox": [
+        665,
+        46,
+        755,
+        161
+      ],
+      "center": [
+        710.0,
+        103.5
+      ],
+      "size": [
+        90,
+        115
+      ]
+    },
+    {
+      "id": 7,
+      "file": "sprites/sprite_7.png",
+      "bbox": [
+        792,
+        46,
+        884,
+        161
+      ],
+      "center": [
+        838.0,
+        103.5
+      ],
+      "size": [
+        92,
+        115
+      ]
+    },
+    {
+      "id": 8,
+      "file": "sprites/sprite_8.png",
+      "bbox": [
+        916,
+        46,
+        1023,
+        161
+      ],
+      "center": [
+        969.5,
+        103.5
+      ],
+      "size": [
+        107,
+        115
+      ]
+    },
+    {
+      "id": 9,
+      "file": "sprites/sprite_9.png",
+      "bbox": [
+        293,
+        170,
+        349,
+        270
+      ],
+      "center": [
+        321.0,
+        220.0
+      ],
+      "size": [
+        56,
+        100
+      ]
+    },
+    {
+      "id": 10,
+      "file": "sprites/sprite_10.png",
+      "bbox": [
+        355,
+        170,
+        417,
+        271
+      ],
+      "center": [
+        386.0,
+        220.5
+      ],
+      "size": [
+        62,
+        101
+      ]
+    },
+    {
+      "id": 11,
+      "file": "sprites/sprite_11.png",
+      "bbox": [
+        6,
+        165,
+        52,
+        312
+      ],
+      "center": [
+        29.0,
+        238.5
+      ],
+      "size": [
+        46,
+        147
+      ]
+    },
+    {
+      "id": 12,
+      "file": "sprites/sprite_12.png",
+      "bbox": [
+        83,
+        169,
+        133,
+        312
+      ],
+      "center": [
+        108.0,
+        240.5
+      ],
+      "size": [
+        50,
+        143
+      ]
+    },
+    {
+      "id": 13,
+      "file": "sprites/sprite_13.png",
+      "bbox": [
+        152,
+        170,
+        205,
+        312
+      ],
+      "center": [
+        178.5,
+        241.0
+      ],
+      "size": [
+        53,
+        142
+      ]
+    },
+    {
+      "id": 14,
+      "file": "sprites/sprite_14.png",
+      "bbox": [
+        219,
+        170,
+        282,
+        312
+      ],
+      "center": [
+        250.5,
+        241.0
+      ],
+      "size": [
+        63,
+        142
+      ]
+    },
+    {
+      "id": 15,
+      "file": "sprites/sprite_15.png",
+      "bbox": [
+        719,
+        326,
+        835,
+        464
+      ],
+      "center": [
+        777.0,
+        395.0
+      ],
+      "size": [
+        116,
+        138
+      ]
+    },
+    {
+      "id": 16,
+      "file": "sprites/sprite_16.png",
+      "bbox": [
+        469,
+        326,
+        595,
+        468
+      ],
+      "center": [
+        532.0,
+        397.0
+      ],
+      "size": [
+        126,
+        142
+      ]
+    },
+    {
+      "id": 17,
+      "file": "sprites/sprite_17.png",
+      "bbox": [
+        597,
+        326,
+        685,
+        475
+      ],
+      "center": [
+        641.0,
+        400.5
+      ],
+      "size": [
+        88,
+        149
+      ]
+    },
+    {
+      "id": 18,
+      "file": "sprites/sprite_18.png",
+      "bbox": [
+        854,
+        326,
+        971,
+        480
+      ],
+      "center": [
+        912.5,
+        403.0
+      ],
+      "size": [
+        117,
+        154
+      ]
+    },
+    {
+      "id": 19,
+      "file": "sprites/sprite_19.png",
+      "bbox": [
+        1173,
+        323,
+        1370,
+        487
+      ],
+      "center": [
+        1271.5,
+        405.0
+      ],
+      "size": [
+        197,
+        164
+      ]
+    },
+    {
+      "id": 20,
+      "file": "sprites/sprite_20.png",
+      "bbox": [
+        1014,
+        326,
+        1107,
+        490
+      ],
+      "center": [
+        1060.5,
+        408.0
+      ],
+      "size": [
+        93,
+        164
+      ]
+    },
+    {
+      "id": 21,
+      "file": "sprites/sprite_21.png",
+      "bbox": [
+        208,
+        324,
+        401,
+        498
+      ],
+      "center": [
+        304.5,
+        411.0
+      ],
+      "size": [
+        193,
+        174
+      ]
+    },
+    {
+      "id": 22,
+      "file": "sprites/sprite_22.png",
+      "bbox": [
+        1389,
+        410,
+        1431,
+        487
+      ],
+      "center": [
+        1410.0,
+        448.5
+      ],
+      "size": [
+        42,
+        77
+      ]
+    },
+    {
+      "id": 23,
+      "file": "sprites/sprite_23.png",
+      "bbox": [
+        1442,
+        548,
+        1508,
+        670
+      ],
+      "center": [
+        1475.0,
+        609.0
+      ],
+      "size": [
+        66,
+        122
+      ]
+    },
+    {
+      "id": 24,
+      "file": "sprites/sprite_24.png",
+      "bbox": [
+        1366,
+        550,
+        1425,
+        671
+      ],
+      "center": [
+        1395.5,
+        610.5
+      ],
+      "size": [
+        59,
+        121
+      ]
+    },
+    {
+      "id": 25,
+      "file": "sprites/sprite_25.png",
+      "bbox": [
+        1285,
+        549,
+        1349,
+        673
+      ],
+      "center": [
+        1317.0,
+        611.0
+      ],
+      "size": [
+        64,
+        124
+      ]
+    },
+    {
+      "id": 26,
+      "file": "sprites/sprite_26.png",
+      "bbox": [
+        1206,
+        549,
+        1266,
+        678
+      ],
+      "center": [
+        1236.0,
+        613.5
+      ],
+      "size": [
+        60,
+        129
+      ]
+    },
+    {
+      "id": 27,
+      "file": "sprites/sprite_27.png",
+      "bbox": [
+        132,
+        742,
+        181,
+        753
+      ],
+      "center": [
+        156.5,
+        747.5
+      ],
+      "size": [
+        49,
+        11
+      ]
+    },
+    {
+      "id": 28,
+      "file": "sprites/sprite_28.png",
+      "bbox": [
+        743,
+        746,
+        801,
+        757
+      ],
+      "center": [
+        772.0,
+        751.5
+      ],
+      "size": [
+        58,
+        11
+      ]
+    },
+    {
+      "id": 29,
+      "file": "sprites/sprite_29.png",
+      "bbox": [
+        919,
+        746,
+        933,
+        757
+      ],
+      "center": [
+        926.0,
+        751.5
+      ],
+      "size": [
+        14,
+        11
+      ]
+    },
+    {
+      "id": 30,
+      "file": "sprites/sprite_30.png",
+      "bbox": [
+        1024,
+        774,
+        1062,
+        961
+      ],
+      "center": [
+        1043.0,
+        867.5
+      ],
+      "size": [
+        38,
+        187
+      ]
+    },
+    {
+      "id": 31,
+      "file": "sprites/sprite_31.png",
+      "bbox": [
+        963,
+        774,
+        1017,
+        969
+      ],
+      "center": [
+        990.0,
+        871.5
+      ],
+      "size": [
+        54,
+        195
+      ]
+    },
+    {
+      "id": 32,
+      "file": "sprites/sprite_32.png",
+      "bbox": [
+        1079,
+        774,
+        1125,
+        974
+      ],
+      "center": [
+        1102.0,
+        874.0
+      ],
+      "size": [
+        46,
+        200
+      ]
+    },
+    {
+      "id": 33,
+      "file": "sprites/sprite_33.png",
+      "bbox": [
+        890,
+        774,
+        951,
+        975
+      ],
+      "center": [
+        920.5,
+        874.5
+      ],
+      "size": [
+        61,
+        201
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": 0,
+      "file": "sheets/row_0.png",
+      "sprite_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        5
+      ],
+      "rows": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          5
+        ]
+      ],
+      "source_bbox": [
+        219,
+        46,
+        1140,
+        161
+      ],
+      "grid": {
+        "rows": 1,
+        "columns": 9
+      }
+    },
+    {
+      "id": 1,
+      "file": "sheets/row_1.png",
+      "sprite_ids": [
+        11,
+        12,
+        13,
+        14,
+        9,
+        10
+      ],
+      "rows": [
+        [
+          11,
+          12,
+          13,
+          14,
+          9,
+          10
+        ]
+      ],
+      "source_bbox": [
+        6,
+        165,
+        417,
+        312
+      ],
+      "grid": {
+        "rows": 1,
+        "columns": 6
+      }
+    },
+    {
+      "id": 2,
+      "file": "sheets/row_2.png",
+      "sprite_ids": [
+        21,
+        16,
+        17,
+        15,
+        18,
+        20,
+        19,
+        22
+      ],
+      "rows": [
+        [
+          21,
+          16,
+          17,
+          15,
+          18,
+          20,
+          19,
+          22
+        ]
+      ],
+      "source_bbox": [
+        208,
+        323,
+        1431,
+        498
+      ],
+      "grid": {
+        "rows": 1,
+        "columns": 8
+      }
+    },
+    {
+      "id": 3,
+      "file": "sheets/row_3.png",
+      "sprite_ids": [
+        26,
+        25,
+        24,
+        23
+      ],
+      "rows": [
+        [
+          26,
+          25,
+          24,
+          23
+        ]
+      ],
+      "source_bbox": [
+        1206,
+        548,
+        1508,
+        678
+      ],
+      "grid": {
+        "rows": 1,
+        "columns": 4
+      }
+    },
+    {
+      "id": 4,
+      "file": "sheets/row_4.png",
+      "sprite_ids": [
+        27,
+        28,
+        29
+      ],
+      "rows": [
+        [
+          27,
+          28,
+          29
+        ]
+      ],
+      "source_bbox": [
+        132,
+        742,
+        933,
+        757
+      ],
+      "grid": {
+        "rows": 1,
+        "columns": 3
+      }
+    },
+    {
+      "id": 5,
+      "file": "sheets/row_5.png",
+      "sprite_ids": [
+        33,
+        31,
+        30,
+        32
+      ],
+      "rows": [
+        [
+          33,
+          31,
+          30,
+          32
+        ]
+      ],
+      "source_bbox": [
+        890,
+        774,
+        1125,
+        975
+      ],
+      "grid": {
+        "rows": 1,
+        "columns": 4
+      }
+    }
+  ]
+}
