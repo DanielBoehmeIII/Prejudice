@@ -1,0 +1,9190 @@
+{
+  "source_image": "sprite-sheet01.png",
+  "layout_file": "layout.json",
+  "source_size": {
+    "width": 1536,
+    "height": 1024
+  },
+  "panel_count": 12,
+  "panels": [
+    {
+      "name": "player",
+      "mode": "animation_rows",
+      "bbox": [
+        6,
+        33,
+        456,
+        504
+      ],
+      "panel_file": "panels/player.png",
+      "frame_count": 40,
+      "output_files": [
+        "sprites/player_idle_frame_00.png",
+        "sprites/player_idle_frame_01.png",
+        "sprites/player_idle_frame_02.png",
+        "sprites/player_idle_frame_03.png",
+        "sprites/player_idle_frame_04.png",
+        "sprites/player_idle_frame_05.png",
+        "sprites/player_walk_frame_00.png",
+        "sprites/player_walk_frame_01.png",
+        "sprites/player_walk_frame_02.png",
+        "sprites/player_walk_frame_03.png",
+        "sprites/player_walk_frame_04.png",
+        "sprites/player_walk_frame_05.png",
+        "sprites/player_run_frame_00.png",
+        "sprites/player_run_frame_01.png",
+        "sprites/player_run_frame_02.png",
+        "sprites/player_run_frame_03.png",
+        "sprites/player_run_frame_04.png",
+        "sprites/player_run_frame_05.png",
+        "sprites/player_jump_frame_00.png",
+        "sprites/player_jump_frame_01.png",
+        "sprites/player_jump_frame_02.png",
+        "sprites/player_jump_frame_03.png",
+        "sprites/player_jump_frame_04.png",
+        "sprites/player_jump_frame_05.png",
+        "sprites/player_fall_frame_00.png",
+        "sprites/player_fall_frame_01.png",
+        "sprites/player_fall_frame_02.png",
+        "sprites/player_fall_frame_03.png",
+        "sprites/player_attack_frame_00.png",
+        "sprites/player_attack_frame_01.png",
+        "sprites/player_attack_frame_02.png",
+        "sprites/player_shield_frame_00.png",
+        "sprites/player_shield_frame_01.png",
+        "sprites/player_shield_frame_02.png",
+        "sprites/player_shield_frame_03.png",
+        "sprites/player_shield_frame_04.png",
+        "sprites/player_cross_ability_frame_00.png",
+        "sprites/player_cross_ability_frame_01.png",
+        "sprites/player_cross_ability_frame_02.png",
+        "sprites/player_cross_ability_frame_03.png",
+        "sheets/player_idle.png",
+        "sheets/player_walk.png",
+        "sheets/player_run.png",
+        "sheets/player_jump.png",
+        "sheets/player_fall.png",
+        "sheets/player_attack.png",
+        "sheets/player_shield.png",
+        "sheets/player_cross_ability.png"
+      ],
+      "bounding_boxes": [
+        [
+          20,
+          71,
+          49,
+          79
+        ],
+        [
+          80,
+          71,
+          134,
+          98
+        ],
+        [
+          153,
+          71,
+          204,
+          98
+        ],
+        [
+          221,
+          71,
+          268,
+          98
+        ],
+        [
+          289,
+          71,
+          340,
+          98
+        ],
+        [
+          356,
+          71,
+          401,
+          98
+        ],
+        [
+          19,
+          127,
+          52,
+          140
+        ],
+        [
+          77,
+          108,
+          128,
+          159
+        ],
+        [
+          146,
+          109,
+          197,
+          159
+        ],
+        [
+          215,
+          110,
+          267,
+          159
+        ],
+        [
+          286,
+          109,
+          337,
+          159
+        ],
+        [
+          352,
+          108,
+          404,
+          159
+        ],
+        [
+          19,
+          184,
+          43,
+          196
+        ],
+        [
+          82,
+          169,
+          133,
+          217
+        ],
+        [
+          154,
+          169,
+          209,
+          217
+        ],
+        [
+          224,
+          169,
+          280,
+          217
+        ],
+        [
+          295,
+          169,
+          349,
+          218
+        ],
+        [
+          365,
+          170,
+          417,
+          217
+        ],
+        [
+          19,
+          240,
+          52,
+          252
+        ],
+        [
+          82,
+          229,
+          128,
+          273
+        ],
+        [
+          146,
+          230,
+          189,
+          272
+        ],
+        [
+          213,
+          228,
+          256,
+          266
+        ],
+        [
+          287,
+          233,
+          338,
+          271
+        ],
+        [
+          350,
+          230,
+          397,
+          271
+        ],
+        [
+          19,
+          291,
+          50,
+          304
+        ],
+        [
+          85,
+          281,
+          126,
+          313
+        ],
+        [
+          154,
+          283,
+          194,
+          313
+        ],
+        [
+          232,
+          277,
+          286,
+          315
+        ],
+        [
+          19,
+          342,
+          65,
+          354
+        ],
+        [
+          82,
+          329,
+          202,
+          372
+        ],
+        [
+          216,
+          326,
+          401,
+          372
+        ],
+        [
+          19,
+          401,
+          65,
+          414
+        ],
+        [
+          81,
+          381,
+          134,
+          428
+        ],
+        [
+          148,
+          381,
+          200,
+          428
+        ],
+        [
+          208,
+          379,
+          262,
+          432
+        ],
+        [
+          273,
+          380,
+          321,
+          428
+        ],
+        [
+          19,
+          446,
+          69,
+          475
+        ],
+        [
+          86,
+          446,
+          135,
+          494
+        ],
+        [
+          151,
+          446,
+          199,
+          493
+        ],
+        [
+          207,
+          431,
+          384,
+          494
+        ],
+        [
+          20,
+          71,
+          401,
+          98
+        ],
+        [
+          19,
+          108,
+          404,
+          159
+        ],
+        [
+          19,
+          169,
+          417,
+          218
+        ],
+        [
+          19,
+          228,
+          397,
+          273
+        ],
+        [
+          19,
+          277,
+          286,
+          315
+        ],
+        [
+          19,
+          326,
+          401,
+          372
+        ],
+        [
+          19,
+          379,
+          321,
+          432
+        ],
+        [
+          19,
+          431,
+          384,
+          494
+        ]
+      ],
+      "items": [
+        {
+          "kind": "frame",
+          "file": "sprites/player_idle_frame_00.png",
+          "bbox": [
+            20,
+            71,
+            49,
+            79
+          ],
+          "panel_bbox": [
+            4,
+            0,
+            33,
+            8
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "idle"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_idle_frame_01.png",
+          "bbox": [
+            80,
+            71,
+            134,
+            98
+          ],
+          "panel_bbox": [
+            64,
+            0,
+            118,
+            27
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "idle"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_idle_frame_02.png",
+          "bbox": [
+            153,
+            71,
+            204,
+            98
+          ],
+          "panel_bbox": [
+            137,
+            0,
+            188,
+            27
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "idle"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_idle_frame_03.png",
+          "bbox": [
+            221,
+            71,
+            268,
+            98
+          ],
+          "panel_bbox": [
+            205,
+            0,
+            252,
+            27
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "idle"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_idle_frame_04.png",
+          "bbox": [
+            289,
+            71,
+            340,
+            98
+          ],
+          "panel_bbox": [
+            273,
+            0,
+            324,
+            27
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "idle"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_idle_frame_05.png",
+          "bbox": [
+            356,
+            71,
+            401,
+            98
+          ],
+          "panel_bbox": [
+            340,
+            0,
+            385,
+            27
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "idle"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_walk_frame_00.png",
+          "bbox": [
+            19,
+            127,
+            52,
+            140
+          ],
+          "panel_bbox": [
+            3,
+            56,
+            36,
+            69
+          ],
+          "frame_count": 1,
+          "row": 1,
+          "row_label": "walk"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_walk_frame_01.png",
+          "bbox": [
+            77,
+            108,
+            128,
+            159
+          ],
+          "panel_bbox": [
+            61,
+            37,
+            112,
+            88
+          ],
+          "frame_count": 1,
+          "row": 1,
+          "row_label": "walk"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_walk_frame_02.png",
+          "bbox": [
+            146,
+            109,
+            197,
+            159
+          ],
+          "panel_bbox": [
+            130,
+            38,
+            181,
+            88
+          ],
+          "frame_count": 1,
+          "row": 1,
+          "row_label": "walk"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_walk_frame_03.png",
+          "bbox": [
+            215,
+            110,
+            267,
+            159
+          ],
+          "panel_bbox": [
+            199,
+            39,
+            251,
+            88
+          ],
+          "frame_count": 1,
+          "row": 1,
+          "row_label": "walk"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_walk_frame_04.png",
+          "bbox": [
+            286,
+            109,
+            337,
+            159
+          ],
+          "panel_bbox": [
+            270,
+            38,
+            321,
+            88
+          ],
+          "frame_count": 1,
+          "row": 1,
+          "row_label": "walk"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_walk_frame_05.png",
+          "bbox": [
+            352,
+            108,
+            404,
+            159
+          ],
+          "panel_bbox": [
+            336,
+            37,
+            388,
+            88
+          ],
+          "frame_count": 1,
+          "row": 1,
+          "row_label": "walk"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_run_frame_00.png",
+          "bbox": [
+            19,
+            184,
+            43,
+            196
+          ],
+          "panel_bbox": [
+            3,
+            113,
+            27,
+            125
+          ],
+          "frame_count": 1,
+          "row": 2,
+          "row_label": "run"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_run_frame_01.png",
+          "bbox": [
+            82,
+            169,
+            133,
+            217
+          ],
+          "panel_bbox": [
+            66,
+            98,
+            117,
+            146
+          ],
+          "frame_count": 1,
+          "row": 2,
+          "row_label": "run"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_run_frame_02.png",
+          "bbox": [
+            154,
+            169,
+            209,
+            217
+          ],
+          "panel_bbox": [
+            138,
+            98,
+            193,
+            146
+          ],
+          "frame_count": 1,
+          "row": 2,
+          "row_label": "run"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_run_frame_03.png",
+          "bbox": [
+            224,
+            169,
+            280,
+            217
+          ],
+          "panel_bbox": [
+            208,
+            98,
+            264,
+            146
+          ],
+          "frame_count": 1,
+          "row": 2,
+          "row_label": "run"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_run_frame_04.png",
+          "bbox": [
+            295,
+            169,
+            349,
+            218
+          ],
+          "panel_bbox": [
+            279,
+            98,
+            333,
+            147
+          ],
+          "frame_count": 1,
+          "row": 2,
+          "row_label": "run"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_run_frame_05.png",
+          "bbox": [
+            365,
+            170,
+            417,
+            217
+          ],
+          "panel_bbox": [
+            349,
+            99,
+            401,
+            146
+          ],
+          "frame_count": 1,
+          "row": 2,
+          "row_label": "run"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_jump_frame_00.png",
+          "bbox": [
+            19,
+            240,
+            52,
+            252
+          ],
+          "panel_bbox": [
+            3,
+            169,
+            36,
+            181
+          ],
+          "frame_count": 1,
+          "row": 3,
+          "row_label": "jump"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_jump_frame_01.png",
+          "bbox": [
+            82,
+            229,
+            128,
+            273
+          ],
+          "panel_bbox": [
+            66,
+            158,
+            112,
+            202
+          ],
+          "frame_count": 1,
+          "row": 3,
+          "row_label": "jump"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_jump_frame_02.png",
+          "bbox": [
+            146,
+            230,
+            189,
+            272
+          ],
+          "panel_bbox": [
+            130,
+            159,
+            173,
+            201
+          ],
+          "frame_count": 1,
+          "row": 3,
+          "row_label": "jump"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_jump_frame_03.png",
+          "bbox": [
+            213,
+            228,
+            256,
+            266
+          ],
+          "panel_bbox": [
+            197,
+            157,
+            240,
+            195
+          ],
+          "frame_count": 1,
+          "row": 3,
+          "row_label": "jump"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_jump_frame_04.png",
+          "bbox": [
+            287,
+            233,
+            338,
+            271
+          ],
+          "panel_bbox": [
+            271,
+            162,
+            322,
+            200
+          ],
+          "frame_count": 1,
+          "row": 3,
+          "row_label": "jump"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_jump_frame_05.png",
+          "bbox": [
+            350,
+            230,
+            397,
+            271
+          ],
+          "panel_bbox": [
+            334,
+            159,
+            381,
+            200
+          ],
+          "frame_count": 1,
+          "row": 3,
+          "row_label": "jump"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_fall_frame_00.png",
+          "bbox": [
+            19,
+            291,
+            50,
+            304
+          ],
+          "panel_bbox": [
+            3,
+            220,
+            34,
+            233
+          ],
+          "frame_count": 1,
+          "row": 4,
+          "row_label": "fall"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_fall_frame_01.png",
+          "bbox": [
+            85,
+            281,
+            126,
+            313
+          ],
+          "panel_bbox": [
+            69,
+            210,
+            110,
+            242
+          ],
+          "frame_count": 1,
+          "row": 4,
+          "row_label": "fall"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_fall_frame_02.png",
+          "bbox": [
+            154,
+            283,
+            194,
+            313
+          ],
+          "panel_bbox": [
+            138,
+            212,
+            178,
+            242
+          ],
+          "frame_count": 1,
+          "row": 4,
+          "row_label": "fall"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_fall_frame_03.png",
+          "bbox": [
+            232,
+            277,
+            286,
+            315
+          ],
+          "panel_bbox": [
+            216,
+            206,
+            270,
+            244
+          ],
+          "frame_count": 1,
+          "row": 4,
+          "row_label": "fall"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_attack_frame_00.png",
+          "bbox": [
+            19,
+            342,
+            65,
+            354
+          ],
+          "panel_bbox": [
+            3,
+            271,
+            49,
+            283
+          ],
+          "frame_count": 1,
+          "row": 5,
+          "row_label": "attack"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_attack_frame_01.png",
+          "bbox": [
+            82,
+            329,
+            202,
+            372
+          ],
+          "panel_bbox": [
+            66,
+            258,
+            186,
+            301
+          ],
+          "frame_count": 1,
+          "row": 5,
+          "row_label": "attack"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_attack_frame_02.png",
+          "bbox": [
+            216,
+            326,
+            401,
+            372
+          ],
+          "panel_bbox": [
+            200,
+            255,
+            385,
+            301
+          ],
+          "frame_count": 1,
+          "row": 5,
+          "row_label": "attack"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_shield_frame_00.png",
+          "bbox": [
+            19,
+            401,
+            65,
+            414
+          ],
+          "panel_bbox": [
+            3,
+            330,
+            49,
+            343
+          ],
+          "frame_count": 1,
+          "row": 6,
+          "row_label": "shield"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_shield_frame_01.png",
+          "bbox": [
+            81,
+            381,
+            134,
+            428
+          ],
+          "panel_bbox": [
+            65,
+            310,
+            118,
+            357
+          ],
+          "frame_count": 1,
+          "row": 6,
+          "row_label": "shield"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_shield_frame_02.png",
+          "bbox": [
+            148,
+            381,
+            200,
+            428
+          ],
+          "panel_bbox": [
+            132,
+            310,
+            184,
+            357
+          ],
+          "frame_count": 1,
+          "row": 6,
+          "row_label": "shield"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_shield_frame_03.png",
+          "bbox": [
+            208,
+            379,
+            262,
+            432
+          ],
+          "panel_bbox": [
+            192,
+            308,
+            246,
+            361
+          ],
+          "frame_count": 1,
+          "row": 6,
+          "row_label": "shield"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_shield_frame_04.png",
+          "bbox": [
+            273,
+            380,
+            321,
+            428
+          ],
+          "panel_bbox": [
+            257,
+            309,
+            305,
+            357
+          ],
+          "frame_count": 1,
+          "row": 6,
+          "row_label": "shield"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_cross_ability_frame_00.png",
+          "bbox": [
+            19,
+            446,
+            69,
+            475
+          ],
+          "panel_bbox": [
+            3,
+            375,
+            53,
+            404
+          ],
+          "frame_count": 1,
+          "row": 7,
+          "row_label": "cross_ability"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_cross_ability_frame_01.png",
+          "bbox": [
+            86,
+            446,
+            135,
+            494
+          ],
+          "panel_bbox": [
+            70,
+            375,
+            119,
+            423
+          ],
+          "frame_count": 1,
+          "row": 7,
+          "row_label": "cross_ability"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_cross_ability_frame_02.png",
+          "bbox": [
+            151,
+            446,
+            199,
+            493
+          ],
+          "panel_bbox": [
+            135,
+            375,
+            183,
+            422
+          ],
+          "frame_count": 1,
+          "row": 7,
+          "row_label": "cross_ability"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/player_cross_ability_frame_03.png",
+          "bbox": [
+            207,
+            431,
+            384,
+            494
+          ],
+          "panel_bbox": [
+            191,
+            360,
+            368,
+            423
+          ],
+          "frame_count": 1,
+          "row": 7,
+          "row_label": "cross_ability"
+        }
+      ],
+      "sheets": [
+        {
+          "kind": "sheet",
+          "file": "sheets/player_idle.png",
+          "bbox": [
+            20,
+            71,
+            401,
+            98
+          ],
+          "panel_bbox": [
+            4,
+            0,
+            385,
+            27
+          ],
+          "frame_count": 6,
+          "row": 0,
+          "row_label": "idle",
+          "source_columns": [
+            [
+              5,
+              33
+            ],
+            [
+              65,
+              117
+            ],
+            [
+              138,
+              187
+            ],
+            [
+              207,
+              251
+            ],
+            [
+              275,
+              323
+            ],
+            [
+              342,
+              385
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_walk.png",
+          "bbox": [
+            19,
+            108,
+            404,
+            159
+          ],
+          "panel_bbox": [
+            3,
+            37,
+            388,
+            88
+          ],
+          "frame_count": 6,
+          "row": 1,
+          "row_label": "walk",
+          "source_columns": [
+            [
+              3,
+              35
+            ],
+            [
+              62,
+              112
+            ],
+            [
+              131,
+              180
+            ],
+            [
+              201,
+              251
+            ],
+            [
+              271,
+              321
+            ],
+            [
+              337,
+              388
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_run.png",
+          "bbox": [
+            19,
+            169,
+            417,
+            218
+          ],
+          "panel_bbox": [
+            3,
+            98,
+            401,
+            147
+          ],
+          "frame_count": 6,
+          "row": 2,
+          "row_label": "run",
+          "source_columns": [
+            [
+              3,
+              27
+            ],
+            [
+              66,
+              117
+            ],
+            [
+              138,
+              192
+            ],
+            [
+              209,
+              264
+            ],
+            [
+              280,
+              333
+            ],
+            [
+              350,
+              401
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_jump.png",
+          "bbox": [
+            19,
+            228,
+            397,
+            273
+          ],
+          "panel_bbox": [
+            3,
+            157,
+            381,
+            202
+          ],
+          "frame_count": 6,
+          "row": 3,
+          "row_label": "jump",
+          "source_columns": [
+            [
+              4,
+              36
+            ],
+            [
+              67,
+              112
+            ],
+            [
+              131,
+              173
+            ],
+            [
+              198,
+              240
+            ],
+            [
+              272,
+              321
+            ],
+            [
+              336,
+              380
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_fall.png",
+          "bbox": [
+            19,
+            277,
+            286,
+            315
+          ],
+          "panel_bbox": [
+            3,
+            206,
+            270,
+            244
+          ],
+          "frame_count": 4,
+          "row": 4,
+          "row_label": "fall",
+          "source_columns": [
+            [
+              3,
+              30
+            ],
+            [
+              69,
+              109
+            ],
+            [
+              138,
+              178
+            ],
+            [
+              217,
+              269
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_attack.png",
+          "bbox": [
+            19,
+            326,
+            401,
+            372
+          ],
+          "panel_bbox": [
+            3,
+            255,
+            385,
+            301
+          ],
+          "frame_count": 3,
+          "row": 5,
+          "row_label": "attack",
+          "source_columns": [
+            [
+              3,
+              49
+            ],
+            [
+              67,
+              186
+            ],
+            [
+              200,
+              385
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_shield.png",
+          "bbox": [
+            19,
+            379,
+            321,
+            432
+          ],
+          "panel_bbox": [
+            3,
+            308,
+            305,
+            361
+          ],
+          "frame_count": 5,
+          "row": 6,
+          "row_label": "shield",
+          "source_columns": [
+            [
+              3,
+              49
+            ],
+            [
+              66,
+              118
+            ],
+            [
+              132,
+              184
+            ],
+            [
+              192,
+              245
+            ],
+            [
+              258,
+              305
+            ]
+          ]
+        },
+        {
+          "kind": "sheet",
+          "file": "sheets/player_cross_ability.png",
+          "bbox": [
+            19,
+            431,
+            384,
+            494
+          ],
+          "panel_bbox": [
+            3,
+            360,
+            368,
+            423
+          ],
+          "frame_count": 4,
+          "row": 7,
+          "row_label": "cross_ability",
+          "source_columns": [
+            [
+              3,
+              53
+            ],
+            [
+              70,
+              118
+            ],
+            [
+              136,
+              183
+            ],
+            [
+              191,
+              368
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "enemies",
+      "mode": "standalone",
+      "bbox": [
+        457,
+        33,
+        1158,
+        504
+      ],
+      "panel_file": "panels/enemies.png",
+      "frame_count": 15,
+      "output_files": [
+        "sprites/enemies_00.png",
+        "sprites/enemies_01.png",
+        "sprites/enemies_02.png",
+        "sprites/enemies_03.png",
+        "sprites/enemies_04.png",
+        "sprites/enemies_05.png",
+        "sprites/enemies_06.png",
+        "sprites/enemies_07.png",
+        "sprites/enemies_08.png",
+        "sprites/enemies_09.png",
+        "sprites/enemies_10.png",
+        "sprites/enemies_11.png",
+        "sprites/enemies_12.png",
+        "sprites/enemies_13.png",
+        "sprites/enemies_14.png"
+      ],
+      "bounding_boxes": [
+        [
+          478,
+          82,
+          541,
+          168
+        ],
+        [
+          575,
+          70,
+          636,
+          170
+        ],
+        [
+          664,
+          79,
+          773,
+          171
+        ],
+        [
+          792,
+          69,
+          888,
+          173
+        ],
+        [
+          916,
+          69,
+          1007,
+          172
+        ],
+        [
+          1025,
+          69,
+          1143,
+          172
+        ],
+        [
+          474,
+          199,
+          755,
+          309
+        ],
+        [
+          780,
+          212,
+          870,
+          308
+        ],
+        [
+          893,
+          204,
+          1009,
+          311
+        ],
+        [
+          1024,
+          199,
+          1139,
+          314
+        ],
+        [
+          471,
+          362,
+          566,
+          468
+        ],
+        [
+          600,
+          363,
+          689,
+          475
+        ],
+        [
+          713,
+          359,
+          833,
+          464
+        ],
+        [
+          856,
+          359,
+          970,
+          481
+        ],
+        [
+          1003,
+          359,
+          1123,
+          484
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_00.png",
+          "bbox": [
+            478,
+            82,
+            541,
+            168
+          ],
+          "panel_bbox": [
+            11,
+            13,
+            74,
+            99
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_01.png",
+          "bbox": [
+            575,
+            70,
+            636,
+            170
+          ],
+          "panel_bbox": [
+            108,
+            1,
+            169,
+            101
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_02.png",
+          "bbox": [
+            664,
+            79,
+            773,
+            171
+          ],
+          "panel_bbox": [
+            197,
+            10,
+            306,
+            102
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_03.png",
+          "bbox": [
+            792,
+            69,
+            888,
+            173
+          ],
+          "panel_bbox": [
+            325,
+            0,
+            421,
+            104
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_04.png",
+          "bbox": [
+            916,
+            69,
+            1007,
+            172
+          ],
+          "panel_bbox": [
+            449,
+            0,
+            540,
+            103
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_05.png",
+          "bbox": [
+            1025,
+            69,
+            1143,
+            172
+          ],
+          "panel_bbox": [
+            558,
+            0,
+            676,
+            103
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_06.png",
+          "bbox": [
+            474,
+            199,
+            755,
+            309
+          ],
+          "panel_bbox": [
+            7,
+            130,
+            288,
+            240
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_07.png",
+          "bbox": [
+            780,
+            212,
+            870,
+            308
+          ],
+          "panel_bbox": [
+            313,
+            143,
+            403,
+            239
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_08.png",
+          "bbox": [
+            893,
+            204,
+            1009,
+            311
+          ],
+          "panel_bbox": [
+            426,
+            135,
+            542,
+            242
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_09.png",
+          "bbox": [
+            1024,
+            199,
+            1139,
+            314
+          ],
+          "panel_bbox": [
+            557,
+            130,
+            672,
+            245
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_10.png",
+          "bbox": [
+            471,
+            362,
+            566,
+            468
+          ],
+          "panel_bbox": [
+            4,
+            293,
+            99,
+            399
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_11.png",
+          "bbox": [
+            600,
+            363,
+            689,
+            475
+          ],
+          "panel_bbox": [
+            133,
+            294,
+            222,
+            406
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_12.png",
+          "bbox": [
+            713,
+            359,
+            833,
+            464
+          ],
+          "panel_bbox": [
+            246,
+            290,
+            366,
+            395
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_13.png",
+          "bbox": [
+            856,
+            359,
+            970,
+            481
+          ],
+          "panel_bbox": [
+            389,
+            290,
+            503,
+            412
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/enemies_14.png",
+          "bbox": [
+            1003,
+            359,
+            1123,
+            484
+          ],
+          "panel_bbox": [
+            536,
+            290,
+            656,
+            415
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "ui",
+      "mode": "standalone",
+      "bbox": [
+        1158,
+        33,
+        1525,
+        504
+      ],
+      "panel_file": "panels/ui.png",
+      "frame_count": 14,
+      "output_files": [
+        "sprites/ui_00.png",
+        "sprites/ui_01.png",
+        "sprites/ui_02.png",
+        "sprites/ui_03.png",
+        "sprites/ui_04.png",
+        "sprites/ui_05.png",
+        "sprites/ui_06.png",
+        "sprites/ui_07.png",
+        "sprites/ui_08.png",
+        "sprites/ui_09.png",
+        "sprites/ui_10.png",
+        "sprites/ui_11.png",
+        "sprites/ui_12.png",
+        "sprites/ui_13.png"
+      ],
+      "bounding_boxes": [
+        [
+          1175,
+          69,
+          1462,
+          87
+        ],
+        [
+          1175,
+          102,
+          1426,
+          152
+        ],
+        [
+          1173,
+          189,
+          1228,
+          263
+        ],
+        [
+          1242,
+          189,
+          1297,
+          263
+        ],
+        [
+          1310,
+          189,
+          1365,
+          263
+        ],
+        [
+          1378,
+          189,
+          1435,
+          263
+        ],
+        [
+          1449,
+          189,
+          1506,
+          263
+        ],
+        [
+          1172,
+          294,
+          1245,
+          385
+        ],
+        [
+          1251,
+          297,
+          1372,
+          379
+        ],
+        [
+          1179,
+          444,
+          1219,
+          486
+        ],
+        [
+          1242,
+          448,
+          1296,
+          487
+        ],
+        [
+          1318,
+          442,
+          1365,
+          488
+        ],
+        [
+          1389,
+          446,
+          1429,
+          487
+        ],
+        [
+          1456,
+          441,
+          1493,
+          487
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_00.png",
+          "bbox": [
+            1175,
+            69,
+            1462,
+            87
+          ],
+          "panel_bbox": [
+            7,
+            0,
+            294,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_01.png",
+          "bbox": [
+            1175,
+            102,
+            1426,
+            152
+          ],
+          "panel_bbox": [
+            7,
+            33,
+            258,
+            83
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_02.png",
+          "bbox": [
+            1173,
+            189,
+            1228,
+            263
+          ],
+          "panel_bbox": [
+            5,
+            120,
+            60,
+            194
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_03.png",
+          "bbox": [
+            1242,
+            189,
+            1297,
+            263
+          ],
+          "panel_bbox": [
+            74,
+            120,
+            129,
+            194
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_04.png",
+          "bbox": [
+            1310,
+            189,
+            1365,
+            263
+          ],
+          "panel_bbox": [
+            142,
+            120,
+            197,
+            194
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_05.png",
+          "bbox": [
+            1378,
+            189,
+            1435,
+            263
+          ],
+          "panel_bbox": [
+            210,
+            120,
+            267,
+            194
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_06.png",
+          "bbox": [
+            1449,
+            189,
+            1506,
+            263
+          ],
+          "panel_bbox": [
+            281,
+            120,
+            338,
+            194
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_07.png",
+          "bbox": [
+            1172,
+            294,
+            1245,
+            385
+          ],
+          "panel_bbox": [
+            4,
+            225,
+            77,
+            316
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_08.png",
+          "bbox": [
+            1251,
+            297,
+            1372,
+            379
+          ],
+          "panel_bbox": [
+            83,
+            228,
+            204,
+            310
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_09.png",
+          "bbox": [
+            1179,
+            444,
+            1219,
+            486
+          ],
+          "panel_bbox": [
+            11,
+            375,
+            51,
+            417
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_10.png",
+          "bbox": [
+            1242,
+            448,
+            1296,
+            487
+          ],
+          "panel_bbox": [
+            74,
+            379,
+            128,
+            418
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_11.png",
+          "bbox": [
+            1318,
+            442,
+            1365,
+            488
+          ],
+          "panel_bbox": [
+            150,
+            373,
+            197,
+            419
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_12.png",
+          "bbox": [
+            1389,
+            446,
+            1429,
+            487
+          ],
+          "panel_bbox": [
+            221,
+            377,
+            261,
+            418
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/ui_13.png",
+          "bbox": [
+            1456,
+            441,
+            1493,
+            487
+          ],
+          "panel_bbox": [
+            288,
+            372,
+            325,
+            418
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "tiles",
+      "mode": "tiles",
+      "bbox": [
+        6,
+        504,
+        391,
+        727
+      ],
+      "panel_file": "panels/tiles.png",
+      "frame_count": 204,
+      "output_files": [
+        "sprites/tiles_000.png",
+        "sprites/tiles_001.png",
+        "sprites/tiles_002.png",
+        "sprites/tiles_003.png",
+        "sprites/tiles_004.png",
+        "sprites/tiles_005.png",
+        "sprites/tiles_006.png",
+        "sprites/tiles_007.png",
+        "sprites/tiles_008.png",
+        "sprites/tiles_009.png",
+        "sprites/tiles_010.png",
+        "sprites/tiles_011.png",
+        "sprites/tiles_012.png",
+        "sprites/tiles_013.png",
+        "sprites/tiles_014.png",
+        "sprites/tiles_015.png",
+        "sprites/tiles_016.png",
+        "sprites/tiles_017.png",
+        "sprites/tiles_018.png",
+        "sprites/tiles_019.png",
+        "sprites/tiles_020.png",
+        "sprites/tiles_021.png",
+        "sprites/tiles_022.png",
+        "sprites/tiles_023.png",
+        "sprites/tiles_024.png",
+        "sprites/tiles_025.png",
+        "sprites/tiles_026.png",
+        "sprites/tiles_027.png",
+        "sprites/tiles_028.png",
+        "sprites/tiles_029.png",
+        "sprites/tiles_030.png",
+        "sprites/tiles_031.png",
+        "sprites/tiles_032.png",
+        "sprites/tiles_033.png",
+        "sprites/tiles_034.png",
+        "sprites/tiles_035.png",
+        "sprites/tiles_036.png",
+        "sprites/tiles_037.png",
+        "sprites/tiles_038.png",
+        "sprites/tiles_039.png",
+        "sprites/tiles_040.png",
+        "sprites/tiles_041.png",
+        "sprites/tiles_042.png",
+        "sprites/tiles_043.png",
+        "sprites/tiles_044.png",
+        "sprites/tiles_045.png",
+        "sprites/tiles_046.png",
+        "sprites/tiles_047.png",
+        "sprites/tiles_048.png",
+        "sprites/tiles_049.png",
+        "sprites/tiles_050.png",
+        "sprites/tiles_051.png",
+        "sprites/tiles_052.png",
+        "sprites/tiles_053.png",
+        "sprites/tiles_054.png",
+        "sprites/tiles_055.png",
+        "sprites/tiles_056.png",
+        "sprites/tiles_057.png",
+        "sprites/tiles_058.png",
+        "sprites/tiles_059.png",
+        "sprites/tiles_060.png",
+        "sprites/tiles_061.png",
+        "sprites/tiles_062.png",
+        "sprites/tiles_063.png",
+        "sprites/tiles_064.png",
+        "sprites/tiles_065.png",
+        "sprites/tiles_066.png",
+        "sprites/tiles_067.png",
+        "sprites/tiles_068.png",
+        "sprites/tiles_069.png",
+        "sprites/tiles_070.png",
+        "sprites/tiles_071.png",
+        "sprites/tiles_072.png",
+        "sprites/tiles_073.png",
+        "sprites/tiles_074.png",
+        "sprites/tiles_075.png",
+        "sprites/tiles_076.png",
+        "sprites/tiles_077.png",
+        "sprites/tiles_078.png",
+        "sprites/tiles_079.png",
+        "sprites/tiles_080.png",
+        "sprites/tiles_081.png",
+        "sprites/tiles_082.png",
+        "sprites/tiles_083.png",
+        "sprites/tiles_084.png",
+        "sprites/tiles_085.png",
+        "sprites/tiles_086.png",
+        "sprites/tiles_087.png",
+        "sprites/tiles_088.png",
+        "sprites/tiles_089.png",
+        "sprites/tiles_090.png",
+        "sprites/tiles_091.png",
+        "sprites/tiles_092.png",
+        "sprites/tiles_093.png",
+        "sprites/tiles_094.png",
+        "sprites/tiles_095.png",
+        "sprites/tiles_096.png",
+        "sprites/tiles_097.png",
+        "sprites/tiles_098.png",
+        "sprites/tiles_099.png",
+        "sprites/tiles_100.png",
+        "sprites/tiles_101.png",
+        "sprites/tiles_102.png",
+        "sprites/tiles_103.png",
+        "sprites/tiles_104.png",
+        "sprites/tiles_105.png",
+        "sprites/tiles_106.png",
+        "sprites/tiles_107.png",
+        "sprites/tiles_108.png",
+        "sprites/tiles_109.png",
+        "sprites/tiles_110.png",
+        "sprites/tiles_111.png",
+        "sprites/tiles_112.png",
+        "sprites/tiles_113.png",
+        "sprites/tiles_114.png",
+        "sprites/tiles_115.png",
+        "sprites/tiles_116.png",
+        "sprites/tiles_117.png",
+        "sprites/tiles_118.png",
+        "sprites/tiles_119.png",
+        "sprites/tiles_120.png",
+        "sprites/tiles_121.png",
+        "sprites/tiles_122.png",
+        "sprites/tiles_123.png",
+        "sprites/tiles_124.png",
+        "sprites/tiles_125.png",
+        "sprites/tiles_126.png",
+        "sprites/tiles_127.png",
+        "sprites/tiles_128.png",
+        "sprites/tiles_129.png",
+        "sprites/tiles_130.png",
+        "sprites/tiles_131.png",
+        "sprites/tiles_132.png",
+        "sprites/tiles_133.png",
+        "sprites/tiles_134.png",
+        "sprites/tiles_135.png",
+        "sprites/tiles_136.png",
+        "sprites/tiles_137.png",
+        "sprites/tiles_138.png",
+        "sprites/tiles_139.png",
+        "sprites/tiles_140.png",
+        "sprites/tiles_141.png",
+        "sprites/tiles_142.png",
+        "sprites/tiles_143.png",
+        "sprites/tiles_144.png",
+        "sprites/tiles_145.png",
+        "sprites/tiles_146.png",
+        "sprites/tiles_147.png",
+        "sprites/tiles_148.png",
+        "sprites/tiles_149.png",
+        "sprites/tiles_150.png",
+        "sprites/tiles_151.png",
+        "sprites/tiles_152.png",
+        "sprites/tiles_153.png",
+        "sprites/tiles_154.png",
+        "sprites/tiles_155.png",
+        "sprites/tiles_156.png",
+        "sprites/tiles_157.png",
+        "sprites/tiles_158.png",
+        "sprites/tiles_159.png",
+        "sprites/tiles_160.png",
+        "sprites/tiles_161.png",
+        "sprites/tiles_162.png",
+        "sprites/tiles_163.png",
+        "sprites/tiles_164.png",
+        "sprites/tiles_165.png",
+        "sprites/tiles_166.png",
+        "sprites/tiles_167.png",
+        "sprites/tiles_168.png",
+        "sprites/tiles_169.png",
+        "sprites/tiles_170.png",
+        "sprites/tiles_171.png",
+        "sprites/tiles_172.png",
+        "sprites/tiles_173.png",
+        "sprites/tiles_174.png",
+        "sprites/tiles_175.png",
+        "sprites/tiles_176.png",
+        "sprites/tiles_177.png",
+        "sprites/tiles_178.png",
+        "sprites/tiles_179.png",
+        "sprites/tiles_180.png",
+        "sprites/tiles_181.png",
+        "sprites/tiles_182.png",
+        "sprites/tiles_183.png",
+        "sprites/tiles_184.png",
+        "sprites/tiles_185.png",
+        "sprites/tiles_186.png",
+        "sprites/tiles_187.png",
+        "sprites/tiles_188.png",
+        "sprites/tiles_189.png",
+        "sprites/tiles_190.png",
+        "sprites/tiles_191.png",
+        "sprites/tiles_192.png",
+        "sprites/tiles_193.png",
+        "sprites/tiles_194.png",
+        "sprites/tiles_195.png",
+        "sprites/tiles_196.png",
+        "sprites/tiles_197.png",
+        "sprites/tiles_198.png",
+        "sprites/tiles_199.png",
+        "sprites/tiles_200.png",
+        "sprites/tiles_201.png",
+        "sprites/tiles_202.png",
+        "sprites/tiles_203.png"
+      ],
+      "bounding_boxes": [
+        [
+          19,
+          542,
+          35,
+          558
+        ],
+        [
+          35,
+          542,
+          51,
+          558
+        ],
+        [
+          51,
+          542,
+          67,
+          558
+        ],
+        [
+          67,
+          542,
+          83,
+          558
+        ],
+        [
+          83,
+          542,
+          99,
+          558
+        ],
+        [
+          99,
+          542,
+          115,
+          558
+        ],
+        [
+          115,
+          542,
+          131,
+          558
+        ],
+        [
+          131,
+          542,
+          147,
+          558
+        ],
+        [
+          147,
+          542,
+          163,
+          558
+        ],
+        [
+          163,
+          542,
+          179,
+          558
+        ],
+        [
+          179,
+          542,
+          195,
+          558
+        ],
+        [
+          195,
+          542,
+          211,
+          558
+        ],
+        [
+          211,
+          542,
+          227,
+          558
+        ],
+        [
+          227,
+          542,
+          243,
+          558
+        ],
+        [
+          243,
+          542,
+          259,
+          558
+        ],
+        [
+          259,
+          542,
+          275,
+          558
+        ],
+        [
+          275,
+          542,
+          291,
+          558
+        ],
+        [
+          291,
+          542,
+          307,
+          558
+        ],
+        [
+          307,
+          542,
+          323,
+          558
+        ],
+        [
+          323,
+          542,
+          339,
+          558
+        ],
+        [
+          339,
+          542,
+          355,
+          558
+        ],
+        [
+          355,
+          542,
+          371,
+          558
+        ],
+        [
+          19,
+          558,
+          35,
+          574
+        ],
+        [
+          35,
+          558,
+          51,
+          574
+        ],
+        [
+          51,
+          558,
+          67,
+          574
+        ],
+        [
+          67,
+          558,
+          83,
+          574
+        ],
+        [
+          83,
+          558,
+          99,
+          574
+        ],
+        [
+          99,
+          558,
+          115,
+          574
+        ],
+        [
+          115,
+          558,
+          131,
+          574
+        ],
+        [
+          131,
+          558,
+          147,
+          574
+        ],
+        [
+          147,
+          558,
+          163,
+          574
+        ],
+        [
+          163,
+          558,
+          179,
+          574
+        ],
+        [
+          179,
+          558,
+          195,
+          574
+        ],
+        [
+          195,
+          558,
+          211,
+          574
+        ],
+        [
+          211,
+          558,
+          227,
+          574
+        ],
+        [
+          227,
+          558,
+          243,
+          574
+        ],
+        [
+          243,
+          558,
+          259,
+          574
+        ],
+        [
+          259,
+          558,
+          275,
+          574
+        ],
+        [
+          275,
+          558,
+          291,
+          574
+        ],
+        [
+          291,
+          558,
+          307,
+          574
+        ],
+        [
+          307,
+          558,
+          323,
+          574
+        ],
+        [
+          323,
+          558,
+          339,
+          574
+        ],
+        [
+          339,
+          558,
+          355,
+          574
+        ],
+        [
+          355,
+          558,
+          371,
+          574
+        ],
+        [
+          19,
+          574,
+          35,
+          590
+        ],
+        [
+          35,
+          574,
+          51,
+          590
+        ],
+        [
+          51,
+          574,
+          67,
+          590
+        ],
+        [
+          67,
+          574,
+          83,
+          590
+        ],
+        [
+          83,
+          574,
+          99,
+          590
+        ],
+        [
+          99,
+          574,
+          115,
+          590
+        ],
+        [
+          115,
+          574,
+          131,
+          590
+        ],
+        [
+          131,
+          574,
+          147,
+          590
+        ],
+        [
+          147,
+          574,
+          163,
+          590
+        ],
+        [
+          163,
+          574,
+          179,
+          590
+        ],
+        [
+          179,
+          574,
+          195,
+          590
+        ],
+        [
+          195,
+          574,
+          211,
+          590
+        ],
+        [
+          211,
+          574,
+          227,
+          590
+        ],
+        [
+          227,
+          574,
+          243,
+          590
+        ],
+        [
+          243,
+          574,
+          259,
+          590
+        ],
+        [
+          259,
+          574,
+          275,
+          590
+        ],
+        [
+          275,
+          574,
+          291,
+          590
+        ],
+        [
+          291,
+          574,
+          307,
+          590
+        ],
+        [
+          307,
+          574,
+          323,
+          590
+        ],
+        [
+          323,
+          574,
+          339,
+          590
+        ],
+        [
+          339,
+          574,
+          355,
+          590
+        ],
+        [
+          355,
+          574,
+          371,
+          590
+        ],
+        [
+          19,
+          590,
+          35,
+          606
+        ],
+        [
+          35,
+          590,
+          51,
+          606
+        ],
+        [
+          51,
+          590,
+          67,
+          606
+        ],
+        [
+          67,
+          590,
+          83,
+          606
+        ],
+        [
+          83,
+          590,
+          99,
+          606
+        ],
+        [
+          99,
+          590,
+          115,
+          606
+        ],
+        [
+          115,
+          590,
+          131,
+          606
+        ],
+        [
+          131,
+          590,
+          147,
+          606
+        ],
+        [
+          147,
+          590,
+          163,
+          606
+        ],
+        [
+          163,
+          590,
+          179,
+          606
+        ],
+        [
+          179,
+          590,
+          195,
+          606
+        ],
+        [
+          195,
+          590,
+          211,
+          606
+        ],
+        [
+          211,
+          590,
+          227,
+          606
+        ],
+        [
+          227,
+          590,
+          243,
+          606
+        ],
+        [
+          243,
+          590,
+          259,
+          606
+        ],
+        [
+          259,
+          590,
+          275,
+          606
+        ],
+        [
+          275,
+          590,
+          291,
+          606
+        ],
+        [
+          291,
+          590,
+          307,
+          606
+        ],
+        [
+          307,
+          590,
+          323,
+          606
+        ],
+        [
+          323,
+          590,
+          339,
+          606
+        ],
+        [
+          339,
+          590,
+          355,
+          606
+        ],
+        [
+          355,
+          590,
+          371,
+          606
+        ],
+        [
+          19,
+          606,
+          35,
+          622
+        ],
+        [
+          35,
+          606,
+          51,
+          622
+        ],
+        [
+          51,
+          606,
+          67,
+          622
+        ],
+        [
+          67,
+          606,
+          83,
+          622
+        ],
+        [
+          83,
+          606,
+          99,
+          622
+        ],
+        [
+          115,
+          606,
+          131,
+          622
+        ],
+        [
+          131,
+          606,
+          147,
+          622
+        ],
+        [
+          147,
+          606,
+          163,
+          622
+        ],
+        [
+          163,
+          606,
+          179,
+          622
+        ],
+        [
+          179,
+          606,
+          195,
+          622
+        ],
+        [
+          195,
+          606,
+          211,
+          622
+        ],
+        [
+          211,
+          606,
+          227,
+          622
+        ],
+        [
+          227,
+          606,
+          243,
+          622
+        ],
+        [
+          243,
+          606,
+          259,
+          622
+        ],
+        [
+          259,
+          606,
+          275,
+          622
+        ],
+        [
+          275,
+          606,
+          291,
+          622
+        ],
+        [
+          291,
+          606,
+          307,
+          622
+        ],
+        [
+          307,
+          606,
+          323,
+          622
+        ],
+        [
+          323,
+          606,
+          339,
+          622
+        ],
+        [
+          339,
+          606,
+          355,
+          622
+        ],
+        [
+          355,
+          606,
+          371,
+          622
+        ],
+        [
+          19,
+          622,
+          35,
+          638
+        ],
+        [
+          35,
+          622,
+          51,
+          638
+        ],
+        [
+          51,
+          622,
+          67,
+          638
+        ],
+        [
+          67,
+          622,
+          83,
+          638
+        ],
+        [
+          83,
+          622,
+          99,
+          638
+        ],
+        [
+          99,
+          622,
+          115,
+          638
+        ],
+        [
+          115,
+          622,
+          131,
+          638
+        ],
+        [
+          131,
+          622,
+          147,
+          638
+        ],
+        [
+          147,
+          622,
+          163,
+          638
+        ],
+        [
+          163,
+          622,
+          179,
+          638
+        ],
+        [
+          179,
+          622,
+          195,
+          638
+        ],
+        [
+          195,
+          622,
+          211,
+          638
+        ],
+        [
+          211,
+          622,
+          227,
+          638
+        ],
+        [
+          227,
+          622,
+          243,
+          638
+        ],
+        [
+          243,
+          622,
+          259,
+          638
+        ],
+        [
+          259,
+          622,
+          275,
+          638
+        ],
+        [
+          275,
+          622,
+          291,
+          638
+        ],
+        [
+          291,
+          622,
+          307,
+          638
+        ],
+        [
+          307,
+          622,
+          323,
+          638
+        ],
+        [
+          323,
+          622,
+          339,
+          638
+        ],
+        [
+          339,
+          622,
+          355,
+          638
+        ],
+        [
+          355,
+          622,
+          371,
+          638
+        ],
+        [
+          19,
+          638,
+          35,
+          654
+        ],
+        [
+          35,
+          638,
+          51,
+          654
+        ],
+        [
+          67,
+          638,
+          83,
+          654
+        ],
+        [
+          83,
+          638,
+          99,
+          654
+        ],
+        [
+          115,
+          638,
+          131,
+          654
+        ],
+        [
+          131,
+          638,
+          147,
+          654
+        ],
+        [
+          147,
+          638,
+          163,
+          654
+        ],
+        [
+          163,
+          638,
+          179,
+          654
+        ],
+        [
+          179,
+          638,
+          195,
+          654
+        ],
+        [
+          195,
+          638,
+          211,
+          654
+        ],
+        [
+          211,
+          638,
+          227,
+          654
+        ],
+        [
+          227,
+          638,
+          243,
+          654
+        ],
+        [
+          243,
+          638,
+          259,
+          654
+        ],
+        [
+          259,
+          638,
+          275,
+          654
+        ],
+        [
+          275,
+          638,
+          291,
+          654
+        ],
+        [
+          291,
+          638,
+          307,
+          654
+        ],
+        [
+          307,
+          638,
+          323,
+          654
+        ],
+        [
+          323,
+          638,
+          339,
+          654
+        ],
+        [
+          339,
+          638,
+          355,
+          654
+        ],
+        [
+          355,
+          638,
+          371,
+          654
+        ],
+        [
+          19,
+          654,
+          35,
+          670
+        ],
+        [
+          35,
+          654,
+          51,
+          670
+        ],
+        [
+          67,
+          654,
+          83,
+          670
+        ],
+        [
+          83,
+          654,
+          99,
+          670
+        ],
+        [
+          99,
+          654,
+          115,
+          670
+        ],
+        [
+          115,
+          654,
+          131,
+          670
+        ],
+        [
+          131,
+          654,
+          147,
+          670
+        ],
+        [
+          147,
+          654,
+          163,
+          670
+        ],
+        [
+          163,
+          654,
+          179,
+          670
+        ],
+        [
+          179,
+          654,
+          195,
+          670
+        ],
+        [
+          195,
+          654,
+          211,
+          670
+        ],
+        [
+          211,
+          654,
+          227,
+          670
+        ],
+        [
+          227,
+          654,
+          243,
+          670
+        ],
+        [
+          243,
+          654,
+          259,
+          670
+        ],
+        [
+          259,
+          654,
+          275,
+          670
+        ],
+        [
+          275,
+          654,
+          291,
+          670
+        ],
+        [
+          291,
+          654,
+          307,
+          670
+        ],
+        [
+          307,
+          654,
+          323,
+          670
+        ],
+        [
+          323,
+          654,
+          339,
+          670
+        ],
+        [
+          339,
+          654,
+          355,
+          670
+        ],
+        [
+          355,
+          654,
+          371,
+          670
+        ],
+        [
+          19,
+          670,
+          35,
+          686
+        ],
+        [
+          35,
+          670,
+          51,
+          686
+        ],
+        [
+          51,
+          670,
+          67,
+          686
+        ],
+        [
+          67,
+          670,
+          83,
+          686
+        ],
+        [
+          83,
+          670,
+          99,
+          686
+        ],
+        [
+          99,
+          670,
+          115,
+          686
+        ],
+        [
+          115,
+          670,
+          131,
+          686
+        ],
+        [
+          131,
+          670,
+          147,
+          686
+        ],
+        [
+          147,
+          670,
+          163,
+          686
+        ],
+        [
+          163,
+          670,
+          179,
+          686
+        ],
+        [
+          179,
+          670,
+          195,
+          686
+        ],
+        [
+          195,
+          670,
+          211,
+          686
+        ],
+        [
+          211,
+          670,
+          227,
+          686
+        ],
+        [
+          227,
+          670,
+          243,
+          686
+        ],
+        [
+          243,
+          670,
+          259,
+          686
+        ],
+        [
+          259,
+          670,
+          275,
+          686
+        ],
+        [
+          275,
+          670,
+          291,
+          686
+        ],
+        [
+          291,
+          670,
+          307,
+          686
+        ],
+        [
+          307,
+          670,
+          323,
+          686
+        ],
+        [
+          323,
+          670,
+          339,
+          686
+        ],
+        [
+          339,
+          670,
+          355,
+          686
+        ],
+        [
+          355,
+          670,
+          371,
+          686
+        ],
+        [
+          19,
+          686,
+          35,
+          702
+        ],
+        [
+          35,
+          686,
+          51,
+          702
+        ],
+        [
+          51,
+          686,
+          67,
+          702
+        ],
+        [
+          115,
+          686,
+          131,
+          702
+        ],
+        [
+          131,
+          686,
+          147,
+          702
+        ],
+        [
+          147,
+          686,
+          163,
+          702
+        ],
+        [
+          163,
+          686,
+          179,
+          702
+        ],
+        [
+          195,
+          686,
+          211,
+          702
+        ],
+        [
+          211,
+          686,
+          227,
+          702
+        ],
+        [
+          227,
+          686,
+          243,
+          702
+        ]
+      ],
+      "items": [
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_000.png",
+          "bbox": [
+            19,
+            542,
+            35,
+            558
+          ],
+          "panel_bbox": [
+            3,
+            2,
+            19,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_001.png",
+          "bbox": [
+            35,
+            542,
+            51,
+            558
+          ],
+          "panel_bbox": [
+            19,
+            2,
+            35,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_002.png",
+          "bbox": [
+            51,
+            542,
+            67,
+            558
+          ],
+          "panel_bbox": [
+            35,
+            2,
+            51,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_003.png",
+          "bbox": [
+            67,
+            542,
+            83,
+            558
+          ],
+          "panel_bbox": [
+            51,
+            2,
+            67,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_004.png",
+          "bbox": [
+            83,
+            542,
+            99,
+            558
+          ],
+          "panel_bbox": [
+            67,
+            2,
+            83,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_005.png",
+          "bbox": [
+            99,
+            542,
+            115,
+            558
+          ],
+          "panel_bbox": [
+            83,
+            2,
+            99,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_006.png",
+          "bbox": [
+            115,
+            542,
+            131,
+            558
+          ],
+          "panel_bbox": [
+            99,
+            2,
+            115,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_007.png",
+          "bbox": [
+            131,
+            542,
+            147,
+            558
+          ],
+          "panel_bbox": [
+            115,
+            2,
+            131,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_008.png",
+          "bbox": [
+            147,
+            542,
+            163,
+            558
+          ],
+          "panel_bbox": [
+            131,
+            2,
+            147,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_009.png",
+          "bbox": [
+            163,
+            542,
+            179,
+            558
+          ],
+          "panel_bbox": [
+            147,
+            2,
+            163,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_010.png",
+          "bbox": [
+            179,
+            542,
+            195,
+            558
+          ],
+          "panel_bbox": [
+            163,
+            2,
+            179,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_011.png",
+          "bbox": [
+            195,
+            542,
+            211,
+            558
+          ],
+          "panel_bbox": [
+            179,
+            2,
+            195,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_012.png",
+          "bbox": [
+            211,
+            542,
+            227,
+            558
+          ],
+          "panel_bbox": [
+            195,
+            2,
+            211,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_013.png",
+          "bbox": [
+            227,
+            542,
+            243,
+            558
+          ],
+          "panel_bbox": [
+            211,
+            2,
+            227,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_014.png",
+          "bbox": [
+            243,
+            542,
+            259,
+            558
+          ],
+          "panel_bbox": [
+            227,
+            2,
+            243,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_015.png",
+          "bbox": [
+            259,
+            542,
+            275,
+            558
+          ],
+          "panel_bbox": [
+            243,
+            2,
+            259,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_016.png",
+          "bbox": [
+            275,
+            542,
+            291,
+            558
+          ],
+          "panel_bbox": [
+            259,
+            2,
+            275,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_017.png",
+          "bbox": [
+            291,
+            542,
+            307,
+            558
+          ],
+          "panel_bbox": [
+            275,
+            2,
+            291,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_018.png",
+          "bbox": [
+            307,
+            542,
+            323,
+            558
+          ],
+          "panel_bbox": [
+            291,
+            2,
+            307,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_019.png",
+          "bbox": [
+            323,
+            542,
+            339,
+            558
+          ],
+          "panel_bbox": [
+            307,
+            2,
+            323,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_020.png",
+          "bbox": [
+            339,
+            542,
+            355,
+            558
+          ],
+          "panel_bbox": [
+            323,
+            2,
+            339,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_021.png",
+          "bbox": [
+            355,
+            542,
+            371,
+            558
+          ],
+          "panel_bbox": [
+            339,
+            2,
+            355,
+            18
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_022.png",
+          "bbox": [
+            19,
+            558,
+            35,
+            574
+          ],
+          "panel_bbox": [
+            3,
+            18,
+            19,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_023.png",
+          "bbox": [
+            35,
+            558,
+            51,
+            574
+          ],
+          "panel_bbox": [
+            19,
+            18,
+            35,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_024.png",
+          "bbox": [
+            51,
+            558,
+            67,
+            574
+          ],
+          "panel_bbox": [
+            35,
+            18,
+            51,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_025.png",
+          "bbox": [
+            67,
+            558,
+            83,
+            574
+          ],
+          "panel_bbox": [
+            51,
+            18,
+            67,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_026.png",
+          "bbox": [
+            83,
+            558,
+            99,
+            574
+          ],
+          "panel_bbox": [
+            67,
+            18,
+            83,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_027.png",
+          "bbox": [
+            99,
+            558,
+            115,
+            574
+          ],
+          "panel_bbox": [
+            83,
+            18,
+            99,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_028.png",
+          "bbox": [
+            115,
+            558,
+            131,
+            574
+          ],
+          "panel_bbox": [
+            99,
+            18,
+            115,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_029.png",
+          "bbox": [
+            131,
+            558,
+            147,
+            574
+          ],
+          "panel_bbox": [
+            115,
+            18,
+            131,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_030.png",
+          "bbox": [
+            147,
+            558,
+            163,
+            574
+          ],
+          "panel_bbox": [
+            131,
+            18,
+            147,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_031.png",
+          "bbox": [
+            163,
+            558,
+            179,
+            574
+          ],
+          "panel_bbox": [
+            147,
+            18,
+            163,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_032.png",
+          "bbox": [
+            179,
+            558,
+            195,
+            574
+          ],
+          "panel_bbox": [
+            163,
+            18,
+            179,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_033.png",
+          "bbox": [
+            195,
+            558,
+            211,
+            574
+          ],
+          "panel_bbox": [
+            179,
+            18,
+            195,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_034.png",
+          "bbox": [
+            211,
+            558,
+            227,
+            574
+          ],
+          "panel_bbox": [
+            195,
+            18,
+            211,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_035.png",
+          "bbox": [
+            227,
+            558,
+            243,
+            574
+          ],
+          "panel_bbox": [
+            211,
+            18,
+            227,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_036.png",
+          "bbox": [
+            243,
+            558,
+            259,
+            574
+          ],
+          "panel_bbox": [
+            227,
+            18,
+            243,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_037.png",
+          "bbox": [
+            259,
+            558,
+            275,
+            574
+          ],
+          "panel_bbox": [
+            243,
+            18,
+            259,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_038.png",
+          "bbox": [
+            275,
+            558,
+            291,
+            574
+          ],
+          "panel_bbox": [
+            259,
+            18,
+            275,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_039.png",
+          "bbox": [
+            291,
+            558,
+            307,
+            574
+          ],
+          "panel_bbox": [
+            275,
+            18,
+            291,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_040.png",
+          "bbox": [
+            307,
+            558,
+            323,
+            574
+          ],
+          "panel_bbox": [
+            291,
+            18,
+            307,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_041.png",
+          "bbox": [
+            323,
+            558,
+            339,
+            574
+          ],
+          "panel_bbox": [
+            307,
+            18,
+            323,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_042.png",
+          "bbox": [
+            339,
+            558,
+            355,
+            574
+          ],
+          "panel_bbox": [
+            323,
+            18,
+            339,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_043.png",
+          "bbox": [
+            355,
+            558,
+            371,
+            574
+          ],
+          "panel_bbox": [
+            339,
+            18,
+            355,
+            34
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_044.png",
+          "bbox": [
+            19,
+            574,
+            35,
+            590
+          ],
+          "panel_bbox": [
+            3,
+            34,
+            19,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_045.png",
+          "bbox": [
+            35,
+            574,
+            51,
+            590
+          ],
+          "panel_bbox": [
+            19,
+            34,
+            35,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_046.png",
+          "bbox": [
+            51,
+            574,
+            67,
+            590
+          ],
+          "panel_bbox": [
+            35,
+            34,
+            51,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_047.png",
+          "bbox": [
+            67,
+            574,
+            83,
+            590
+          ],
+          "panel_bbox": [
+            51,
+            34,
+            67,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_048.png",
+          "bbox": [
+            83,
+            574,
+            99,
+            590
+          ],
+          "panel_bbox": [
+            67,
+            34,
+            83,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_049.png",
+          "bbox": [
+            99,
+            574,
+            115,
+            590
+          ],
+          "panel_bbox": [
+            83,
+            34,
+            99,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_050.png",
+          "bbox": [
+            115,
+            574,
+            131,
+            590
+          ],
+          "panel_bbox": [
+            99,
+            34,
+            115,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_051.png",
+          "bbox": [
+            131,
+            574,
+            147,
+            590
+          ],
+          "panel_bbox": [
+            115,
+            34,
+            131,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_052.png",
+          "bbox": [
+            147,
+            574,
+            163,
+            590
+          ],
+          "panel_bbox": [
+            131,
+            34,
+            147,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_053.png",
+          "bbox": [
+            163,
+            574,
+            179,
+            590
+          ],
+          "panel_bbox": [
+            147,
+            34,
+            163,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_054.png",
+          "bbox": [
+            179,
+            574,
+            195,
+            590
+          ],
+          "panel_bbox": [
+            163,
+            34,
+            179,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_055.png",
+          "bbox": [
+            195,
+            574,
+            211,
+            590
+          ],
+          "panel_bbox": [
+            179,
+            34,
+            195,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_056.png",
+          "bbox": [
+            211,
+            574,
+            227,
+            590
+          ],
+          "panel_bbox": [
+            195,
+            34,
+            211,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_057.png",
+          "bbox": [
+            227,
+            574,
+            243,
+            590
+          ],
+          "panel_bbox": [
+            211,
+            34,
+            227,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_058.png",
+          "bbox": [
+            243,
+            574,
+            259,
+            590
+          ],
+          "panel_bbox": [
+            227,
+            34,
+            243,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_059.png",
+          "bbox": [
+            259,
+            574,
+            275,
+            590
+          ],
+          "panel_bbox": [
+            243,
+            34,
+            259,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_060.png",
+          "bbox": [
+            275,
+            574,
+            291,
+            590
+          ],
+          "panel_bbox": [
+            259,
+            34,
+            275,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_061.png",
+          "bbox": [
+            291,
+            574,
+            307,
+            590
+          ],
+          "panel_bbox": [
+            275,
+            34,
+            291,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_062.png",
+          "bbox": [
+            307,
+            574,
+            323,
+            590
+          ],
+          "panel_bbox": [
+            291,
+            34,
+            307,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_063.png",
+          "bbox": [
+            323,
+            574,
+            339,
+            590
+          ],
+          "panel_bbox": [
+            307,
+            34,
+            323,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_064.png",
+          "bbox": [
+            339,
+            574,
+            355,
+            590
+          ],
+          "panel_bbox": [
+            323,
+            34,
+            339,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_065.png",
+          "bbox": [
+            355,
+            574,
+            371,
+            590
+          ],
+          "panel_bbox": [
+            339,
+            34,
+            355,
+            50
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_066.png",
+          "bbox": [
+            19,
+            590,
+            35,
+            606
+          ],
+          "panel_bbox": [
+            3,
+            50,
+            19,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_067.png",
+          "bbox": [
+            35,
+            590,
+            51,
+            606
+          ],
+          "panel_bbox": [
+            19,
+            50,
+            35,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_068.png",
+          "bbox": [
+            51,
+            590,
+            67,
+            606
+          ],
+          "panel_bbox": [
+            35,
+            50,
+            51,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_069.png",
+          "bbox": [
+            67,
+            590,
+            83,
+            606
+          ],
+          "panel_bbox": [
+            51,
+            50,
+            67,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_070.png",
+          "bbox": [
+            83,
+            590,
+            99,
+            606
+          ],
+          "panel_bbox": [
+            67,
+            50,
+            83,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_071.png",
+          "bbox": [
+            99,
+            590,
+            115,
+            606
+          ],
+          "panel_bbox": [
+            83,
+            50,
+            99,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_072.png",
+          "bbox": [
+            115,
+            590,
+            131,
+            606
+          ],
+          "panel_bbox": [
+            99,
+            50,
+            115,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_073.png",
+          "bbox": [
+            131,
+            590,
+            147,
+            606
+          ],
+          "panel_bbox": [
+            115,
+            50,
+            131,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_074.png",
+          "bbox": [
+            147,
+            590,
+            163,
+            606
+          ],
+          "panel_bbox": [
+            131,
+            50,
+            147,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_075.png",
+          "bbox": [
+            163,
+            590,
+            179,
+            606
+          ],
+          "panel_bbox": [
+            147,
+            50,
+            163,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_076.png",
+          "bbox": [
+            179,
+            590,
+            195,
+            606
+          ],
+          "panel_bbox": [
+            163,
+            50,
+            179,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_077.png",
+          "bbox": [
+            195,
+            590,
+            211,
+            606
+          ],
+          "panel_bbox": [
+            179,
+            50,
+            195,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_078.png",
+          "bbox": [
+            211,
+            590,
+            227,
+            606
+          ],
+          "panel_bbox": [
+            195,
+            50,
+            211,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_079.png",
+          "bbox": [
+            227,
+            590,
+            243,
+            606
+          ],
+          "panel_bbox": [
+            211,
+            50,
+            227,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_080.png",
+          "bbox": [
+            243,
+            590,
+            259,
+            606
+          ],
+          "panel_bbox": [
+            227,
+            50,
+            243,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_081.png",
+          "bbox": [
+            259,
+            590,
+            275,
+            606
+          ],
+          "panel_bbox": [
+            243,
+            50,
+            259,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_082.png",
+          "bbox": [
+            275,
+            590,
+            291,
+            606
+          ],
+          "panel_bbox": [
+            259,
+            50,
+            275,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_083.png",
+          "bbox": [
+            291,
+            590,
+            307,
+            606
+          ],
+          "panel_bbox": [
+            275,
+            50,
+            291,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_084.png",
+          "bbox": [
+            307,
+            590,
+            323,
+            606
+          ],
+          "panel_bbox": [
+            291,
+            50,
+            307,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_085.png",
+          "bbox": [
+            323,
+            590,
+            339,
+            606
+          ],
+          "panel_bbox": [
+            307,
+            50,
+            323,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_086.png",
+          "bbox": [
+            339,
+            590,
+            355,
+            606
+          ],
+          "panel_bbox": [
+            323,
+            50,
+            339,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_087.png",
+          "bbox": [
+            355,
+            590,
+            371,
+            606
+          ],
+          "panel_bbox": [
+            339,
+            50,
+            355,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_088.png",
+          "bbox": [
+            19,
+            606,
+            35,
+            622
+          ],
+          "panel_bbox": [
+            3,
+            66,
+            19,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_089.png",
+          "bbox": [
+            35,
+            606,
+            51,
+            622
+          ],
+          "panel_bbox": [
+            19,
+            66,
+            35,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_090.png",
+          "bbox": [
+            51,
+            606,
+            67,
+            622
+          ],
+          "panel_bbox": [
+            35,
+            66,
+            51,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_091.png",
+          "bbox": [
+            67,
+            606,
+            83,
+            622
+          ],
+          "panel_bbox": [
+            51,
+            66,
+            67,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_092.png",
+          "bbox": [
+            83,
+            606,
+            99,
+            622
+          ],
+          "panel_bbox": [
+            67,
+            66,
+            83,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_093.png",
+          "bbox": [
+            115,
+            606,
+            131,
+            622
+          ],
+          "panel_bbox": [
+            99,
+            66,
+            115,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_094.png",
+          "bbox": [
+            131,
+            606,
+            147,
+            622
+          ],
+          "panel_bbox": [
+            115,
+            66,
+            131,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_095.png",
+          "bbox": [
+            147,
+            606,
+            163,
+            622
+          ],
+          "panel_bbox": [
+            131,
+            66,
+            147,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_096.png",
+          "bbox": [
+            163,
+            606,
+            179,
+            622
+          ],
+          "panel_bbox": [
+            147,
+            66,
+            163,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_097.png",
+          "bbox": [
+            179,
+            606,
+            195,
+            622
+          ],
+          "panel_bbox": [
+            163,
+            66,
+            179,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_098.png",
+          "bbox": [
+            195,
+            606,
+            211,
+            622
+          ],
+          "panel_bbox": [
+            179,
+            66,
+            195,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_099.png",
+          "bbox": [
+            211,
+            606,
+            227,
+            622
+          ],
+          "panel_bbox": [
+            195,
+            66,
+            211,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_100.png",
+          "bbox": [
+            227,
+            606,
+            243,
+            622
+          ],
+          "panel_bbox": [
+            211,
+            66,
+            227,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_101.png",
+          "bbox": [
+            243,
+            606,
+            259,
+            622
+          ],
+          "panel_bbox": [
+            227,
+            66,
+            243,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_102.png",
+          "bbox": [
+            259,
+            606,
+            275,
+            622
+          ],
+          "panel_bbox": [
+            243,
+            66,
+            259,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_103.png",
+          "bbox": [
+            275,
+            606,
+            291,
+            622
+          ],
+          "panel_bbox": [
+            259,
+            66,
+            275,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_104.png",
+          "bbox": [
+            291,
+            606,
+            307,
+            622
+          ],
+          "panel_bbox": [
+            275,
+            66,
+            291,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_105.png",
+          "bbox": [
+            307,
+            606,
+            323,
+            622
+          ],
+          "panel_bbox": [
+            291,
+            66,
+            307,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_106.png",
+          "bbox": [
+            323,
+            606,
+            339,
+            622
+          ],
+          "panel_bbox": [
+            307,
+            66,
+            323,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_107.png",
+          "bbox": [
+            339,
+            606,
+            355,
+            622
+          ],
+          "panel_bbox": [
+            323,
+            66,
+            339,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_108.png",
+          "bbox": [
+            355,
+            606,
+            371,
+            622
+          ],
+          "panel_bbox": [
+            339,
+            66,
+            355,
+            82
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_109.png",
+          "bbox": [
+            19,
+            622,
+            35,
+            638
+          ],
+          "panel_bbox": [
+            3,
+            82,
+            19,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_110.png",
+          "bbox": [
+            35,
+            622,
+            51,
+            638
+          ],
+          "panel_bbox": [
+            19,
+            82,
+            35,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_111.png",
+          "bbox": [
+            51,
+            622,
+            67,
+            638
+          ],
+          "panel_bbox": [
+            35,
+            82,
+            51,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_112.png",
+          "bbox": [
+            67,
+            622,
+            83,
+            638
+          ],
+          "panel_bbox": [
+            51,
+            82,
+            67,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_113.png",
+          "bbox": [
+            83,
+            622,
+            99,
+            638
+          ],
+          "panel_bbox": [
+            67,
+            82,
+            83,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_114.png",
+          "bbox": [
+            99,
+            622,
+            115,
+            638
+          ],
+          "panel_bbox": [
+            83,
+            82,
+            99,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_115.png",
+          "bbox": [
+            115,
+            622,
+            131,
+            638
+          ],
+          "panel_bbox": [
+            99,
+            82,
+            115,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_116.png",
+          "bbox": [
+            131,
+            622,
+            147,
+            638
+          ],
+          "panel_bbox": [
+            115,
+            82,
+            131,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_117.png",
+          "bbox": [
+            147,
+            622,
+            163,
+            638
+          ],
+          "panel_bbox": [
+            131,
+            82,
+            147,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_118.png",
+          "bbox": [
+            163,
+            622,
+            179,
+            638
+          ],
+          "panel_bbox": [
+            147,
+            82,
+            163,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_119.png",
+          "bbox": [
+            179,
+            622,
+            195,
+            638
+          ],
+          "panel_bbox": [
+            163,
+            82,
+            179,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_120.png",
+          "bbox": [
+            195,
+            622,
+            211,
+            638
+          ],
+          "panel_bbox": [
+            179,
+            82,
+            195,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_121.png",
+          "bbox": [
+            211,
+            622,
+            227,
+            638
+          ],
+          "panel_bbox": [
+            195,
+            82,
+            211,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_122.png",
+          "bbox": [
+            227,
+            622,
+            243,
+            638
+          ],
+          "panel_bbox": [
+            211,
+            82,
+            227,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_123.png",
+          "bbox": [
+            243,
+            622,
+            259,
+            638
+          ],
+          "panel_bbox": [
+            227,
+            82,
+            243,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_124.png",
+          "bbox": [
+            259,
+            622,
+            275,
+            638
+          ],
+          "panel_bbox": [
+            243,
+            82,
+            259,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_125.png",
+          "bbox": [
+            275,
+            622,
+            291,
+            638
+          ],
+          "panel_bbox": [
+            259,
+            82,
+            275,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_126.png",
+          "bbox": [
+            291,
+            622,
+            307,
+            638
+          ],
+          "panel_bbox": [
+            275,
+            82,
+            291,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_127.png",
+          "bbox": [
+            307,
+            622,
+            323,
+            638
+          ],
+          "panel_bbox": [
+            291,
+            82,
+            307,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_128.png",
+          "bbox": [
+            323,
+            622,
+            339,
+            638
+          ],
+          "panel_bbox": [
+            307,
+            82,
+            323,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_129.png",
+          "bbox": [
+            339,
+            622,
+            355,
+            638
+          ],
+          "panel_bbox": [
+            323,
+            82,
+            339,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_130.png",
+          "bbox": [
+            355,
+            622,
+            371,
+            638
+          ],
+          "panel_bbox": [
+            339,
+            82,
+            355,
+            98
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_131.png",
+          "bbox": [
+            19,
+            638,
+            35,
+            654
+          ],
+          "panel_bbox": [
+            3,
+            98,
+            19,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_132.png",
+          "bbox": [
+            35,
+            638,
+            51,
+            654
+          ],
+          "panel_bbox": [
+            19,
+            98,
+            35,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_133.png",
+          "bbox": [
+            67,
+            638,
+            83,
+            654
+          ],
+          "panel_bbox": [
+            51,
+            98,
+            67,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_134.png",
+          "bbox": [
+            83,
+            638,
+            99,
+            654
+          ],
+          "panel_bbox": [
+            67,
+            98,
+            83,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_135.png",
+          "bbox": [
+            115,
+            638,
+            131,
+            654
+          ],
+          "panel_bbox": [
+            99,
+            98,
+            115,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_136.png",
+          "bbox": [
+            131,
+            638,
+            147,
+            654
+          ],
+          "panel_bbox": [
+            115,
+            98,
+            131,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_137.png",
+          "bbox": [
+            147,
+            638,
+            163,
+            654
+          ],
+          "panel_bbox": [
+            131,
+            98,
+            147,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_138.png",
+          "bbox": [
+            163,
+            638,
+            179,
+            654
+          ],
+          "panel_bbox": [
+            147,
+            98,
+            163,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_139.png",
+          "bbox": [
+            179,
+            638,
+            195,
+            654
+          ],
+          "panel_bbox": [
+            163,
+            98,
+            179,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_140.png",
+          "bbox": [
+            195,
+            638,
+            211,
+            654
+          ],
+          "panel_bbox": [
+            179,
+            98,
+            195,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_141.png",
+          "bbox": [
+            211,
+            638,
+            227,
+            654
+          ],
+          "panel_bbox": [
+            195,
+            98,
+            211,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_142.png",
+          "bbox": [
+            227,
+            638,
+            243,
+            654
+          ],
+          "panel_bbox": [
+            211,
+            98,
+            227,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_143.png",
+          "bbox": [
+            243,
+            638,
+            259,
+            654
+          ],
+          "panel_bbox": [
+            227,
+            98,
+            243,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_144.png",
+          "bbox": [
+            259,
+            638,
+            275,
+            654
+          ],
+          "panel_bbox": [
+            243,
+            98,
+            259,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_145.png",
+          "bbox": [
+            275,
+            638,
+            291,
+            654
+          ],
+          "panel_bbox": [
+            259,
+            98,
+            275,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_146.png",
+          "bbox": [
+            291,
+            638,
+            307,
+            654
+          ],
+          "panel_bbox": [
+            275,
+            98,
+            291,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_147.png",
+          "bbox": [
+            307,
+            638,
+            323,
+            654
+          ],
+          "panel_bbox": [
+            291,
+            98,
+            307,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_148.png",
+          "bbox": [
+            323,
+            638,
+            339,
+            654
+          ],
+          "panel_bbox": [
+            307,
+            98,
+            323,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_149.png",
+          "bbox": [
+            339,
+            638,
+            355,
+            654
+          ],
+          "panel_bbox": [
+            323,
+            98,
+            339,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_150.png",
+          "bbox": [
+            355,
+            638,
+            371,
+            654
+          ],
+          "panel_bbox": [
+            339,
+            98,
+            355,
+            114
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_151.png",
+          "bbox": [
+            19,
+            654,
+            35,
+            670
+          ],
+          "panel_bbox": [
+            3,
+            114,
+            19,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_152.png",
+          "bbox": [
+            35,
+            654,
+            51,
+            670
+          ],
+          "panel_bbox": [
+            19,
+            114,
+            35,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_153.png",
+          "bbox": [
+            67,
+            654,
+            83,
+            670
+          ],
+          "panel_bbox": [
+            51,
+            114,
+            67,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_154.png",
+          "bbox": [
+            83,
+            654,
+            99,
+            670
+          ],
+          "panel_bbox": [
+            67,
+            114,
+            83,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_155.png",
+          "bbox": [
+            99,
+            654,
+            115,
+            670
+          ],
+          "panel_bbox": [
+            83,
+            114,
+            99,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_156.png",
+          "bbox": [
+            115,
+            654,
+            131,
+            670
+          ],
+          "panel_bbox": [
+            99,
+            114,
+            115,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_157.png",
+          "bbox": [
+            131,
+            654,
+            147,
+            670
+          ],
+          "panel_bbox": [
+            115,
+            114,
+            131,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_158.png",
+          "bbox": [
+            147,
+            654,
+            163,
+            670
+          ],
+          "panel_bbox": [
+            131,
+            114,
+            147,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_159.png",
+          "bbox": [
+            163,
+            654,
+            179,
+            670
+          ],
+          "panel_bbox": [
+            147,
+            114,
+            163,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_160.png",
+          "bbox": [
+            179,
+            654,
+            195,
+            670
+          ],
+          "panel_bbox": [
+            163,
+            114,
+            179,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_161.png",
+          "bbox": [
+            195,
+            654,
+            211,
+            670
+          ],
+          "panel_bbox": [
+            179,
+            114,
+            195,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_162.png",
+          "bbox": [
+            211,
+            654,
+            227,
+            670
+          ],
+          "panel_bbox": [
+            195,
+            114,
+            211,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_163.png",
+          "bbox": [
+            227,
+            654,
+            243,
+            670
+          ],
+          "panel_bbox": [
+            211,
+            114,
+            227,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_164.png",
+          "bbox": [
+            243,
+            654,
+            259,
+            670
+          ],
+          "panel_bbox": [
+            227,
+            114,
+            243,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_165.png",
+          "bbox": [
+            259,
+            654,
+            275,
+            670
+          ],
+          "panel_bbox": [
+            243,
+            114,
+            259,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_166.png",
+          "bbox": [
+            275,
+            654,
+            291,
+            670
+          ],
+          "panel_bbox": [
+            259,
+            114,
+            275,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_167.png",
+          "bbox": [
+            291,
+            654,
+            307,
+            670
+          ],
+          "panel_bbox": [
+            275,
+            114,
+            291,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_168.png",
+          "bbox": [
+            307,
+            654,
+            323,
+            670
+          ],
+          "panel_bbox": [
+            291,
+            114,
+            307,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_169.png",
+          "bbox": [
+            323,
+            654,
+            339,
+            670
+          ],
+          "panel_bbox": [
+            307,
+            114,
+            323,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_170.png",
+          "bbox": [
+            339,
+            654,
+            355,
+            670
+          ],
+          "panel_bbox": [
+            323,
+            114,
+            339,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_171.png",
+          "bbox": [
+            355,
+            654,
+            371,
+            670
+          ],
+          "panel_bbox": [
+            339,
+            114,
+            355,
+            130
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_172.png",
+          "bbox": [
+            19,
+            670,
+            35,
+            686
+          ],
+          "panel_bbox": [
+            3,
+            130,
+            19,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_173.png",
+          "bbox": [
+            35,
+            670,
+            51,
+            686
+          ],
+          "panel_bbox": [
+            19,
+            130,
+            35,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_174.png",
+          "bbox": [
+            51,
+            670,
+            67,
+            686
+          ],
+          "panel_bbox": [
+            35,
+            130,
+            51,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_175.png",
+          "bbox": [
+            67,
+            670,
+            83,
+            686
+          ],
+          "panel_bbox": [
+            51,
+            130,
+            67,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_176.png",
+          "bbox": [
+            83,
+            670,
+            99,
+            686
+          ],
+          "panel_bbox": [
+            67,
+            130,
+            83,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_177.png",
+          "bbox": [
+            99,
+            670,
+            115,
+            686
+          ],
+          "panel_bbox": [
+            83,
+            130,
+            99,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_178.png",
+          "bbox": [
+            115,
+            670,
+            131,
+            686
+          ],
+          "panel_bbox": [
+            99,
+            130,
+            115,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_179.png",
+          "bbox": [
+            131,
+            670,
+            147,
+            686
+          ],
+          "panel_bbox": [
+            115,
+            130,
+            131,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_180.png",
+          "bbox": [
+            147,
+            670,
+            163,
+            686
+          ],
+          "panel_bbox": [
+            131,
+            130,
+            147,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_181.png",
+          "bbox": [
+            163,
+            670,
+            179,
+            686
+          ],
+          "panel_bbox": [
+            147,
+            130,
+            163,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_182.png",
+          "bbox": [
+            179,
+            670,
+            195,
+            686
+          ],
+          "panel_bbox": [
+            163,
+            130,
+            179,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_183.png",
+          "bbox": [
+            195,
+            670,
+            211,
+            686
+          ],
+          "panel_bbox": [
+            179,
+            130,
+            195,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_184.png",
+          "bbox": [
+            211,
+            670,
+            227,
+            686
+          ],
+          "panel_bbox": [
+            195,
+            130,
+            211,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_185.png",
+          "bbox": [
+            227,
+            670,
+            243,
+            686
+          ],
+          "panel_bbox": [
+            211,
+            130,
+            227,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_186.png",
+          "bbox": [
+            243,
+            670,
+            259,
+            686
+          ],
+          "panel_bbox": [
+            227,
+            130,
+            243,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_187.png",
+          "bbox": [
+            259,
+            670,
+            275,
+            686
+          ],
+          "panel_bbox": [
+            243,
+            130,
+            259,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_188.png",
+          "bbox": [
+            275,
+            670,
+            291,
+            686
+          ],
+          "panel_bbox": [
+            259,
+            130,
+            275,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_189.png",
+          "bbox": [
+            291,
+            670,
+            307,
+            686
+          ],
+          "panel_bbox": [
+            275,
+            130,
+            291,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_190.png",
+          "bbox": [
+            307,
+            670,
+            323,
+            686
+          ],
+          "panel_bbox": [
+            291,
+            130,
+            307,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_191.png",
+          "bbox": [
+            323,
+            670,
+            339,
+            686
+          ],
+          "panel_bbox": [
+            307,
+            130,
+            323,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_192.png",
+          "bbox": [
+            339,
+            670,
+            355,
+            686
+          ],
+          "panel_bbox": [
+            323,
+            130,
+            339,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_193.png",
+          "bbox": [
+            355,
+            670,
+            371,
+            686
+          ],
+          "panel_bbox": [
+            339,
+            130,
+            355,
+            146
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_194.png",
+          "bbox": [
+            19,
+            686,
+            35,
+            702
+          ],
+          "panel_bbox": [
+            3,
+            146,
+            19,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_195.png",
+          "bbox": [
+            35,
+            686,
+            51,
+            702
+          ],
+          "panel_bbox": [
+            19,
+            146,
+            35,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_196.png",
+          "bbox": [
+            51,
+            686,
+            67,
+            702
+          ],
+          "panel_bbox": [
+            35,
+            146,
+            51,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_197.png",
+          "bbox": [
+            115,
+            686,
+            131,
+            702
+          ],
+          "panel_bbox": [
+            99,
+            146,
+            115,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_198.png",
+          "bbox": [
+            131,
+            686,
+            147,
+            702
+          ],
+          "panel_bbox": [
+            115,
+            146,
+            131,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_199.png",
+          "bbox": [
+            147,
+            686,
+            163,
+            702
+          ],
+          "panel_bbox": [
+            131,
+            146,
+            147,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_200.png",
+          "bbox": [
+            163,
+            686,
+            179,
+            702
+          ],
+          "panel_bbox": [
+            147,
+            146,
+            163,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_201.png",
+          "bbox": [
+            195,
+            686,
+            211,
+            702
+          ],
+          "panel_bbox": [
+            179,
+            146,
+            195,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_202.png",
+          "bbox": [
+            211,
+            686,
+            227,
+            702
+          ],
+          "panel_bbox": [
+            195,
+            146,
+            211,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "tile",
+          "file": "sprites/tiles_203.png",
+          "bbox": [
+            227,
+            686,
+            243,
+            702
+          ],
+          "panel_bbox": [
+            211,
+            146,
+            227,
+            162
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "platforms",
+      "mode": "standalone",
+      "bbox": [
+        392,
+        504,
+        652,
+        714
+      ],
+      "panel_file": "panels/platforms.png",
+      "frame_count": 12,
+      "output_files": [
+        "sprites/platforms_00.png",
+        "sprites/platforms_01.png",
+        "sprites/platforms_02.png",
+        "sprites/platforms_03.png",
+        "sprites/platforms_04.png",
+        "sprites/platforms_05.png",
+        "sprites/platforms_06.png",
+        "sprites/platforms_07.png",
+        "sprites/platforms_08.png",
+        "sprites/platforms_09.png",
+        "sprites/platforms_10.png",
+        "sprites/platforms_11.png"
+      ],
+      "bounding_boxes": [
+        [
+          412,
+          546,
+          484,
+          588
+        ],
+        [
+          499,
+          545,
+          537,
+          588
+        ],
+        [
+          555,
+          544,
+          636,
+          580
+        ],
+        [
+          414,
+          580,
+          490,
+          639
+        ],
+        [
+          500,
+          580,
+          514,
+          630
+        ],
+        [
+          535,
+          591,
+          591,
+          635
+        ],
+        [
+          609,
+          591,
+          632,
+          634
+        ],
+        [
+          413,
+          636,
+          448,
+          697
+        ],
+        [
+          456,
+          636,
+          492,
+          696
+        ],
+        [
+          508,
+          648,
+          530,
+          696
+        ],
+        [
+          554,
+          647,
+          571,
+          697
+        ],
+        [
+          594,
+          652,
+          623,
+          698
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_00.png",
+          "bbox": [
+            412,
+            546,
+            484,
+            588
+          ],
+          "panel_bbox": [
+            10,
+            6,
+            82,
+            48
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_01.png",
+          "bbox": [
+            499,
+            545,
+            537,
+            588
+          ],
+          "panel_bbox": [
+            97,
+            5,
+            135,
+            48
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_02.png",
+          "bbox": [
+            555,
+            544,
+            636,
+            580
+          ],
+          "panel_bbox": [
+            153,
+            4,
+            234,
+            40
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_03.png",
+          "bbox": [
+            414,
+            580,
+            490,
+            639
+          ],
+          "panel_bbox": [
+            12,
+            40,
+            88,
+            99
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_04.png",
+          "bbox": [
+            500,
+            580,
+            514,
+            630
+          ],
+          "panel_bbox": [
+            98,
+            40,
+            112,
+            90
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_05.png",
+          "bbox": [
+            535,
+            591,
+            591,
+            635
+          ],
+          "panel_bbox": [
+            133,
+            51,
+            189,
+            95
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_06.png",
+          "bbox": [
+            609,
+            591,
+            632,
+            634
+          ],
+          "panel_bbox": [
+            207,
+            51,
+            230,
+            94
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_07.png",
+          "bbox": [
+            413,
+            636,
+            448,
+            697
+          ],
+          "panel_bbox": [
+            11,
+            96,
+            46,
+            157
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_08.png",
+          "bbox": [
+            456,
+            636,
+            492,
+            696
+          ],
+          "panel_bbox": [
+            54,
+            96,
+            90,
+            156
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_09.png",
+          "bbox": [
+            508,
+            648,
+            530,
+            696
+          ],
+          "panel_bbox": [
+            106,
+            108,
+            128,
+            156
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_10.png",
+          "bbox": [
+            554,
+            647,
+            571,
+            697
+          ],
+          "panel_bbox": [
+            152,
+            107,
+            169,
+            157
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/platforms_11.png",
+          "bbox": [
+            594,
+            652,
+            623,
+            698
+          ],
+          "panel_bbox": [
+            192,
+            112,
+            221,
+            158
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "passover",
+      "mode": "standalone",
+      "bbox": [
+        653,
+        504,
+        907,
+        727
+      ],
+      "panel_file": "panels/passover.png",
+      "frame_count": 1,
+      "output_files": [
+        "sprites/passover_00.png"
+      ],
+      "bounding_boxes": [
+        [
+          663,
+          540,
+          895,
+          716
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/passover_00.png",
+          "bbox": [
+            663,
+            540,
+            895,
+            716
+          ],
+          "panel_bbox": [
+            0,
+            0,
+            232,
+            176
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "light_beam",
+      "mode": "animation_rows",
+      "bbox": [
+        908,
+        504,
+        1216,
+        727
+      ],
+      "panel_file": "panels/light_beam.png",
+      "frame_count": 4,
+      "output_files": [
+        "sprites/light_beam_light_beam_frame_00.png",
+        "sprites/light_beam_light_beam_frame_01.png",
+        "sprites/light_beam_light_beam_frame_02.png",
+        "sprites/light_beam_light_beam_frame_03.png",
+        "sheets/light_beam_light_beam.png"
+      ],
+      "bounding_boxes": [
+        [
+          918,
+          548,
+          972,
+          698
+        ],
+        [
+          981,
+          548,
+          1037,
+          698
+        ],
+        [
+          1042,
+          548,
+          1105,
+          698
+        ],
+        [
+          1106,
+          548,
+          1173,
+          698
+        ],
+        [
+          918,
+          548,
+          1173,
+          698
+        ]
+      ],
+      "items": [
+        {
+          "kind": "frame",
+          "file": "sprites/light_beam_light_beam_frame_00.png",
+          "bbox": [
+            918,
+            548,
+            972,
+            698
+          ],
+          "panel_bbox": [
+            0,
+            8,
+            54,
+            158
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "light_beam"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/light_beam_light_beam_frame_01.png",
+          "bbox": [
+            981,
+            548,
+            1037,
+            698
+          ],
+          "panel_bbox": [
+            63,
+            8,
+            119,
+            158
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "light_beam"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/light_beam_light_beam_frame_02.png",
+          "bbox": [
+            1042,
+            548,
+            1105,
+            698
+          ],
+          "panel_bbox": [
+            124,
+            8,
+            187,
+            158
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "light_beam"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/light_beam_light_beam_frame_03.png",
+          "bbox": [
+            1106,
+            548,
+            1173,
+            698
+          ],
+          "panel_bbox": [
+            188,
+            8,
+            255,
+            158
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "light_beam"
+        }
+      ],
+      "sheets": [
+        {
+          "kind": "sheet",
+          "file": "sheets/light_beam_light_beam.png",
+          "bbox": [
+            918,
+            548,
+            1173,
+            698
+          ],
+          "panel_bbox": [
+            0,
+            8,
+            255,
+            158
+          ],
+          "frame_count": 4,
+          "row": 0,
+          "row_label": "light_beam",
+          "source_columns": [
+            [
+              0,
+              49
+            ],
+            [
+              68,
+              115
+            ],
+            [
+              129,
+              182
+            ],
+            [
+              193,
+              250
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "aura",
+      "mode": "animation_rows",
+      "bbox": [
+        1217,
+        504,
+        1525,
+        727
+      ],
+      "panel_file": "panels/aura.png",
+      "frame_count": 4,
+      "output_files": [
+        "sprites/aura_aura_frame_00.png",
+        "sprites/aura_aura_frame_01.png",
+        "sprites/aura_aura_frame_02.png",
+        "sprites/aura_aura_frame_03.png",
+        "sheets/aura_aura.png"
+      ],
+      "bounding_boxes": [
+        [
+          1227,
+          562,
+          1272,
+          677
+        ],
+        [
+          1281,
+          562,
+          1352,
+          675
+        ],
+        [
+          1360,
+          562,
+          1429,
+          675
+        ],
+        [
+          1439,
+          562,
+          1511,
+          676
+        ],
+        [
+          1227,
+          562,
+          1511,
+          677
+        ]
+      ],
+      "items": [
+        {
+          "kind": "frame",
+          "file": "sprites/aura_aura_frame_00.png",
+          "bbox": [
+            1227,
+            562,
+            1272,
+            677
+          ],
+          "panel_bbox": [
+            0,
+            22,
+            45,
+            137
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "aura"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/aura_aura_frame_01.png",
+          "bbox": [
+            1281,
+            562,
+            1352,
+            675
+          ],
+          "panel_bbox": [
+            54,
+            22,
+            125,
+            135
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "aura"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/aura_aura_frame_02.png",
+          "bbox": [
+            1360,
+            562,
+            1429,
+            675
+          ],
+          "panel_bbox": [
+            133,
+            22,
+            202,
+            135
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "aura"
+        },
+        {
+          "kind": "frame",
+          "file": "sprites/aura_aura_frame_03.png",
+          "bbox": [
+            1439,
+            562,
+            1511,
+            676
+          ],
+          "panel_bbox": [
+            212,
+            22,
+            284,
+            136
+          ],
+          "frame_count": 1,
+          "row": 0,
+          "row_label": "aura"
+        }
+      ],
+      "sheets": [
+        {
+          "kind": "sheet",
+          "file": "sheets/aura_aura.png",
+          "bbox": [
+            1227,
+            562,
+            1511,
+            677
+          ],
+          "panel_bbox": [
+            0,
+            22,
+            284,
+            137
+          ],
+          "frame_count": 4,
+          "row": 0,
+          "row_label": "aura",
+          "source_columns": [
+            [
+              0,
+              42
+            ],
+            [
+              57,
+              122
+            ],
+            [
+              135,
+              198
+            ],
+            [
+              213,
+              280
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "backgrounds",
+      "mode": "standalone",
+      "bbox": [
+        6,
+        742,
+        678,
+        1010
+      ],
+      "panel_file": "panels/backgrounds.png",
+      "frame_count": 6,
+      "output_files": [
+        "sprites/backgrounds_00.png",
+        "sprites/backgrounds_01.png",
+        "sprites/backgrounds_02.png",
+        "sprites/backgrounds_03.png",
+        "sprites/backgrounds_04.png",
+        "sprites/backgrounds_05.png"
+      ],
+      "bounding_boxes": [
+        [
+          16,
+          780,
+          116,
+          935
+        ],
+        [
+          121,
+          780,
+          223,
+          936
+        ],
+        [
+          228,
+          780,
+          335,
+          936
+        ],
+        [
+          340,
+          780,
+          447,
+          936
+        ],
+        [
+          452,
+          780,
+          556,
+          935
+        ],
+        [
+          561,
+          780,
+          663,
+          935
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/backgrounds_00.png",
+          "bbox": [
+            16,
+            780,
+            116,
+            935
+          ],
+          "panel_bbox": [
+            0,
+            0,
+            100,
+            155
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/backgrounds_01.png",
+          "bbox": [
+            121,
+            780,
+            223,
+            936
+          ],
+          "panel_bbox": [
+            105,
+            0,
+            207,
+            156
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/backgrounds_02.png",
+          "bbox": [
+            228,
+            780,
+            335,
+            936
+          ],
+          "panel_bbox": [
+            212,
+            0,
+            319,
+            156
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/backgrounds_03.png",
+          "bbox": [
+            340,
+            780,
+            447,
+            936
+          ],
+          "panel_bbox": [
+            324,
+            0,
+            431,
+            156
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/backgrounds_04.png",
+          "bbox": [
+            452,
+            780,
+            556,
+            935
+          ],
+          "panel_bbox": [
+            436,
+            0,
+            540,
+            155
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/backgrounds_05.png",
+          "bbox": [
+            561,
+            780,
+            663,
+            935
+          ],
+          "panel_bbox": [
+            545,
+            0,
+            647,
+            155
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "weapons",
+      "mode": "standalone",
+      "bbox": [
+        679,
+        742,
+        877,
+        999
+      ],
+      "panel_file": "panels/weapons.png",
+      "frame_count": 3,
+      "output_files": [
+        "sprites/weapons_00.png",
+        "sprites/weapons_01.png",
+        "sprites/weapons_02.png"
+      ],
+      "bounding_boxes": [
+        [
+          692,
+          780,
+          857,
+          832
+        ],
+        [
+          698,
+          844,
+          854,
+          882
+        ],
+        [
+          705,
+          886,
+          856,
+          977
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/weapons_00.png",
+          "bbox": [
+            692,
+            780,
+            857,
+            832
+          ],
+          "panel_bbox": [
+            3,
+            0,
+            168,
+            52
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/weapons_01.png",
+          "bbox": [
+            698,
+            844,
+            854,
+            882
+          ],
+          "panel_bbox": [
+            9,
+            64,
+            165,
+            102
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/weapons_02.png",
+          "bbox": [
+            705,
+            886,
+            856,
+            977
+          ],
+          "panel_bbox": [
+            16,
+            106,
+            167,
+            197
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "cloaks",
+      "mode": "standalone",
+      "bbox": [
+        878,
+        742,
+        1142,
+        999
+      ],
+      "panel_file": "panels/cloaks.png",
+      "frame_count": 7,
+      "output_files": [
+        "sprites/cloaks_00.png",
+        "sprites/cloaks_01.png",
+        "sprites/cloaks_02.png",
+        "sprites/cloaks_03.png",
+        "sprites/cloaks_04.png",
+        "sprites/cloaks_05.png",
+        "sprites/cloaks_06.png"
+      ],
+      "bounding_boxes": [
+        [
+          888,
+          780,
+          953,
+          850
+        ],
+        [
+          958,
+          780,
+          1013,
+          847
+        ],
+        [
+          1018,
+          780,
+          1071,
+          846
+        ],
+        [
+          1076,
+          780,
+          1129,
+          847
+        ],
+        [
+          888,
+          875,
+          957,
+          964
+        ],
+        [
+          967,
+          876,
+          1030,
+          964
+        ],
+        [
+          1041,
+          875,
+          1119,
+          964
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_00.png",
+          "bbox": [
+            888,
+            780,
+            953,
+            850
+          ],
+          "panel_bbox": [
+            0,
+            0,
+            65,
+            70
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_01.png",
+          "bbox": [
+            958,
+            780,
+            1013,
+            847
+          ],
+          "panel_bbox": [
+            70,
+            0,
+            125,
+            67
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_02.png",
+          "bbox": [
+            1018,
+            780,
+            1071,
+            846
+          ],
+          "panel_bbox": [
+            130,
+            0,
+            183,
+            66
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_03.png",
+          "bbox": [
+            1076,
+            780,
+            1129,
+            847
+          ],
+          "panel_bbox": [
+            188,
+            0,
+            241,
+            67
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_04.png",
+          "bbox": [
+            888,
+            875,
+            957,
+            964
+          ],
+          "panel_bbox": [
+            0,
+            95,
+            69,
+            184
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_05.png",
+          "bbox": [
+            967,
+            876,
+            1030,
+            964
+          ],
+          "panel_bbox": [
+            79,
+            96,
+            142,
+            184
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/cloaks_06.png",
+          "bbox": [
+            1041,
+            875,
+            1119,
+            964
+          ],
+          "panel_bbox": [
+            153,
+            95,
+            231,
+            184
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    },
+    {
+      "name": "props",
+      "mode": "standalone",
+      "bbox": [
+        1143,
+        742,
+        1525,
+        1010
+      ],
+      "panel_file": "panels/props.png",
+      "frame_count": 16,
+      "output_files": [
+        "sprites/props_00.png",
+        "sprites/props_01.png",
+        "sprites/props_02.png",
+        "sprites/props_03.png",
+        "sprites/props_04.png",
+        "sprites/props_05.png",
+        "sprites/props_06.png",
+        "sprites/props_07.png",
+        "sprites/props_08.png",
+        "sprites/props_09.png",
+        "sprites/props_10.png",
+        "sprites/props_11.png",
+        "sprites/props_12.png",
+        "sprites/props_13.png",
+        "sprites/props_14.png",
+        "sprites/props_15.png"
+      ],
+      "bounding_boxes": [
+        [
+          1163,
+          780,
+          1211,
+          819
+        ],
+        [
+          1222,
+          780,
+          1256,
+          832
+        ],
+        [
+          1268,
+          780,
+          1302,
+          832
+        ],
+        [
+          1306,
+          780,
+          1347,
+          832
+        ],
+        [
+          1355,
+          780,
+          1436,
+          822
+        ],
+        [
+          1441,
+          780,
+          1502,
+          832
+        ],
+        [
+          1172,
+          825,
+          1238,
+          886
+        ],
+        [
+          1267,
+          831,
+          1343,
+          879
+        ],
+        [
+          1355,
+          839,
+          1427,
+          884
+        ],
+        [
+          1437,
+          824,
+          1514,
+          888
+        ],
+        [
+          1172,
+          880,
+          1270,
+          944
+        ],
+        [
+          1288,
+          889,
+          1346,
+          944
+        ],
+        [
+          1366,
+          880,
+          1422,
+          943
+        ],
+        [
+          1434,
+          880,
+          1511,
+          938
+        ],
+        [
+          1159,
+          936,
+          1338,
+          985
+        ],
+        [
+          1352,
+          936,
+          1505,
+          1000
+        ]
+      ],
+      "items": [
+        {
+          "kind": "sprite",
+          "file": "sprites/props_00.png",
+          "bbox": [
+            1163,
+            780,
+            1211,
+            819
+          ],
+          "panel_bbox": [
+            10,
+            0,
+            58,
+            39
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_01.png",
+          "bbox": [
+            1222,
+            780,
+            1256,
+            832
+          ],
+          "panel_bbox": [
+            69,
+            0,
+            103,
+            52
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_02.png",
+          "bbox": [
+            1268,
+            780,
+            1302,
+            832
+          ],
+          "panel_bbox": [
+            115,
+            0,
+            149,
+            52
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_03.png",
+          "bbox": [
+            1306,
+            780,
+            1347,
+            832
+          ],
+          "panel_bbox": [
+            153,
+            0,
+            194,
+            52
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_04.png",
+          "bbox": [
+            1355,
+            780,
+            1436,
+            822
+          ],
+          "panel_bbox": [
+            202,
+            0,
+            283,
+            42
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_05.png",
+          "bbox": [
+            1441,
+            780,
+            1502,
+            832
+          ],
+          "panel_bbox": [
+            288,
+            0,
+            349,
+            52
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_06.png",
+          "bbox": [
+            1172,
+            825,
+            1238,
+            886
+          ],
+          "panel_bbox": [
+            19,
+            45,
+            85,
+            106
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_07.png",
+          "bbox": [
+            1267,
+            831,
+            1343,
+            879
+          ],
+          "panel_bbox": [
+            114,
+            51,
+            190,
+            99
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_08.png",
+          "bbox": [
+            1355,
+            839,
+            1427,
+            884
+          ],
+          "panel_bbox": [
+            202,
+            59,
+            274,
+            104
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_09.png",
+          "bbox": [
+            1437,
+            824,
+            1514,
+            888
+          ],
+          "panel_bbox": [
+            284,
+            44,
+            361,
+            108
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_10.png",
+          "bbox": [
+            1172,
+            880,
+            1270,
+            944
+          ],
+          "panel_bbox": [
+            19,
+            100,
+            117,
+            164
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_11.png",
+          "bbox": [
+            1288,
+            889,
+            1346,
+            944
+          ],
+          "panel_bbox": [
+            135,
+            109,
+            193,
+            164
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_12.png",
+          "bbox": [
+            1366,
+            880,
+            1422,
+            943
+          ],
+          "panel_bbox": [
+            213,
+            100,
+            269,
+            163
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_13.png",
+          "bbox": [
+            1434,
+            880,
+            1511,
+            938
+          ],
+          "panel_bbox": [
+            281,
+            100,
+            358,
+            158
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_14.png",
+          "bbox": [
+            1159,
+            936,
+            1338,
+            985
+          ],
+          "panel_bbox": [
+            6,
+            156,
+            185,
+            205
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        },
+        {
+          "kind": "sprite",
+          "file": "sprites/props_15.png",
+          "bbox": [
+            1352,
+            936,
+            1505,
+            1000
+          ],
+          "panel_bbox": [
+            199,
+            156,
+            352,
+            220
+          ],
+          "frame_count": 1,
+          "row": null,
+          "row_label": null
+        }
+      ],
+      "sheets": []
+    }
+  ]
+}

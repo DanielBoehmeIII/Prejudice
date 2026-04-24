@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prejudice Animation Loop Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel">
+        <div class="heading">
+          <div>
+            <p class="eyebrow">Prejudice</p>
+            <h1>Animation Loop Demo</h1>
+          </div>
+          <p class="status" id="status">Loading atlas and animation metadata…</p>
+        </div>
+        <canvas id="game" width="960" height="540" aria-label="Animation loop demo"></canvas>
+        <div class="controls">
+          <span><kbd>A</kbd>/<kbd>D</kbd> move</span>
+          <span><kbd>Shift</kbd> run</span>
+          <span><kbd>Space</kbd> jump</span>
+          <span><kbd>Z</kbd> attack</span>
+          <span><kbd>X</kbd> aura</span>
+          <span><kbd>C</kbd> beam</span>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>

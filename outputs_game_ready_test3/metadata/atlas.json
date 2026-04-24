@@ -1,0 +1,2293 @@
+{
+  "atlases": [
+    {
+      "file": "atlases/atlas_0.png",
+      "width": 1021,
+      "height": 950
+    }
+  ],
+  "sprites": {
+    "passover_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 232,
+      "h": 176
+    },
+    "background_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 233,
+      "y": 0,
+      "w": 107,
+      "h": 156
+    },
+    "background_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 341,
+      "y": 0,
+      "w": 107,
+      "h": 156
+    },
+    "background_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 449,
+      "y": 0,
+      "w": 102,
+      "h": 156
+    },
+    "background_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 552,
+      "y": 0,
+      "w": 104,
+      "h": 155
+    },
+    "background_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 657,
+      "y": 0,
+      "w": 102,
+      "h": 155
+    },
+    "background_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 760,
+      "y": 0,
+      "w": 100,
+      "h": 155
+    },
+    "light_beam_effects_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 861,
+      "y": 0,
+      "w": 67,
+      "h": 150
+    },
+    "light_beam_effects_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 929,
+      "y": 0,
+      "w": 67,
+      "h": 150
+    },
+    "light_beam_effects_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 177,
+      "w": 67,
+      "h": 150
+    },
+    "light_beam_effects_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 177,
+      "w": 67,
+      "h": 150
+    },
+    "enemy_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 177,
+      "w": 120,
+      "h": 125
+    },
+    "enemy_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 257,
+      "y": 177,
+      "w": 114,
+      "h": 122
+    },
+    "enemy_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 372,
+      "y": 177,
+      "w": 115,
+      "h": 115
+    },
+    "aura_effects_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 488,
+      "y": 177,
+      "w": 72,
+      "h": 115
+    },
+    "aura_effects_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 177,
+      "w": 72,
+      "h": 115
+    },
+    "aura_effects_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 634,
+      "y": 177,
+      "w": 72,
+      "h": 115
+    },
+    "aura_effects_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 707,
+      "y": 177,
+      "w": 72,
+      "h": 115
+    },
+    "enemy_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 780,
+      "y": 177,
+      "w": 89,
+      "h": 112
+    },
+    "enemy_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 328,
+      "w": 281,
+      "h": 110
+    },
+    "enemy_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 282,
+      "y": 328,
+      "w": 116,
+      "h": 107
+    },
+    "enemy_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 399,
+      "y": 328,
+      "w": 95,
+      "h": 106
+    },
+    "enemy_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 495,
+      "y": 328,
+      "w": 120,
+      "h": 105
+    },
+    "enemy_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 616,
+      "y": 328,
+      "w": 96,
+      "h": 104
+    },
+    "enemy_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 713,
+      "y": 328,
+      "w": 118,
+      "h": 103
+    },
+    "enemy_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 832,
+      "y": 328,
+      "w": 91,
+      "h": 103
+    },
+    "enemy_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 924,
+      "y": 328,
+      "w": 61,
+      "h": 100
+    },
+    "enemy_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 439,
+      "w": 90,
+      "h": 96
+    },
+    "enemy_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 91,
+      "y": 439,
+      "w": 109,
+      "h": 92
+    },
+    "weapon_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 201,
+      "y": 439,
+      "w": 151,
+      "h": 91
+    },
+    "ui_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 353,
+      "y": 439,
+      "w": 73,
+      "h": 91
+    },
+    "cloak_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 427,
+      "y": 439,
+      "w": 78,
+      "h": 89
+    },
+    "cloak_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 506,
+      "y": 439,
+      "w": 69,
+      "h": 89
+    },
+    "cloak_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 576,
+      "y": 439,
+      "w": 63,
+      "h": 88
+    },
+    "enemy_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 640,
+      "y": 439,
+      "w": 63,
+      "h": 86
+    },
+    "ui_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 704,
+      "y": 439,
+      "w": 121,
+      "h": 82
+    },
+    "ui_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 826,
+      "y": 439,
+      "w": 57,
+      "h": 74
+    },
+    "ui_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 439,
+      "w": 57,
+      "h": 74
+    },
+    "ui_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 942,
+      "y": 439,
+      "w": 55,
+      "h": 74
+    },
+    "ui_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 536,
+      "w": 55,
+      "h": 74
+    },
+    "ui_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 56,
+      "y": 536,
+      "w": 55,
+      "h": 74
+    },
+    "cloak_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 112,
+      "y": 536,
+      "w": 65,
+      "h": 70
+    },
+    "cloak_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 178,
+      "y": 536,
+      "w": 55,
+      "h": 67
+    },
+    "cloak_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 234,
+      "y": 536,
+      "w": 53,
+      "h": 67
+    },
+    "cloak_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 288,
+      "y": 536,
+      "w": 53,
+      "h": 66
+    },
+    "prop_15": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 342,
+      "y": 536,
+      "w": 153,
+      "h": 64
+    },
+    "prop_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 496,
+      "y": 536,
+      "w": 98,
+      "h": 64
+    },
+    "prop_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 536,
+      "w": 77,
+      "h": 64
+    },
+    "player_effects_2_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 673,
+      "y": 536,
+      "w": 177,
+      "h": 63
+    },
+    "player_effects_2_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 611,
+      "w": 177,
+      "h": 63
+    },
+    "player_effects_2_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 178,
+      "y": 611,
+      "w": 177,
+      "h": 63
+    },
+    "player_effects_2_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 356,
+      "y": 611,
+      "w": 177,
+      "h": 63
+    },
+    "prop_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 534,
+      "y": 611,
+      "w": 56,
+      "h": 63
+    },
+    "prop_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 591,
+      "y": 611,
+      "w": 66,
+      "h": 61
+    },
+    "platform_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 658,
+      "y": 611,
+      "w": 35,
+      "h": 61
+    },
+    "platform_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 694,
+      "y": 611,
+      "w": 36,
+      "h": 60
+    },
+    "platform_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 611,
+      "w": 76,
+      "h": 59
+    },
+    "prop_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 808,
+      "y": 611,
+      "w": 77,
+      "h": 58
+    },
+    "prop_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 886,
+      "y": 611,
+      "w": 58,
+      "h": 55
+    },
+    "player_effects_1_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 945,
+      "y": 611,
+      "w": 54,
+      "h": 53
+    },
+    "player_effects_1_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 675,
+      "w": 54,
+      "h": 53
+    },
+    "player_effects_1_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 55,
+      "y": 675,
+      "w": 54,
+      "h": 53
+    },
+    "player_effects_1_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 110,
+      "y": 675,
+      "w": 54,
+      "h": 53
+    },
+    "player_effects_1_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 165,
+      "y": 675,
+      "w": 54,
+      "h": 53
+    },
+    "weapon_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 220,
+      "y": 675,
+      "w": 165,
+      "h": 52
+    },
+    "prop_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 386,
+      "y": 675,
+      "w": 61,
+      "h": 52
+    },
+    "prop_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 448,
+      "y": 675,
+      "w": 41,
+      "h": 52
+    },
+    "prop_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 490,
+      "y": 675,
+      "w": 34,
+      "h": 52
+    },
+    "prop_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 525,
+      "y": 675,
+      "w": 34,
+      "h": 52
+    },
+    "player_walk_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 560,
+      "y": 675,
+      "w": 52,
+      "h": 51
+    },
+    "player_walk_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 613,
+      "y": 675,
+      "w": 52,
+      "h": 51
+    },
+    "player_walk_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 666,
+      "y": 675,
+      "w": 52,
+      "h": 51
+    },
+    "player_walk_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 719,
+      "y": 675,
+      "w": 52,
+      "h": 51
+    },
+    "player_walk_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 772,
+      "y": 675,
+      "w": 52,
+      "h": 51
+    },
+    "player_walk_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 825,
+      "y": 675,
+      "w": 52,
+      "h": 51
+    },
+    "ui_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 729,
+      "w": 251,
+      "h": 50
+    },
+    "platform_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 252,
+      "y": 729,
+      "w": 17,
+      "h": 50
+    },
+    "platform_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 270,
+      "y": 729,
+      "w": 14,
+      "h": 50
+    },
+    "prop_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 285,
+      "y": 729,
+      "w": 179,
+      "h": 49
+    },
+    "player_run_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 465,
+      "y": 729,
+      "w": 56,
+      "h": 49
+    },
+    "player_run_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 522,
+      "y": 729,
+      "w": 56,
+      "h": 49
+    },
+    "player_run_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 579,
+      "y": 729,
+      "w": 56,
+      "h": 49
+    },
+    "player_run_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 636,
+      "y": 729,
+      "w": 56,
+      "h": 49
+    },
+    "player_run_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 693,
+      "y": 729,
+      "w": 56,
+      "h": 49
+    },
+    "player_run_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 750,
+      "y": 729,
+      "w": 56,
+      "h": 49
+    },
+    "prop_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 807,
+      "y": 729,
+      "w": 76,
+      "h": 48
+    },
+    "platform_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 729,
+      "w": 22,
+      "h": 48
+    },
+    "player_attack_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 780,
+      "w": 185,
+      "h": 46
+    },
+    "player_attack_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 186,
+      "y": 780,
+      "w": 185,
+      "h": 46
+    },
+    "player_attack_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 372,
+      "y": 780,
+      "w": 185,
+      "h": 46
+    },
+    "ui_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 558,
+      "y": 780,
+      "w": 47,
+      "h": 46
+    },
+    "ui_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 606,
+      "y": 780,
+      "w": 37,
+      "h": 46
+    },
+    "platform_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 644,
+      "y": 780,
+      "w": 29,
+      "h": 46
+    },
+    "prop_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 674,
+      "y": 780,
+      "w": 72,
+      "h": 45
+    },
+    "platform_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 747,
+      "y": 780,
+      "w": 56,
+      "h": 44
+    },
+    "player_jump_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 804,
+      "y": 780,
+      "w": 51,
+      "h": 44
+    },
+    "player_jump_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 856,
+      "y": 780,
+      "w": 51,
+      "h": 44
+    },
+    "player_jump_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 908,
+      "y": 780,
+      "w": 51,
+      "h": 44
+    },
+    "player_jump_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 960,
+      "y": 780,
+      "w": 51,
+      "h": 44
+    },
+    "player_jump_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 827,
+      "w": 51,
+      "h": 44
+    },
+    "player_jump_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 52,
+      "y": 827,
+      "w": 51,
+      "h": 44
+    },
+    "platform_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 104,
+      "y": 827,
+      "w": 38,
+      "h": 43
+    },
+    "platform_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 143,
+      "y": 827,
+      "w": 23,
+      "h": 43
+    },
+    "prop_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 167,
+      "y": 827,
+      "w": 81,
+      "h": 42
+    },
+    "platform_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 249,
+      "y": 827,
+      "w": 72,
+      "h": 42
+    },
+    "ui_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 322,
+      "y": 827,
+      "w": 40,
+      "h": 42
+    },
+    "ui_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 363,
+      "y": 827,
+      "w": 40,
+      "h": 41
+    },
+    "ui_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 404,
+      "y": 827,
+      "w": 54,
+      "h": 39
+    },
+    "prop_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 827,
+      "w": 48,
+      "h": 39
+    },
+    "weapon_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 508,
+      "y": 827,
+      "w": 156,
+      "h": 38
+    },
+    "player_effects_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 665,
+      "y": 827,
+      "w": 54,
+      "h": 38
+    },
+    "player_effects_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 720,
+      "y": 827,
+      "w": 54,
+      "h": 38
+    },
+    "player_effects_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 775,
+      "y": 827,
+      "w": 54,
+      "h": 38
+    },
+    "player_effects_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 830,
+      "y": 827,
+      "w": 54,
+      "h": 38
+    },
+    "platform_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 885,
+      "y": 827,
+      "w": 81,
+      "h": 36
+    },
+    "player_idle_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 967,
+      "y": 827,
+      "w": 54,
+      "h": 27
+    },
+    "player_idle_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 872,
+      "w": 54,
+      "h": 27
+    },
+    "player_idle_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 55,
+      "y": 872,
+      "w": 54,
+      "h": 27
+    },
+    "player_idle_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 110,
+      "y": 872,
+      "w": 54,
+      "h": 27
+    },
+    "player_idle_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 165,
+      "y": 872,
+      "w": 54,
+      "h": 27
+    },
+    "player_idle_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 220,
+      "y": 872,
+      "w": 54,
+      "h": 27
+    },
+    "ui_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 275,
+      "y": 872,
+      "w": 287,
+      "h": 18
+    },
+    "tile_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 563,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 580,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 597,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 614,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 631,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 648,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 665,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 682,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 699,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 716,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 733,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 750,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 767,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 784,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 801,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_15": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 818,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_16": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 835,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_17": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 852,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_18": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 869,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_19": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 886,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_20": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 903,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_21": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 920,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_22": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 937,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_23": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 954,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_24": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 971,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_25": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 988,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_26": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 1005,
+      "y": 872,
+      "w": 16,
+      "h": 16
+    },
+    "tile_27": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_28": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_29": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_30": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_31": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_32": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_33": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_34": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_35": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_36": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_37": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_38": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_39": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_40": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_41": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_42": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_43": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 272,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_44": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 289,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_45": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 306,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_46": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_47": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 340,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_48": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 357,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_49": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_50": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 391,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_51": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 408,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_52": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 425,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_53": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 442,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_54": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_55": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 476,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_56": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 493,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_57": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_58": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 527,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_59": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 544,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_60": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_61": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 578,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_62": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_63": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 612,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_64": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 629,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_65": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 646,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_66": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_67": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 680,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_68": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 697,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_69": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 714,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_70": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_71": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 748,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_72": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 765,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_73": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 782,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_74": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 799,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_75": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 816,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_76": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 833,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_77": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 850,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_78": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 867,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_79": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_80": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 901,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_81": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 918,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_82": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 935,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_83": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 952,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_84": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 969,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_85": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 986,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_86": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 1003,
+      "y": 900,
+      "w": 16,
+      "h": 16
+    },
+    "tile_87": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_88": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_89": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_90": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_91": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_92": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_93": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_94": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_95": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_96": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_97": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_98": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_99": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_100": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_101": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_102": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_103": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 272,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_104": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 289,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_105": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 306,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_106": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_107": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 340,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_108": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 357,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_109": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_110": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 391,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_111": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 408,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_112": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 425,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_113": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 442,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_114": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_115": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 476,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_116": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 493,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_117": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_118": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 527,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_119": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 544,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_120": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_121": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 578,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_122": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_123": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 612,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_124": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 629,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_125": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 646,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_126": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_127": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 680,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_128": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 697,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_129": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 714,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_130": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_131": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 748,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_132": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 765,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_133": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 782,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_134": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 799,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_135": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 816,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_136": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 833,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_137": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 850,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_138": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 867,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_139": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_140": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 901,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_141": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 918,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_142": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 935,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_143": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 952,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_144": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 969,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_145": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 986,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_146": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 1003,
+      "y": 917,
+      "w": 16,
+      "h": 16
+    },
+    "tile_147": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_148": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_149": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_150": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_151": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_152": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_153": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_154": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_155": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_156": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_157": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_158": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_159": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_160": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_161": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_162": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_163": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 272,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_164": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 289,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_165": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 306,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_166": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_167": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 340,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_168": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 357,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_169": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_170": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 391,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_171": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 408,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_172": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 425,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_173": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 442,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_174": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_175": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 476,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_176": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 493,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_177": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_178": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 527,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_179": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 544,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_180": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_181": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 578,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_182": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_183": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 612,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_184": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 629,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_185": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 646,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_186": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_187": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 680,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_188": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 697,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_189": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 714,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_190": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_191": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 748,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_192": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 765,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_193": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 782,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_194": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 799,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_195": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 816,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_196": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 833,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_197": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 850,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_198": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 867,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_199": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_200": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 901,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_201": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 918,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_202": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 935,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    },
+    "tile_203": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 952,
+      "y": 934,
+      "w": 16,
+      "h": 16
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "player": {
+    "idle": {
+      "frames": [
+        "player_idle_0",
+        "player_idle_1",
+        "player_idle_2",
+        "player_idle_3",
+        "player_idle_4",
+        "player_idle_5"
+      ],
+      "frame_duration": 120
+    },
+    "walk": {
+      "frames": [
+        "player_walk_0",
+        "player_walk_1",
+        "player_walk_2",
+        "player_walk_3",
+        "player_walk_4",
+        "player_walk_5"
+      ],
+      "frame_duration": 80
+    },
+    "run": {
+      "frames": [
+        "player_run_0",
+        "player_run_1",
+        "player_run_2",
+        "player_run_3",
+        "player_run_4",
+        "player_run_5"
+      ],
+      "frame_duration": 60
+    },
+    "jump": {
+      "frames": [
+        "player_jump_0",
+        "player_jump_1",
+        "player_jump_2",
+        "player_jump_3",
+        "player_jump_4",
+        "player_jump_5"
+      ],
+      "frame_duration": 90
+    },
+    "effects": {
+      "frames": [
+        "player_effects_0",
+        "player_effects_1",
+        "player_effects_2",
+        "player_effects_3",
+        "player_effects_1_0",
+        "player_effects_1_1",
+        "player_effects_1_2",
+        "player_effects_1_3",
+        "player_effects_1_4",
+        "player_effects_2_0",
+        "player_effects_2_1",
+        "player_effects_2_2",
+        "player_effects_2_3"
+      ],
+      "frame_duration": 80
+    },
+    "attack": {
+      "frames": [
+        "player_attack_0",
+        "player_attack_1",
+        "player_attack_2"
+      ],
+      "frame_durations": [
+        50,
+        95,
+        140
+      ]
+    }
+  },
+  "light_beam": {
+    "effects": {
+      "frames": [
+        "light_beam_effects_0",
+        "light_beam_effects_1",
+        "light_beam_effects_2",
+        "light_beam_effects_3"
+      ],
+      "frame_duration": 80
+    }
+  },
+  "aura": {
+    "effects": {
+      "frames": [
+        "aura_effects_0",
+        "aura_effects_1",
+        "aura_effects_2",
+        "aura_effects_3"
+      ],
+      "frame_duration": 80
+    }
+  }
+}

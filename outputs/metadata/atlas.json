@@ -1,0 +1,4249 @@
+{
+  "atlases": [
+    {
+      "file": "atlases/atlas_0.png",
+      "width": 1023,
+      "height": 1012
+    }
+  ],
+  "sprites": {
+    "passover_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 232,
+      "h": 176,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "light_beam_effects_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 233,
+      "y": 0,
+      "w": 67,
+      "h": 160,
+      "anchor": {
+        "x": 33,
+        "y": 80
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "light_beam_effects_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 301,
+      "y": 0,
+      "w": 67,
+      "h": 160,
+      "anchor": {
+        "x": 33,
+        "y": 80
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "light_beam_effects_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 369,
+      "y": 0,
+      "w": 67,
+      "h": 160,
+      "anchor": {
+        "x": 33,
+        "y": 80
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "light_beam_effects_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 437,
+      "y": 0,
+      "w": 67,
+      "h": 160,
+      "anchor": {
+        "x": 33,
+        "y": 80
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "background_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 505,
+      "y": 0,
+      "w": 114,
+      "h": 159,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "none",
+      "classification": "background_layer"
+    },
+    "background_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 620,
+      "y": 0,
+      "w": 114,
+      "h": 159,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "none",
+      "classification": "background_layer"
+    },
+    "background_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 735,
+      "y": 0,
+      "w": 111,
+      "h": 159,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "none",
+      "classification": "background_layer"
+    },
+    "background_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 847,
+      "y": 0,
+      "w": 108,
+      "h": 159,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "none",
+      "classification": "background_layer"
+    },
+    "background_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 177,
+      "w": 107,
+      "h": 159,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "none",
+      "classification": "background_layer"
+    },
+    "background_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 108,
+      "y": 177,
+      "w": 103,
+      "h": 159,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "none",
+      "classification": "background_layer"
+    },
+    "enemy_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 212,
+      "y": 177,
+      "w": 120,
+      "h": 125,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 333,
+      "y": 177,
+      "w": 114,
+      "h": 122,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 448,
+      "y": 177,
+      "w": 115,
+      "h": 115,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "aura_effects_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 564,
+      "y": 177,
+      "w": 75,
+      "h": 115,
+      "anchor": {
+        "x": 37,
+        "y": 57
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "aura_effects_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 640,
+      "y": 177,
+      "w": 75,
+      "h": 115,
+      "anchor": {
+        "x": 37,
+        "y": 57
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "aura_effects_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 716,
+      "y": 177,
+      "w": 75,
+      "h": 115,
+      "anchor": {
+        "x": 37,
+        "y": 57
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "aura_effects_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 792,
+      "y": 177,
+      "w": 75,
+      "h": 115,
+      "anchor": {
+        "x": 37,
+        "y": 57
+      },
+      "anchor_type": "center",
+      "classification": "animation_frame"
+    },
+    "enemy_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 868,
+      "y": 177,
+      "w": 89,
+      "h": 112,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 337,
+      "w": 281,
+      "h": 110,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 282,
+      "y": 337,
+      "w": 116,
+      "h": 107,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 399,
+      "y": 337,
+      "w": 95,
+      "h": 106,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 495,
+      "y": 337,
+      "w": 120,
+      "h": 105,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 616,
+      "y": 337,
+      "w": 96,
+      "h": 104,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 713,
+      "y": 337,
+      "w": 118,
+      "h": 103,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 832,
+      "y": 337,
+      "w": 91,
+      "h": 103,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 924,
+      "y": 337,
+      "w": 61,
+      "h": 100,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 448,
+      "w": 90,
+      "h": 96,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 91,
+      "y": 448,
+      "w": 109,
+      "h": 92,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "weapon_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 201,
+      "y": 448,
+      "w": 151,
+      "h": 91,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "ui_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 353,
+      "y": 448,
+      "w": 73,
+      "h": 91,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "cloak_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 427,
+      "y": 448,
+      "w": 78,
+      "h": 89,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "cloak_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 506,
+      "y": 448,
+      "w": 69,
+      "h": 89,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "cloak_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 576,
+      "y": 448,
+      "w": 63,
+      "h": 88,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "enemy_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 640,
+      "y": 448,
+      "w": 63,
+      "h": 86,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "ui_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 704,
+      "y": 448,
+      "w": 121,
+      "h": 82,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 826,
+      "y": 448,
+      "w": 57,
+      "h": 74,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 448,
+      "w": 57,
+      "h": 74,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 942,
+      "y": 448,
+      "w": 55,
+      "h": 74,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 545,
+      "w": 55,
+      "h": 74,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 56,
+      "y": 545,
+      "w": 55,
+      "h": 74,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "cloak_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 112,
+      "y": 545,
+      "w": 65,
+      "h": 70,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "cloak_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 178,
+      "y": 545,
+      "w": 55,
+      "h": 67,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "cloak_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 234,
+      "y": 545,
+      "w": 53,
+      "h": 67,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "cloak_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 288,
+      "y": 545,
+      "w": 53,
+      "h": 66,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_15": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 342,
+      "y": 545,
+      "w": 153,
+      "h": 64,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 496,
+      "y": 545,
+      "w": 98,
+      "h": 64,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 545,
+      "w": 77,
+      "h": 64,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "player_effects_2_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 673,
+      "y": 545,
+      "w": 185,
+      "h": 63,
+      "anchor": {
+        "x": 92,
+        "y": 62
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_2_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 620,
+      "w": 185,
+      "h": 63,
+      "anchor": {
+        "x": 92,
+        "y": 62
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_2_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 186,
+      "y": 620,
+      "w": 185,
+      "h": 63,
+      "anchor": {
+        "x": 92,
+        "y": 62
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_2_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 372,
+      "y": 620,
+      "w": 185,
+      "h": 63,
+      "anchor": {
+        "x": 92,
+        "y": 62
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "prop_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 558,
+      "y": 620,
+      "w": 56,
+      "h": 63,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 615,
+      "y": 620,
+      "w": 66,
+      "h": 61,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 682,
+      "y": 620,
+      "w": 35,
+      "h": 61,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 718,
+      "y": 620,
+      "w": 36,
+      "h": 60,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 755,
+      "y": 620,
+      "w": 76,
+      "h": 59,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 832,
+      "y": 620,
+      "w": 77,
+      "h": 58,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "player_idle_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 910,
+      "y": 620,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_idle_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_idle_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 64,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_idle_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 128,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_idle_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 192,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_idle_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 256,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_walk_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 320,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_walk_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 384,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_walk_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 448,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_walk_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 512,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_walk_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 576,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_walk_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 640,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_run_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 704,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_run_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 768,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_run_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 832,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_run_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 896,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_run_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 960,
+      "y": 684,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_run_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_jump_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 64,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_jump_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 128,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_jump_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 192,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_jump_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 256,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_jump_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 320,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_jump_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 384,
+      "y": 743,
+      "w": 63,
+      "h": 58,
+      "anchor": {
+        "x": 31,
+        "y": 53
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_1_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 448,
+      "y": 743,
+      "w": 61,
+      "h": 55,
+      "anchor": {
+        "x": 30,
+        "y": 54
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_1_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 743,
+      "w": 61,
+      "h": 55,
+      "anchor": {
+        "x": 30,
+        "y": 54
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_1_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 572,
+      "y": 743,
+      "w": 61,
+      "h": 55,
+      "anchor": {
+        "x": 30,
+        "y": 54
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_1_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 634,
+      "y": 743,
+      "w": 61,
+      "h": 55,
+      "anchor": {
+        "x": 30,
+        "y": 54
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_1_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 696,
+      "y": 743,
+      "w": 61,
+      "h": 55,
+      "anchor": {
+        "x": 30,
+        "y": 54
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "prop_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 758,
+      "y": 743,
+      "w": 58,
+      "h": 55,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "weapon_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 817,
+      "y": 743,
+      "w": 165,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 802,
+      "w": 61,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 62,
+      "y": 802,
+      "w": 41,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 104,
+      "y": 802,
+      "w": 34,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 139,
+      "y": 802,
+      "w": 34,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "ui_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 174,
+      "y": 802,
+      "w": 251,
+      "h": 50,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "platform_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 426,
+      "y": 802,
+      "w": 17,
+      "h": 50,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 444,
+      "y": 802,
+      "w": 14,
+      "h": 50,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "player_attack_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 802,
+      "w": 193,
+      "h": 49,
+      "anchor": {
+        "x": 96,
+        "y": 45
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_attack_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 653,
+      "y": 802,
+      "w": 193,
+      "h": 49,
+      "anchor": {
+        "x": 96,
+        "y": 45
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_attack_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 855,
+      "w": 193,
+      "h": 49,
+      "anchor": {
+        "x": 96,
+        "y": 45
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "prop_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 194,
+      "y": 855,
+      "w": 179,
+      "h": 49,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 855,
+      "w": 76,
+      "h": 48,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 451,
+      "y": 855,
+      "w": 22,
+      "h": 48,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "ui_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 474,
+      "y": 855,
+      "w": 47,
+      "h": 46,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 522,
+      "y": 855,
+      "w": 37,
+      "h": 46,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "platform_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 560,
+      "y": 855,
+      "w": 29,
+      "h": 46,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 590,
+      "y": 855,
+      "w": 72,
+      "h": 45,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 855,
+      "w": 56,
+      "h": 44,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 720,
+      "y": 855,
+      "w": 38,
+      "h": 43,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 759,
+      "y": 855,
+      "w": 23,
+      "h": 43,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "prop_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 783,
+      "y": 855,
+      "w": 81,
+      "h": 42,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "platform_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 865,
+      "y": 855,
+      "w": 72,
+      "h": 42,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "ui_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 938,
+      "y": 855,
+      "w": 40,
+      "h": 42,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 979,
+      "y": 855,
+      "w": 40,
+      "h": 41,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "ui_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 905,
+      "w": 54,
+      "h": 39,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "prop_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 55,
+      "y": 905,
+      "w": 48,
+      "h": 39,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "weapon_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 104,
+      "y": 905,
+      "w": 156,
+      "h": 38,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "player_effects_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 261,
+      "y": 905,
+      "w": 60,
+      "h": 38,
+      "anchor": {
+        "x": 30,
+        "y": 37
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 322,
+      "y": 905,
+      "w": 60,
+      "h": 38,
+      "anchor": {
+        "x": 30,
+        "y": 37
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 383,
+      "y": 905,
+      "w": 60,
+      "h": 38,
+      "anchor": {
+        "x": 30,
+        "y": 37
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "player_effects_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 444,
+      "y": 905,
+      "w": 60,
+      "h": 38,
+      "anchor": {
+        "x": 30,
+        "y": 37
+      },
+      "anchor_type": "ground",
+      "classification": "animation_frame"
+    },
+    "platform_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 505,
+      "y": 905,
+      "w": 81,
+      "h": 36,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite"
+    },
+    "ui_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 587,
+      "y": 905,
+      "w": 287,
+      "h": 18,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite"
+    },
+    "tile_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 875,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 892,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 909,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_3": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 926,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 943,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 960,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 977,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 994,
+      "y": 905,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_13": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_15": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_16": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_17": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_18": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_19": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_20": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_21": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_22": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_23": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_24": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 272,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_25": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 289,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_26": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 306,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_27": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_28": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 340,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_29": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 357,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_30": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_31": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 391,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_32": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 408,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_33": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 425,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_34": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 442,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_35": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_36": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 476,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_37": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 493,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_38": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_39": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 527,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_40": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 544,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_41": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_42": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 578,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_43": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_44": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 612,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_45": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 629,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_46": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 646,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_47": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_48": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 680,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_49": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 697,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_50": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 714,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_51": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_52": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 748,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_53": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 765,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_54": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 782,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_55": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 799,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_56": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 816,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_57": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 833,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_58": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 850,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_59": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 867,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_60": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_61": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 901,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_62": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 918,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_63": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 935,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_64": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 952,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_65": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 969,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_66": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 986,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_67": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 1003,
+      "y": 945,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_68": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_69": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_70": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_71": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_72": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_73": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_74": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_75": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_76": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_77": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_78": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_79": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_80": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_81": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_82": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_83": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_84": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 272,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_85": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 289,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_86": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 306,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_87": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_88": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 340,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_89": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 357,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_90": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_91": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 391,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_92": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 408,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_93": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 425,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_94": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 442,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_95": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_96": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 476,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_97": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 493,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_98": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_99": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 527,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_100": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 544,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_101": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_102": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 578,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_103": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_104": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 612,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_105": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 629,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_106": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 646,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_107": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_108": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 680,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_109": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 697,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_110": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 714,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_111": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_112": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 748,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_113": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 765,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_114": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 782,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_115": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 799,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_116": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 816,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_117": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 833,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_118": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 850,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_119": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 867,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_120": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_121": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 901,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_122": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 918,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_123": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 935,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_124": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 952,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_125": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 969,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_126": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 986,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_127": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 1003,
+      "y": 962,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_128": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_129": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_130": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_131": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_132": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_133": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_134": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_135": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_136": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_137": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_138": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_139": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_140": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_141": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_142": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_143": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_144": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 272,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_145": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 289,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_146": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 306,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_147": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_148": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 340,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_149": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 357,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_150": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 374,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_151": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 391,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_152": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 408,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_153": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 425,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_154": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 442,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_155": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_156": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 476,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_157": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 493,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_158": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 510,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_159": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 527,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_160": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 544,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_161": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 561,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_162": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 578,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_163": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 595,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_164": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 612,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_165": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 629,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_166": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 646,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_167": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 663,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_168": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 680,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_169": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 697,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_170": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 714,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_171": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 731,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_172": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 748,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_173": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 765,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_174": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 782,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_175": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 799,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_176": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 816,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_177": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 833,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_178": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 850,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_179": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 867,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_180": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 884,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_181": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 901,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_182": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 918,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_183": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 935,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_184": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 952,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_185": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 969,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_186": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 986,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_187": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 1003,
+      "y": 979,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_188": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_189": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 17,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_190": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 34,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_191": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 51,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_192": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 68,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_193": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 85,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_194": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 102,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_195": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 119,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_196": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 136,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_197": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 153,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_198": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 170,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_199": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 187,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_200": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 204,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_201": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 221,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_202": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 238,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    },
+    "tile_203": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 255,
+      "y": 996,
+      "w": 16,
+      "h": 16,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "tile"
+    }
+  }
+}
