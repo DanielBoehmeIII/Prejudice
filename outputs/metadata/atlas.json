@@ -2,8 +2,8 @@
   "atlases": [
     {
       "file": "atlases/atlas_0.png",
-      "width": 1023,
-      "height": 1012
+      "width": 1024,
+      "height": 782
     }
   ],
   "sprites": {
@@ -11,70 +11,19 @@
       "atlas": "atlases/atlas_0.png",
       "x": 0,
       "y": 0,
-      "w": 232,
-      "h": 176,
+      "w": 234,
+      "h": 177,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "light_beam_effects_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 233,
-      "y": 0,
-      "w": 67,
-      "h": 160,
-      "anchor": {
-        "x": 33,
-        "y": 80
-      },
-      "anchor_type": "center",
-      "classification": "animation_frame"
-    },
-    "light_beam_effects_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 301,
-      "y": 0,
-      "w": 67,
-      "h": 160,
-      "anchor": {
-        "x": 33,
-        "y": 80
-      },
-      "anchor_type": "center",
-      "classification": "animation_frame"
-    },
-    "light_beam_effects_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 369,
-      "y": 0,
-      "w": 67,
-      "h": 160,
-      "anchor": {
-        "x": 33,
-        "y": 80
-      },
-      "anchor_type": "center",
-      "classification": "animation_frame"
-    },
-    "light_beam_effects_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 437,
-      "y": 0,
-      "w": 67,
-      "h": 160,
-      "anchor": {
-        "x": 33,
-        "y": 80
-      },
-      "anchor_type": "center",
-      "classification": "animation_frame"
+      "classification": "sprite",
+      "animation_type": null
     },
     "background_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 505,
+      "x": 235,
       "y": 0,
       "w": 114,
       "h": 159,
@@ -83,11 +32,12 @@
         "y": 0
       },
       "anchor_type": "none",
-      "classification": "background_layer"
+      "classification": "background_layer",
+      "animation_type": null
     },
     "background_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 620,
+      "x": 350,
       "y": 0,
       "w": 114,
       "h": 159,
@@ -96,11 +46,12 @@
         "y": 0
       },
       "anchor_type": "none",
-      "classification": "background_layer"
+      "classification": "background_layer",
+      "animation_type": null
     },
     "background_4": {
       "atlas": "atlases/atlas_0.png",
-      "x": 735,
+      "x": 465,
       "y": 0,
       "w": 111,
       "h": 159,
@@ -109,11 +60,12 @@
         "y": 0
       },
       "anchor_type": "none",
-      "classification": "background_layer"
+      "classification": "background_layer",
+      "animation_type": null
     },
     "background_1": {
       "atlas": "atlases/atlas_0.png",
-      "x": 847,
+      "x": 577,
       "y": 0,
       "w": 108,
       "h": 159,
@@ -122,12 +74,13 @@
         "y": 0
       },
       "anchor_type": "none",
-      "classification": "background_layer"
+      "classification": "background_layer",
+      "animation_type": null
     },
     "background_5": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 177,
+      "x": 686,
+      "y": 0,
       "w": 107,
       "h": 159,
       "anchor": {
@@ -135,12 +88,13 @@
         "y": 0
       },
       "anchor_type": "none",
-      "classification": "background_layer"
+      "classification": "background_layer",
+      "animation_type": null
     },
     "background_0": {
       "atlas": "atlases/atlas_0.png",
-      "x": 108,
-      "y": 177,
+      "x": 794,
+      "y": 0,
       "w": 103,
       "h": 159,
       "anchor": {
@@ -148,1455 +102,993 @@
         "y": 0
       },
       "anchor_type": "none",
-      "classification": "background_layer"
+      "classification": "background_layer",
+      "animation_type": null
     },
     "enemy_14": {
       "atlas": "atlases/atlas_0.png",
-      "x": 212,
-      "y": 177,
-      "w": 120,
-      "h": 125,
+      "x": 898,
+      "y": 0,
+      "w": 126,
+      "h": 131,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "enemy_13": {
       "atlas": "atlases/atlas_0.png",
-      "x": 333,
-      "y": 177,
-      "w": 114,
-      "h": 122,
+      "x": 0,
+      "y": 178,
+      "w": 120,
+      "h": 128,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "enemy_9": {
       "atlas": "atlases/atlas_0.png",
-      "x": 448,
-      "y": 177,
-      "w": 115,
-      "h": 115,
+      "x": 121,
+      "y": 178,
+      "w": 121,
+      "h": 121,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "aura_effects_0": {
       "atlas": "atlases/atlas_0.png",
-      "x": 564,
-      "y": 177,
-      "w": 75,
-      "h": 115,
+      "x": 243,
+      "y": 178,
+      "w": 78,
+      "h": 120,
       "anchor": {
-        "x": 37,
-        "y": 57
+        "x": 35,
+        "y": 63
       },
       "anchor_type": "center",
-      "classification": "animation_frame"
+      "classification": "effect",
+      "animation_type": "effects"
     },
     "aura_effects_1": {
       "atlas": "atlases/atlas_0.png",
-      "x": 640,
-      "y": 177,
-      "w": 75,
-      "h": 115,
+      "x": 322,
+      "y": 178,
+      "w": 78,
+      "h": 120,
       "anchor": {
-        "x": 37,
-        "y": 57
+        "x": 35,
+        "y": 63
       },
       "anchor_type": "center",
-      "classification": "animation_frame"
+      "classification": "effect",
+      "animation_type": "effects"
     },
     "aura_effects_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 716,
-      "y": 177,
-      "w": 75,
-      "h": 115,
+      "x": 401,
+      "y": 178,
+      "w": 78,
+      "h": 120,
       "anchor": {
-        "x": 37,
-        "y": 57
+        "x": 35,
+        "y": 63
       },
       "anchor_type": "center",
-      "classification": "animation_frame"
+      "classification": "effect",
+      "animation_type": "effects"
     },
     "aura_effects_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 792,
-      "y": 177,
-      "w": 75,
-      "h": 115,
+      "x": 480,
+      "y": 178,
+      "w": 78,
+      "h": 120,
       "anchor": {
-        "x": 37,
-        "y": 57
+        "x": 35,
+        "y": 63
       },
       "anchor_type": "center",
-      "classification": "animation_frame"
+      "classification": "effect",
+      "animation_type": "effects"
     },
     "enemy_11": {
       "atlas": "atlases/atlas_0.png",
-      "x": 868,
-      "y": 177,
-      "w": 89,
+      "x": 559,
+      "y": 178,
+      "w": 95,
+      "h": 118,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "enemy_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 655,
+      "y": 178,
+      "w": 287,
+      "h": 116,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "enemy_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 307,
+      "w": 122,
+      "h": 113,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "enemy_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 123,
+      "y": 307,
+      "w": 101,
       "h": 112,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "enemy_6": {
+    "enemy_12": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 337,
-      "w": 281,
-      "h": 110,
+      "x": 225,
+      "y": 307,
+      "w": 126,
+      "h": 111,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "enemy_8": {
+    "enemy_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 282,
-      "y": 337,
-      "w": 116,
+      "x": 352,
+      "y": 307,
+      "w": 102,
       "h": 107,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "enemy_10": {
+    "enemy_5": {
       "atlas": "atlases/atlas_0.png",
-      "x": 399,
-      "y": 337,
-      "w": 95,
+      "x": 455,
+      "y": 307,
+      "w": 124,
       "h": 106,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "enemy_12": {
+    "enemy_4": {
       "atlas": "atlases/atlas_0.png",
-      "x": 495,
-      "y": 337,
-      "w": 120,
-      "h": 105,
+      "x": 580,
+      "y": 307,
+      "w": 97,
+      "h": 106,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "enemy_3": {
+    "enemy_1": {
       "atlas": "atlases/atlas_0.png",
-      "x": 616,
-      "y": 337,
-      "w": 96,
+      "x": 678,
+      "y": 307,
+      "w": 67,
       "h": 104,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "enemy_5": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 713,
-      "y": 337,
-      "w": 118,
-      "h": 103,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "enemy_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 832,
-      "y": 337,
-      "w": 91,
-      "h": 103,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "enemy_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 924,
-      "y": 337,
-      "w": 61,
-      "h": 100,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "enemy_7": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 448,
-      "w": 90,
-      "h": 96,
+      "x": 746,
+      "y": 307,
+      "w": 96,
+      "h": 102,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "enemy_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 91,
-      "y": 448,
-      "w": 109,
+      "x": 843,
+      "y": 307,
+      "w": 115,
+      "h": 98,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "ui_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 421,
+      "w": 206,
+      "h": 97,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "weapon_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 207,
+      "y": 421,
+      "w": 157,
+      "h": 97,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "cloak_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 365,
+      "y": 421,
+      "w": 84,
+      "h": 95,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "cloak_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 450,
+      "y": 421,
+      "w": 72,
+      "h": 95,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "cloak_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 523,
+      "y": 421,
+      "w": 69,
+      "h": 94,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "enemy_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 593,
+      "y": 421,
+      "w": 69,
       "h": 92,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "weapon_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 201,
-      "y": 448,
-      "w": 151,
-      "h": 91,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "ui_7": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 353,
-      "y": 448,
-      "w": 73,
-      "h": 91,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "cloak_6": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 427,
-      "y": 448,
-      "w": 78,
-      "h": 89,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "cloak_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 506,
-      "y": 448,
-      "w": 69,
-      "h": 89,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "cloak_5": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 576,
-      "y": 448,
-      "w": 63,
-      "h": 88,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "enemy_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 640,
-      "y": 448,
-      "w": 63,
-      "h": 86,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "ui_8": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 704,
-      "y": 448,
-      "w": 121,
-      "h": 82,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "ui_5": {
       "atlas": "atlases/atlas_0.png",
-      "x": 826,
-      "y": 448,
-      "w": 57,
-      "h": 74,
+      "x": 663,
+      "y": 421,
+      "w": 63,
+      "h": 80,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "ui_6": {
       "atlas": "atlases/atlas_0.png",
-      "x": 884,
-      "y": 448,
-      "w": 57,
-      "h": 74,
+      "x": 727,
+      "y": 421,
+      "w": 63,
+      "h": 80,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "ui_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 942,
-      "y": 448,
-      "w": 55,
-      "h": 74,
+      "x": 791,
+      "y": 421,
+      "w": 61,
+      "h": 80,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "ui_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 545,
-      "w": 55,
-      "h": 74,
+      "x": 853,
+      "y": 421,
+      "w": 61,
+      "h": 80,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "ui_4": {
       "atlas": "atlases/atlas_0.png",
-      "x": 56,
-      "y": 545,
-      "w": 55,
-      "h": 74,
+      "x": 915,
+      "y": 421,
+      "w": 61,
+      "h": 80,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "cloak_0": {
       "atlas": "atlases/atlas_0.png",
-      "x": 112,
-      "y": 545,
-      "w": 65,
+      "x": 0,
+      "y": 519,
+      "w": 68,
+      "h": 73,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 69,
+      "y": 519,
+      "w": 104,
       "h": 70,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 174,
+      "y": 519,
+      "w": 81,
+      "h": 70,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
     },
     "cloak_1": {
       "atlas": "atlases/atlas_0.png",
-      "x": 178,
-      "y": 545,
-      "w": 55,
-      "h": 67,
+      "x": 256,
+      "y": 519,
+      "w": 61,
+      "h": 70,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "cloak_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 234,
-      "y": 545,
-      "w": 53,
+      "x": 318,
+      "y": 519,
+      "w": 59,
+      "h": 70,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 378,
+      "y": 519,
+      "w": 62,
+      "h": 69,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "cloak_2": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 441,
+      "y": 519,
+      "w": 59,
+      "h": 69,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_15": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 501,
+      "y": 519,
+      "w": 159,
       "h": 67,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "cloak_2": {
+    "prop_6": {
       "atlas": "atlases/atlas_0.png",
-      "x": 288,
-      "y": 545,
-      "w": 53,
+      "x": 661,
+      "y": 519,
+      "w": 72,
+      "h": 67,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 734,
+      "y": 519,
+      "w": 41,
+      "h": 67,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 776,
+      "y": 519,
+      "w": 42,
       "h": 66,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "prop_15": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 342,
-      "y": 545,
-      "w": 153,
-      "h": 64,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "prop_10": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 496,
-      "y": 545,
-      "w": 98,
-      "h": 64,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "prop_9": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 595,
-      "y": 545,
-      "w": 77,
-      "h": 64,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "player_effects_2_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 673,
-      "y": 545,
-      "w": 185,
-      "h": 63,
-      "anchor": {
-        "x": 92,
-        "y": 62
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_2_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 620,
-      "w": 185,
-      "h": 63,
-      "anchor": {
-        "x": 92,
-        "y": 62
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_2_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 186,
-      "y": 620,
-      "w": 185,
-      "h": 63,
-      "anchor": {
-        "x": 92,
-        "y": 62
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_2_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 372,
-      "y": 620,
-      "w": 185,
-      "h": 63,
-      "anchor": {
-        "x": 92,
-        "y": 62
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "prop_12": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 558,
-      "y": 620,
-      "w": 56,
-      "h": 63,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "prop_6": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 615,
-      "y": 620,
-      "w": 66,
-      "h": 61,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_7": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 682,
-      "y": 620,
-      "w": 35,
-      "h": 61,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_8": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 718,
-      "y": 620,
-      "w": 36,
-      "h": 60,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "platform_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 755,
-      "y": 620,
-      "w": 76,
-      "h": 59,
+      "x": 819,
+      "y": 519,
+      "w": 82,
+      "h": 65,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_13": {
       "atlas": "atlases/atlas_0.png",
-      "x": 832,
-      "y": 620,
-      "w": 77,
-      "h": 58,
+      "x": 902,
+      "y": 519,
+      "w": 83,
+      "h": 64,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "player_idle_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 910,
-      "y": 620,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_idle_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_idle_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 64,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_idle_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 128,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_idle_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 192,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_idle_5": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 256,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_walk_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 320,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_walk_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 384,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_walk_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 448,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_walk_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 512,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_walk_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 576,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_walk_5": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 640,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_run_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 704,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_run_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 768,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_run_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 832,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_run_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 896,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_run_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 960,
-      "y": 684,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_run_5": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_jump_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 64,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_jump_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 128,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_jump_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 192,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_jump_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 256,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_jump_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 320,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_jump_5": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 384,
-      "y": 743,
-      "w": 63,
-      "h": 58,
-      "anchor": {
-        "x": 31,
-        "y": 53
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_1_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 448,
-      "y": 743,
-      "w": 61,
-      "h": 55,
-      "anchor": {
-        "x": 30,
-        "y": 54
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_1_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 510,
-      "y": 743,
-      "w": 61,
-      "h": 55,
-      "anchor": {
-        "x": 30,
-        "y": 54
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_1_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 572,
-      "y": 743,
-      "w": 61,
-      "h": 55,
-      "anchor": {
-        "x": 30,
-        "y": 54
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_1_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 634,
-      "y": 743,
-      "w": 61,
-      "h": 55,
-      "anchor": {
-        "x": 30,
-        "y": 54
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_1_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 696,
-      "y": 743,
-      "w": 61,
-      "h": 55,
-      "anchor": {
-        "x": 30,
-        "y": 54
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_11": {
       "atlas": "atlases/atlas_0.png",
-      "x": 758,
-      "y": 743,
-      "w": 58,
+      "x": 0,
+      "y": 593,
+      "w": 64,
+      "h": 61,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "ui_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 65,
+      "y": 593,
+      "w": 257,
+      "h": 56,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 323,
+      "y": 593,
+      "w": 23,
+      "h": 56,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 347,
+      "y": 593,
+      "w": 20,
+      "h": 56,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_14": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 368,
+      "y": 593,
+      "w": 185,
       "h": 55,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "weapon_0": {
       "atlas": "atlases/atlas_0.png",
-      "x": 817,
-      "y": 743,
-      "w": 165,
-      "h": 52,
+      "x": 554,
+      "y": 593,
+      "w": 171,
+      "h": 55,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_5": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 802,
-      "w": 61,
-      "h": 52,
+      "x": 726,
+      "y": 593,
+      "w": 67,
+      "h": 55,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 62,
-      "y": 802,
-      "w": 41,
-      "h": 52,
+      "x": 794,
+      "y": 593,
+      "w": 47,
+      "h": 55,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_1": {
       "atlas": "atlases/atlas_0.png",
-      "x": 104,
-      "y": 802,
-      "w": 34,
-      "h": 52,
+      "x": 842,
+      "y": 593,
+      "w": 40,
+      "h": 55,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 139,
-      "y": 802,
-      "w": 34,
+      "x": 883,
+      "y": 593,
+      "w": 40,
+      "h": 55,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_7": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 924,
+      "y": 593,
+      "w": 82,
+      "h": 54,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_9": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 0,
+      "y": 655,
+      "w": 28,
+      "h": 54,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "ui_10": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 29,
+      "y": 655,
+      "w": 53,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "ui_12": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 83,
+      "y": 655,
+      "w": 43,
+      "h": 52,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 127,
+      "y": 655,
+      "w": 35,
       "h": 52,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "ui_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 174,
-      "y": 802,
-      "w": 251,
-      "h": 50,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "platform_10": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 426,
-      "y": 802,
-      "w": 17,
-      "h": 50,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 444,
-      "y": 802,
-      "w": 14,
-      "h": 50,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "player_attack_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 459,
-      "y": 802,
-      "w": 193,
-      "h": 49,
-      "anchor": {
-        "x": 96,
-        "y": 45
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_attack_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 653,
-      "y": 802,
-      "w": 193,
-      "h": 49,
-      "anchor": {
-        "x": 96,
-        "y": 45
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_attack_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 855,
-      "w": 193,
-      "h": 49,
-      "anchor": {
-        "x": 96,
-        "y": 45
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "prop_14": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 194,
-      "y": 855,
-      "w": 179,
-      "h": 49,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "prop_7": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 374,
-      "y": 855,
-      "w": 76,
-      "h": 48,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_9": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 451,
-      "y": 855,
-      "w": 22,
-      "h": 48,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "ui_11": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 474,
-      "y": 855,
-      "w": 47,
-      "h": 46,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "ui_13": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 522,
-      "y": 855,
-      "w": 37,
-      "h": 46,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "platform_11": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 560,
-      "y": 855,
-      "w": 29,
-      "h": 46,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "prop_8": {
       "atlas": "atlases/atlas_0.png",
-      "x": 590,
-      "y": 855,
-      "w": 72,
+      "x": 163,
+      "y": 655,
+      "w": 78,
+      "h": 51,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_5": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 242,
+      "y": 655,
+      "w": 62,
+      "h": 50,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 305,
+      "y": 655,
+      "w": 44,
+      "h": 49,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_6": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 350,
+      "y": 655,
+      "w": 29,
+      "h": 49,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "platform_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 380,
+      "y": 655,
+      "w": 78,
+      "h": 48,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "ui_8": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 459,
+      "y": 655,
+      "w": 46,
+      "h": 48,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "ui_11": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 506,
+      "y": 655,
+      "w": 46,
+      "h": 47,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_4": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 553,
+      "y": 655,
+      "w": 87,
       "h": 45,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
-    "platform_5": {
+    "ui_9": {
       "atlas": "atlases/atlas_0.png",
-      "x": 663,
-      "y": 855,
-      "w": 56,
+      "x": 641,
+      "y": 655,
+      "w": 60,
+      "h": 45,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "top_left",
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "weapon_1": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 702,
+      "y": 655,
+      "w": 162,
       "h": 44,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 720,
-      "y": 855,
-      "w": 38,
-      "h": 43,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_6": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 759,
-      "y": 855,
-      "w": 23,
-      "h": 43,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "prop_4": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 783,
-      "y": 855,
-      "w": 81,
-      "h": 42,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "platform_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 865,
-      "y": 855,
-      "w": 72,
-      "h": 42,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "ui_9": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 938,
-      "y": 855,
-      "w": 40,
-      "h": 42,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "ui_12": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 979,
-      "y": 855,
-      "w": 40,
-      "h": 41,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "ui_10": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 905,
-      "w": 54,
-      "h": 39,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "top_left",
-      "classification": "sprite"
-    },
-    "prop_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 55,
-      "y": 905,
-      "w": 48,
-      "h": 39,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "weapon_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 104,
-      "y": 905,
-      "w": 156,
-      "h": 38,
-      "anchor": {
-        "x": 0,
-        "y": 0
-      },
-      "anchor_type": "ground",
-      "classification": "sprite"
-    },
-    "player_effects_0": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 261,
-      "y": 905,
-      "w": 60,
-      "h": 38,
-      "anchor": {
-        "x": 30,
-        "y": 37
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_1": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 322,
-      "y": 905,
-      "w": 60,
-      "h": 38,
-      "anchor": {
-        "x": 30,
-        "y": 37
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_2": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 383,
-      "y": 905,
-      "w": 60,
-      "h": 38,
-      "anchor": {
-        "x": 30,
-        "y": 37
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
-    },
-    "player_effects_3": {
-      "atlas": "atlases/atlas_0.png",
-      "x": 444,
-      "y": 905,
-      "w": 60,
-      "h": 38,
-      "anchor": {
-        "x": 30,
-        "y": 37
-      },
-      "anchor_type": "ground",
-      "classification": "animation_frame"
+      "classification": "sprite",
+      "animation_type": null
     },
     "platform_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 505,
-      "y": 905,
-      "w": 81,
-      "h": 36,
+      "x": 865,
+      "y": 655,
+      "w": 87,
+      "h": 42,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
+    },
+    "prop_0": {
+      "atlas": "atlases/atlas_0.png",
+      "x": 953,
+      "y": 655,
+      "w": 54,
+      "h": 42,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "anchor_type": "ground",
+      "classification": "sprite",
+      "animation_type": null
     },
     "ui_0": {
       "atlas": "atlases/atlas_0.png",
-      "x": 587,
-      "y": 905,
-      "w": 287,
-      "h": 18,
+      "x": 0,
+      "y": 710,
+      "w": 293,
+      "h": 21,
       "anchor": {
         "x": 0,
         "y": 0
       },
       "anchor_type": "top_left",
-      "classification": "sprite"
+      "classification": "sprite",
+      "animation_type": null
     },
     "tile_0": {
       "atlas": "atlases/atlas_0.png",
-      "x": 875,
-      "y": 905,
+      "x": 294,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1604,12 +1096,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_1": {
       "atlas": "atlases/atlas_0.png",
-      "x": 892,
-      "y": 905,
+      "x": 311,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1617,12 +1110,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_2": {
       "atlas": "atlases/atlas_0.png",
-      "x": 909,
-      "y": 905,
+      "x": 328,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1630,12 +1124,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_3": {
       "atlas": "atlases/atlas_0.png",
-      "x": 926,
-      "y": 905,
+      "x": 345,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1643,12 +1138,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_4": {
       "atlas": "atlases/atlas_0.png",
-      "x": 943,
-      "y": 905,
+      "x": 362,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1656,12 +1152,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_5": {
       "atlas": "atlases/atlas_0.png",
-      "x": 960,
-      "y": 905,
+      "x": 379,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1669,12 +1166,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_6": {
       "atlas": "atlases/atlas_0.png",
-      "x": 977,
-      "y": 905,
+      "x": 396,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1682,12 +1180,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_7": {
       "atlas": "atlases/atlas_0.png",
-      "x": 994,
-      "y": 905,
+      "x": 413,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1695,12 +1194,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_8": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 945,
+      "x": 430,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1708,12 +1208,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_9": {
       "atlas": "atlases/atlas_0.png",
-      "x": 17,
-      "y": 945,
+      "x": 447,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1721,12 +1222,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_10": {
       "atlas": "atlases/atlas_0.png",
-      "x": 34,
-      "y": 945,
+      "x": 464,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1734,12 +1236,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_11": {
       "atlas": "atlases/atlas_0.png",
-      "x": 51,
-      "y": 945,
+      "x": 481,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1747,12 +1250,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_12": {
       "atlas": "atlases/atlas_0.png",
-      "x": 68,
-      "y": 945,
+      "x": 498,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1760,12 +1264,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_13": {
       "atlas": "atlases/atlas_0.png",
-      "x": 85,
-      "y": 945,
+      "x": 515,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1773,12 +1278,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_14": {
       "atlas": "atlases/atlas_0.png",
-      "x": 102,
-      "y": 945,
+      "x": 532,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1786,12 +1292,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_15": {
       "atlas": "atlases/atlas_0.png",
-      "x": 119,
-      "y": 945,
+      "x": 549,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1799,12 +1306,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_16": {
       "atlas": "atlases/atlas_0.png",
-      "x": 136,
-      "y": 945,
+      "x": 566,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1812,12 +1320,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_17": {
       "atlas": "atlases/atlas_0.png",
-      "x": 153,
-      "y": 945,
+      "x": 583,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1825,12 +1334,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_18": {
       "atlas": "atlases/atlas_0.png",
-      "x": 170,
-      "y": 945,
+      "x": 600,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1838,12 +1348,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_19": {
       "atlas": "atlases/atlas_0.png",
-      "x": 187,
-      "y": 945,
+      "x": 617,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1851,12 +1362,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_20": {
       "atlas": "atlases/atlas_0.png",
-      "x": 204,
-      "y": 945,
+      "x": 634,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1864,12 +1376,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_21": {
       "atlas": "atlases/atlas_0.png",
-      "x": 221,
-      "y": 945,
+      "x": 651,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1877,12 +1390,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_22": {
       "atlas": "atlases/atlas_0.png",
-      "x": 238,
-      "y": 945,
+      "x": 668,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1890,12 +1404,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_23": {
       "atlas": "atlases/atlas_0.png",
-      "x": 255,
-      "y": 945,
+      "x": 685,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1903,12 +1418,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_24": {
       "atlas": "atlases/atlas_0.png",
-      "x": 272,
-      "y": 945,
+      "x": 702,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1916,12 +1432,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_25": {
       "atlas": "atlases/atlas_0.png",
-      "x": 289,
-      "y": 945,
+      "x": 719,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1929,12 +1446,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_26": {
       "atlas": "atlases/atlas_0.png",
-      "x": 306,
-      "y": 945,
+      "x": 736,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1942,12 +1460,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_27": {
       "atlas": "atlases/atlas_0.png",
-      "x": 323,
-      "y": 945,
+      "x": 753,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1955,12 +1474,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_28": {
       "atlas": "atlases/atlas_0.png",
-      "x": 340,
-      "y": 945,
+      "x": 770,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1968,12 +1488,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_29": {
       "atlas": "atlases/atlas_0.png",
-      "x": 357,
-      "y": 945,
+      "x": 787,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1981,12 +1502,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_30": {
       "atlas": "atlases/atlas_0.png",
-      "x": 374,
-      "y": 945,
+      "x": 804,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -1994,12 +1516,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_31": {
       "atlas": "atlases/atlas_0.png",
-      "x": 391,
-      "y": 945,
+      "x": 821,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2007,12 +1530,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_32": {
       "atlas": "atlases/atlas_0.png",
-      "x": 408,
-      "y": 945,
+      "x": 838,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2020,12 +1544,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_33": {
       "atlas": "atlases/atlas_0.png",
-      "x": 425,
-      "y": 945,
+      "x": 855,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2033,12 +1558,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_34": {
       "atlas": "atlases/atlas_0.png",
-      "x": 442,
-      "y": 945,
+      "x": 872,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2046,12 +1572,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_35": {
       "atlas": "atlases/atlas_0.png",
-      "x": 459,
-      "y": 945,
+      "x": 889,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2059,12 +1586,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_36": {
       "atlas": "atlases/atlas_0.png",
-      "x": 476,
-      "y": 945,
+      "x": 906,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2072,12 +1600,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_37": {
       "atlas": "atlases/atlas_0.png",
-      "x": 493,
-      "y": 945,
+      "x": 923,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2085,12 +1614,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_38": {
       "atlas": "atlases/atlas_0.png",
-      "x": 510,
-      "y": 945,
+      "x": 940,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2098,12 +1628,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_39": {
       "atlas": "atlases/atlas_0.png",
-      "x": 527,
-      "y": 945,
+      "x": 957,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2111,12 +1642,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_40": {
       "atlas": "atlases/atlas_0.png",
-      "x": 544,
-      "y": 945,
+      "x": 974,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2124,12 +1656,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_41": {
       "atlas": "atlases/atlas_0.png",
-      "x": 561,
-      "y": 945,
+      "x": 991,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2137,12 +1670,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_42": {
       "atlas": "atlases/atlas_0.png",
-      "x": 578,
-      "y": 945,
+      "x": 1008,
+      "y": 710,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2150,12 +1684,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_43": {
       "atlas": "atlases/atlas_0.png",
-      "x": 595,
-      "y": 945,
+      "x": 0,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2163,12 +1698,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_44": {
       "atlas": "atlases/atlas_0.png",
-      "x": 612,
-      "y": 945,
+      "x": 17,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2176,12 +1712,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_45": {
       "atlas": "atlases/atlas_0.png",
-      "x": 629,
-      "y": 945,
+      "x": 34,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2189,12 +1726,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_46": {
       "atlas": "atlases/atlas_0.png",
-      "x": 646,
-      "y": 945,
+      "x": 51,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2202,12 +1740,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_47": {
       "atlas": "atlases/atlas_0.png",
-      "x": 663,
-      "y": 945,
+      "x": 68,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2215,12 +1754,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_48": {
       "atlas": "atlases/atlas_0.png",
-      "x": 680,
-      "y": 945,
+      "x": 85,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2228,12 +1768,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_49": {
       "atlas": "atlases/atlas_0.png",
-      "x": 697,
-      "y": 945,
+      "x": 102,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2241,12 +1782,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_50": {
       "atlas": "atlases/atlas_0.png",
-      "x": 714,
-      "y": 945,
+      "x": 119,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2254,12 +1796,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_51": {
       "atlas": "atlases/atlas_0.png",
-      "x": 731,
-      "y": 945,
+      "x": 136,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2267,12 +1810,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_52": {
       "atlas": "atlases/atlas_0.png",
-      "x": 748,
-      "y": 945,
+      "x": 153,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2280,12 +1824,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_53": {
       "atlas": "atlases/atlas_0.png",
-      "x": 765,
-      "y": 945,
+      "x": 170,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2293,12 +1838,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_54": {
       "atlas": "atlases/atlas_0.png",
-      "x": 782,
-      "y": 945,
+      "x": 187,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2306,12 +1852,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_55": {
       "atlas": "atlases/atlas_0.png",
-      "x": 799,
-      "y": 945,
+      "x": 204,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2319,12 +1866,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_56": {
       "atlas": "atlases/atlas_0.png",
-      "x": 816,
-      "y": 945,
+      "x": 221,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2332,12 +1880,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_57": {
       "atlas": "atlases/atlas_0.png",
-      "x": 833,
-      "y": 945,
+      "x": 238,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2345,12 +1894,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_58": {
       "atlas": "atlases/atlas_0.png",
-      "x": 850,
-      "y": 945,
+      "x": 255,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2358,12 +1908,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_59": {
       "atlas": "atlases/atlas_0.png",
-      "x": 867,
-      "y": 945,
+      "x": 272,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2371,12 +1922,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_60": {
       "atlas": "atlases/atlas_0.png",
-      "x": 884,
-      "y": 945,
+      "x": 289,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2384,12 +1936,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_61": {
       "atlas": "atlases/atlas_0.png",
-      "x": 901,
-      "y": 945,
+      "x": 306,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2397,12 +1950,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_62": {
       "atlas": "atlases/atlas_0.png",
-      "x": 918,
-      "y": 945,
+      "x": 323,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2410,12 +1964,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_63": {
       "atlas": "atlases/atlas_0.png",
-      "x": 935,
-      "y": 945,
+      "x": 340,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2423,12 +1978,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_64": {
       "atlas": "atlases/atlas_0.png",
-      "x": 952,
-      "y": 945,
+      "x": 357,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2436,12 +1992,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_65": {
       "atlas": "atlases/atlas_0.png",
-      "x": 969,
-      "y": 945,
+      "x": 374,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2449,12 +2006,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_66": {
       "atlas": "atlases/atlas_0.png",
-      "x": 986,
-      "y": 945,
+      "x": 391,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2462,12 +2020,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_67": {
       "atlas": "atlases/atlas_0.png",
-      "x": 1003,
-      "y": 945,
+      "x": 408,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2475,12 +2034,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_68": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 962,
+      "x": 425,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2488,12 +2048,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_69": {
       "atlas": "atlases/atlas_0.png",
-      "x": 17,
-      "y": 962,
+      "x": 442,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2501,12 +2062,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_70": {
       "atlas": "atlases/atlas_0.png",
-      "x": 34,
-      "y": 962,
+      "x": 459,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2514,12 +2076,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_71": {
       "atlas": "atlases/atlas_0.png",
-      "x": 51,
-      "y": 962,
+      "x": 476,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2527,12 +2090,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_72": {
       "atlas": "atlases/atlas_0.png",
-      "x": 68,
-      "y": 962,
+      "x": 493,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2540,12 +2104,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_73": {
       "atlas": "atlases/atlas_0.png",
-      "x": 85,
-      "y": 962,
+      "x": 510,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2553,12 +2118,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_74": {
       "atlas": "atlases/atlas_0.png",
-      "x": 102,
-      "y": 962,
+      "x": 527,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2566,12 +2132,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_75": {
       "atlas": "atlases/atlas_0.png",
-      "x": 119,
-      "y": 962,
+      "x": 544,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2579,12 +2146,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_76": {
       "atlas": "atlases/atlas_0.png",
-      "x": 136,
-      "y": 962,
+      "x": 561,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2592,12 +2160,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_77": {
       "atlas": "atlases/atlas_0.png",
-      "x": 153,
-      "y": 962,
+      "x": 578,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2605,12 +2174,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_78": {
       "atlas": "atlases/atlas_0.png",
-      "x": 170,
-      "y": 962,
+      "x": 595,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2618,12 +2188,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_79": {
       "atlas": "atlases/atlas_0.png",
-      "x": 187,
-      "y": 962,
+      "x": 612,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2631,12 +2202,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_80": {
       "atlas": "atlases/atlas_0.png",
-      "x": 204,
-      "y": 962,
+      "x": 629,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2644,12 +2216,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_81": {
       "atlas": "atlases/atlas_0.png",
-      "x": 221,
-      "y": 962,
+      "x": 646,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2657,12 +2230,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_82": {
       "atlas": "atlases/atlas_0.png",
-      "x": 238,
-      "y": 962,
+      "x": 663,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2670,12 +2244,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_83": {
       "atlas": "atlases/atlas_0.png",
-      "x": 255,
-      "y": 962,
+      "x": 680,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2683,12 +2258,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_84": {
       "atlas": "atlases/atlas_0.png",
-      "x": 272,
-      "y": 962,
+      "x": 697,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2696,12 +2272,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_85": {
       "atlas": "atlases/atlas_0.png",
-      "x": 289,
-      "y": 962,
+      "x": 714,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2709,12 +2286,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_86": {
       "atlas": "atlases/atlas_0.png",
-      "x": 306,
-      "y": 962,
+      "x": 731,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2722,12 +2300,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_87": {
       "atlas": "atlases/atlas_0.png",
-      "x": 323,
-      "y": 962,
+      "x": 748,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2735,12 +2314,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_88": {
       "atlas": "atlases/atlas_0.png",
-      "x": 340,
-      "y": 962,
+      "x": 765,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2748,12 +2328,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_89": {
       "atlas": "atlases/atlas_0.png",
-      "x": 357,
-      "y": 962,
+      "x": 782,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2761,12 +2342,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_90": {
       "atlas": "atlases/atlas_0.png",
-      "x": 374,
-      "y": 962,
+      "x": 799,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2774,12 +2356,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_91": {
       "atlas": "atlases/atlas_0.png",
-      "x": 391,
-      "y": 962,
+      "x": 816,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2787,12 +2370,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_92": {
       "atlas": "atlases/atlas_0.png",
-      "x": 408,
-      "y": 962,
+      "x": 833,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2800,12 +2384,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_93": {
       "atlas": "atlases/atlas_0.png",
-      "x": 425,
-      "y": 962,
+      "x": 850,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2813,12 +2398,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_94": {
       "atlas": "atlases/atlas_0.png",
-      "x": 442,
-      "y": 962,
+      "x": 867,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2826,12 +2412,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_95": {
       "atlas": "atlases/atlas_0.png",
-      "x": 459,
-      "y": 962,
+      "x": 884,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2839,12 +2426,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_96": {
       "atlas": "atlases/atlas_0.png",
-      "x": 476,
-      "y": 962,
+      "x": 901,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2852,12 +2440,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_97": {
       "atlas": "atlases/atlas_0.png",
-      "x": 493,
-      "y": 962,
+      "x": 918,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2865,12 +2454,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_98": {
       "atlas": "atlases/atlas_0.png",
-      "x": 510,
-      "y": 962,
+      "x": 935,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2878,12 +2468,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_99": {
       "atlas": "atlases/atlas_0.png",
-      "x": 527,
-      "y": 962,
+      "x": 952,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2891,12 +2482,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_100": {
       "atlas": "atlases/atlas_0.png",
-      "x": 544,
-      "y": 962,
+      "x": 969,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2904,12 +2496,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_101": {
       "atlas": "atlases/atlas_0.png",
-      "x": 561,
-      "y": 962,
+      "x": 986,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2917,12 +2510,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_102": {
       "atlas": "atlases/atlas_0.png",
-      "x": 578,
-      "y": 962,
+      "x": 1003,
+      "y": 732,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2930,12 +2524,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_103": {
       "atlas": "atlases/atlas_0.png",
-      "x": 595,
-      "y": 962,
+      "x": 0,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2943,12 +2538,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_104": {
       "atlas": "atlases/atlas_0.png",
-      "x": 612,
-      "y": 962,
+      "x": 17,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2956,12 +2552,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_105": {
       "atlas": "atlases/atlas_0.png",
-      "x": 629,
-      "y": 962,
+      "x": 34,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2969,12 +2566,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_106": {
       "atlas": "atlases/atlas_0.png",
-      "x": 646,
-      "y": 962,
+      "x": 51,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2982,12 +2580,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_107": {
       "atlas": "atlases/atlas_0.png",
-      "x": 663,
-      "y": 962,
+      "x": 68,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -2995,12 +2594,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_108": {
       "atlas": "atlases/atlas_0.png",
-      "x": 680,
-      "y": 962,
+      "x": 85,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3008,12 +2608,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_109": {
       "atlas": "atlases/atlas_0.png",
-      "x": 697,
-      "y": 962,
+      "x": 102,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3021,12 +2622,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_110": {
       "atlas": "atlases/atlas_0.png",
-      "x": 714,
-      "y": 962,
+      "x": 119,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3034,12 +2636,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_111": {
       "atlas": "atlases/atlas_0.png",
-      "x": 731,
-      "y": 962,
+      "x": 136,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3047,12 +2650,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_112": {
       "atlas": "atlases/atlas_0.png",
-      "x": 748,
-      "y": 962,
+      "x": 153,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3060,12 +2664,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_113": {
       "atlas": "atlases/atlas_0.png",
-      "x": 765,
-      "y": 962,
+      "x": 170,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3073,12 +2678,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_114": {
       "atlas": "atlases/atlas_0.png",
-      "x": 782,
-      "y": 962,
+      "x": 187,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3086,12 +2692,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_115": {
       "atlas": "atlases/atlas_0.png",
-      "x": 799,
-      "y": 962,
+      "x": 204,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3099,12 +2706,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_116": {
       "atlas": "atlases/atlas_0.png",
-      "x": 816,
-      "y": 962,
+      "x": 221,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3112,12 +2720,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_117": {
       "atlas": "atlases/atlas_0.png",
-      "x": 833,
-      "y": 962,
+      "x": 238,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3125,12 +2734,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_118": {
       "atlas": "atlases/atlas_0.png",
-      "x": 850,
-      "y": 962,
+      "x": 255,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3138,12 +2748,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_119": {
       "atlas": "atlases/atlas_0.png",
-      "x": 867,
-      "y": 962,
+      "x": 272,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3151,12 +2762,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_120": {
       "atlas": "atlases/atlas_0.png",
-      "x": 884,
-      "y": 962,
+      "x": 289,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3164,12 +2776,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_121": {
       "atlas": "atlases/atlas_0.png",
-      "x": 901,
-      "y": 962,
+      "x": 306,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3177,12 +2790,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_122": {
       "atlas": "atlases/atlas_0.png",
-      "x": 918,
-      "y": 962,
+      "x": 323,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3190,12 +2804,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_123": {
       "atlas": "atlases/atlas_0.png",
-      "x": 935,
-      "y": 962,
+      "x": 340,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3203,12 +2818,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_124": {
       "atlas": "atlases/atlas_0.png",
-      "x": 952,
-      "y": 962,
+      "x": 357,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3216,12 +2832,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_125": {
       "atlas": "atlases/atlas_0.png",
-      "x": 969,
-      "y": 962,
+      "x": 374,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3229,12 +2846,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_126": {
       "atlas": "atlases/atlas_0.png",
-      "x": 986,
-      "y": 962,
+      "x": 391,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3242,12 +2860,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_127": {
       "atlas": "atlases/atlas_0.png",
-      "x": 1003,
-      "y": 962,
+      "x": 408,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3255,12 +2874,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_128": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 979,
+      "x": 425,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3268,12 +2888,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_129": {
       "atlas": "atlases/atlas_0.png",
-      "x": 17,
-      "y": 979,
+      "x": 442,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3281,12 +2902,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_130": {
       "atlas": "atlases/atlas_0.png",
-      "x": 34,
-      "y": 979,
+      "x": 459,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3294,12 +2916,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_131": {
       "atlas": "atlases/atlas_0.png",
-      "x": 51,
-      "y": 979,
+      "x": 476,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3307,12 +2930,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_132": {
       "atlas": "atlases/atlas_0.png",
-      "x": 68,
-      "y": 979,
+      "x": 493,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3320,12 +2944,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_133": {
       "atlas": "atlases/atlas_0.png",
-      "x": 85,
-      "y": 979,
+      "x": 510,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3333,12 +2958,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_134": {
       "atlas": "atlases/atlas_0.png",
-      "x": 102,
-      "y": 979,
+      "x": 527,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3346,12 +2972,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_135": {
       "atlas": "atlases/atlas_0.png",
-      "x": 119,
-      "y": 979,
+      "x": 544,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3359,12 +2986,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_136": {
       "atlas": "atlases/atlas_0.png",
-      "x": 136,
-      "y": 979,
+      "x": 561,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3372,12 +3000,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_137": {
       "atlas": "atlases/atlas_0.png",
-      "x": 153,
-      "y": 979,
+      "x": 578,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3385,12 +3014,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_138": {
       "atlas": "atlases/atlas_0.png",
-      "x": 170,
-      "y": 979,
+      "x": 595,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3398,12 +3028,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_139": {
       "atlas": "atlases/atlas_0.png",
-      "x": 187,
-      "y": 979,
+      "x": 612,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3411,12 +3042,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_140": {
       "atlas": "atlases/atlas_0.png",
-      "x": 204,
-      "y": 979,
+      "x": 629,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3424,12 +3056,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_141": {
       "atlas": "atlases/atlas_0.png",
-      "x": 221,
-      "y": 979,
+      "x": 646,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3437,12 +3070,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_142": {
       "atlas": "atlases/atlas_0.png",
-      "x": 238,
-      "y": 979,
+      "x": 663,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3450,12 +3084,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_143": {
       "atlas": "atlases/atlas_0.png",
-      "x": 255,
-      "y": 979,
+      "x": 680,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3463,12 +3098,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_144": {
       "atlas": "atlases/atlas_0.png",
-      "x": 272,
-      "y": 979,
+      "x": 697,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3476,12 +3112,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_145": {
       "atlas": "atlases/atlas_0.png",
-      "x": 289,
-      "y": 979,
+      "x": 714,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3489,12 +3126,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_146": {
       "atlas": "atlases/atlas_0.png",
-      "x": 306,
-      "y": 979,
+      "x": 731,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3502,12 +3140,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_147": {
       "atlas": "atlases/atlas_0.png",
-      "x": 323,
-      "y": 979,
+      "x": 748,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3515,12 +3154,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_148": {
       "atlas": "atlases/atlas_0.png",
-      "x": 340,
-      "y": 979,
+      "x": 765,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3528,12 +3168,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_149": {
       "atlas": "atlases/atlas_0.png",
-      "x": 357,
-      "y": 979,
+      "x": 782,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3541,12 +3182,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_150": {
       "atlas": "atlases/atlas_0.png",
-      "x": 374,
-      "y": 979,
+      "x": 799,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3554,12 +3196,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_151": {
       "atlas": "atlases/atlas_0.png",
-      "x": 391,
-      "y": 979,
+      "x": 816,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3567,12 +3210,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_152": {
       "atlas": "atlases/atlas_0.png",
-      "x": 408,
-      "y": 979,
+      "x": 833,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3580,12 +3224,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_153": {
       "atlas": "atlases/atlas_0.png",
-      "x": 425,
-      "y": 979,
+      "x": 850,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3593,12 +3238,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_154": {
       "atlas": "atlases/atlas_0.png",
-      "x": 442,
-      "y": 979,
+      "x": 867,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3606,12 +3252,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_155": {
       "atlas": "atlases/atlas_0.png",
-      "x": 459,
-      "y": 979,
+      "x": 884,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3619,12 +3266,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_156": {
       "atlas": "atlases/atlas_0.png",
-      "x": 476,
-      "y": 979,
+      "x": 901,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3632,12 +3280,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_157": {
       "atlas": "atlases/atlas_0.png",
-      "x": 493,
-      "y": 979,
+      "x": 918,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3645,12 +3294,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_158": {
       "atlas": "atlases/atlas_0.png",
-      "x": 510,
-      "y": 979,
+      "x": 935,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3658,12 +3308,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_159": {
       "atlas": "atlases/atlas_0.png",
-      "x": 527,
-      "y": 979,
+      "x": 952,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3671,12 +3322,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_160": {
       "atlas": "atlases/atlas_0.png",
-      "x": 544,
-      "y": 979,
+      "x": 969,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3684,12 +3336,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_161": {
       "atlas": "atlases/atlas_0.png",
-      "x": 561,
-      "y": 979,
+      "x": 986,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3697,12 +3350,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_162": {
       "atlas": "atlases/atlas_0.png",
-      "x": 578,
-      "y": 979,
+      "x": 1003,
+      "y": 749,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3710,12 +3364,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_163": {
       "atlas": "atlases/atlas_0.png",
-      "x": 595,
-      "y": 979,
+      "x": 0,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3723,12 +3378,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_164": {
       "atlas": "atlases/atlas_0.png",
-      "x": 612,
-      "y": 979,
+      "x": 17,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3736,12 +3392,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_165": {
       "atlas": "atlases/atlas_0.png",
-      "x": 629,
-      "y": 979,
+      "x": 34,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3749,12 +3406,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_166": {
       "atlas": "atlases/atlas_0.png",
-      "x": 646,
-      "y": 979,
+      "x": 51,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3762,12 +3420,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_167": {
       "atlas": "atlases/atlas_0.png",
-      "x": 663,
-      "y": 979,
+      "x": 68,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3775,12 +3434,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_168": {
       "atlas": "atlases/atlas_0.png",
-      "x": 680,
-      "y": 979,
+      "x": 85,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3788,12 +3448,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_169": {
       "atlas": "atlases/atlas_0.png",
-      "x": 697,
-      "y": 979,
+      "x": 102,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3801,12 +3462,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_170": {
       "atlas": "atlases/atlas_0.png",
-      "x": 714,
-      "y": 979,
+      "x": 119,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3814,12 +3476,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_171": {
       "atlas": "atlases/atlas_0.png",
-      "x": 731,
-      "y": 979,
+      "x": 136,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3827,12 +3490,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_172": {
       "atlas": "atlases/atlas_0.png",
-      "x": 748,
-      "y": 979,
+      "x": 153,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3840,12 +3504,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_173": {
       "atlas": "atlases/atlas_0.png",
-      "x": 765,
-      "y": 979,
+      "x": 170,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3853,12 +3518,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_174": {
       "atlas": "atlases/atlas_0.png",
-      "x": 782,
-      "y": 979,
+      "x": 187,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3866,12 +3532,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_175": {
       "atlas": "atlases/atlas_0.png",
-      "x": 799,
-      "y": 979,
+      "x": 204,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3879,12 +3546,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_176": {
       "atlas": "atlases/atlas_0.png",
-      "x": 816,
-      "y": 979,
+      "x": 221,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3892,12 +3560,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_177": {
       "atlas": "atlases/atlas_0.png",
-      "x": 833,
-      "y": 979,
+      "x": 238,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3905,12 +3574,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_178": {
       "atlas": "atlases/atlas_0.png",
-      "x": 850,
-      "y": 979,
+      "x": 255,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3918,12 +3588,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_179": {
       "atlas": "atlases/atlas_0.png",
-      "x": 867,
-      "y": 979,
+      "x": 272,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3931,12 +3602,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_180": {
       "atlas": "atlases/atlas_0.png",
-      "x": 884,
-      "y": 979,
+      "x": 289,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3944,12 +3616,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_181": {
       "atlas": "atlases/atlas_0.png",
-      "x": 901,
-      "y": 979,
+      "x": 306,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3957,12 +3630,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_182": {
       "atlas": "atlases/atlas_0.png",
-      "x": 918,
-      "y": 979,
+      "x": 323,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3970,12 +3644,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_183": {
       "atlas": "atlases/atlas_0.png",
-      "x": 935,
-      "y": 979,
+      "x": 340,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3983,12 +3658,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_184": {
       "atlas": "atlases/atlas_0.png",
-      "x": 952,
-      "y": 979,
+      "x": 357,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -3996,12 +3672,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_185": {
       "atlas": "atlases/atlas_0.png",
-      "x": 969,
-      "y": 979,
+      "x": 374,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4009,12 +3686,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_186": {
       "atlas": "atlases/atlas_0.png",
-      "x": 986,
-      "y": 979,
+      "x": 391,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4022,12 +3700,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_187": {
       "atlas": "atlases/atlas_0.png",
-      "x": 1003,
-      "y": 979,
+      "x": 408,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4035,12 +3714,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_188": {
       "atlas": "atlases/atlas_0.png",
-      "x": 0,
-      "y": 996,
+      "x": 425,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4048,12 +3728,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_189": {
       "atlas": "atlases/atlas_0.png",
-      "x": 17,
-      "y": 996,
+      "x": 442,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4061,12 +3742,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_190": {
       "atlas": "atlases/atlas_0.png",
-      "x": 34,
-      "y": 996,
+      "x": 459,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4074,12 +3756,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_191": {
       "atlas": "atlases/atlas_0.png",
-      "x": 51,
-      "y": 996,
+      "x": 476,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4087,12 +3770,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_192": {
       "atlas": "atlases/atlas_0.png",
-      "x": 68,
-      "y": 996,
+      "x": 493,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4100,12 +3784,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_193": {
       "atlas": "atlases/atlas_0.png",
-      "x": 85,
-      "y": 996,
+      "x": 510,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4113,12 +3798,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_194": {
       "atlas": "atlases/atlas_0.png",
-      "x": 102,
-      "y": 996,
+      "x": 527,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4126,12 +3812,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_195": {
       "atlas": "atlases/atlas_0.png",
-      "x": 119,
-      "y": 996,
+      "x": 544,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4139,12 +3826,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_196": {
       "atlas": "atlases/atlas_0.png",
-      "x": 136,
-      "y": 996,
+      "x": 561,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4152,12 +3840,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_197": {
       "atlas": "atlases/atlas_0.png",
-      "x": 153,
-      "y": 996,
+      "x": 578,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4165,12 +3854,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_198": {
       "atlas": "atlases/atlas_0.png",
-      "x": 170,
-      "y": 996,
+      "x": 595,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4178,12 +3868,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_199": {
       "atlas": "atlases/atlas_0.png",
-      "x": 187,
-      "y": 996,
+      "x": 612,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4191,12 +3882,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_200": {
       "atlas": "atlases/atlas_0.png",
-      "x": 204,
-      "y": 996,
+      "x": 629,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4204,12 +3896,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_201": {
       "atlas": "atlases/atlas_0.png",
-      "x": 221,
-      "y": 996,
+      "x": 646,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4217,12 +3910,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_202": {
       "atlas": "atlases/atlas_0.png",
-      "x": 238,
-      "y": 996,
+      "x": 663,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4230,12 +3924,13 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     },
     "tile_203": {
       "atlas": "atlases/atlas_0.png",
-      "x": 255,
-      "y": 996,
+      "x": 680,
+      "y": 766,
       "w": 16,
       "h": 16,
       "anchor": {
@@ -4243,7 +3938,8 @@
         "y": 0
       },
       "anchor_type": "ground",
-      "classification": "tile"
+      "classification": "tile",
+      "animation_type": null
     }
   }
 }

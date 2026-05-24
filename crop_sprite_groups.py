@@ -22,6 +22,8 @@ ALPHA_RAMP_RATIO = 1.65
 MASK_ALPHA_THRESHOLD = 32
 PANEL_BORDER_PADDING = 8
 DEFAULT_FRAME_PADDING = 3
+ALPHA_BBOX_PADDING = 3
+MIN_COMPONENT_AREA = 5
 TILE_SIZE = 16
 ATLAS_MAX_SIZE = 1024
 ATLAS_PADDING = 1
@@ -34,6 +36,16 @@ ANIMATION_ROW_OVERLAP_RATIO = 0.65
 ANIMATION_SPACING_TOLERANCE = 0.35
 ANIMATION_MAX_GAP_FACTOR = 1.75
 ANIMATION_MIN_FRAMES = 3
+STRONG_MERGE_VERTICAL_OVERLAP = 0.30
+STRONG_MERGE_HORIZONTAL_GAP_PX = 10
+ROW_ALIGNMENT_TOLERANCE = 0.35
+PLAYER_MIN_COMPONENT_AREA = 40
+PLAYER_ROW_SIZE_TOLERANCE = 0.22
+PLAYER_MIN_HUMANOID_SCORE = 0.58
+PLAYER_MAX_EFFECT_FILL_RATIO = 0.82
+PLAYER_COMPONENT_MIN_HUMANOID_SCORE = 0.42
+PLAYER_ANIMATION_MIN_FRAMES = 2
+PLAYER_MIN_STROKE_RATIO = 0.40
 TEXT_LIKE_MAX_STROKE_RATIO = 0.24
 TEXT_LIKE_MIN_COMPONENT_DENSITY = 0.0025
 
@@ -161,6 +173,13 @@ class FrameAlignmentDebug:
     offset: tuple[int, int]
     baseline_anchor: tuple[int, int]
     aligned_anchor: tuple[int, int]
+
+
+@dataclass(frozen=True)
+class RowValidationResult:
+    accepted: bool
+    reason: str | None
+    classification: str
 
 
 def parse_args() -> argparse.Namespace:
@@ -390,6 +409,7 @@ def find_active_runs(
 
 
 def remove_small_components(mask: np.ndarray, min_area: int) -> np.ndarray:
+    min_area = max(MIN_COMPONENT_AREA, min_area)
     if min_area <= 1:
         return mask.copy()
 
@@ -403,7 +423,7 @@ def remove_small_components(mask: np.ndarray, min_area: int) -> np.ndarray:
 
 
 def make_seed_mask(mask: np.ndarray, config: PanelConfig) -> np.ndarray:
-    seed = remove_small_components(mask, config.component_min_area)
+    seed = remove_small_components(mask, MIN_COMPONENT_AREA)
 
     if config.close_kernel[0] > 1 or config.close_kernel[1] > 1:
         kernel = np.ones(config.close_kernel, dtype=np.uint8)
@@ -415,6 +435,7 @@ def make_seed_mask(mask: np.ndarray, config: PanelConfig) -> np.ndarray:
 
 
 def extract_component_bboxes(mask: np.ndarray, min_area: int) -> list[tuple[int, int, int, int]]:
+    min_area = max(MIN_COMPONENT_AREA, min_area)
     component_count, _, stats, _ = cv2.connectedComponentsWithStats(mask, connectivity=8)
     boxes: list[tuple[int, int, int, int]] = []
     for component_id in range(1, component_count):
@@ -448,6 +469,7 @@ def component_stroke_ratio(mask: np.ndarray) -> float:
 
 
 def build_sprite_components(mask: np.ndarray, min_area: int) -> list[SpriteComponent]:
+    min_area = max(MIN_COMPONENT_AREA, min_area)
     component_count, labels, stats, _ = cv2.connectedComponentsWithStats(mask, connectivity=8)
     components: list[SpriteComponent] = []
     for component_id in range(1, component_count):
@@ -545,6 +567,25 @@ def trim_to_mask(bbox: tuple[int, int, int, int], mask: np.ndarray) -> tuple[int
     )
 
 
+def trim_to_alpha(bbox: tuple[int, int, int, int], rgba: np.ndarray) -> tuple[int, int, int, int] | None:
+    x0, y0, x1, y1 = bbox
+    cropped = rgba[y0:y1, x0:x1]
+    if cropped.size == 0:
+        return None
+
+    alpha = cropped[:, :, 3]
+    ys, xs = np.nonzero(alpha > 0)
+    if ys.size == 0 or xs.size == 0:
+        return None
+
+    return (
+        x0 + int(xs.min()),
+        y0 + int(ys.min()),
+        x0 + int(xs.max()) + 1,
+        y0 + int(ys.max()) + 1,
+    )
+
+
 def expand_bbox(
     bbox: tuple[int, int, int, int],
     padding: int,
@@ -586,14 +627,18 @@ def extract_cropped_region(
     padding: int,
 ) -> tuple[np.ndarray, tuple[int, int, int, int], tuple[int, int, int, int]] | None:
     expanded = expand_bbox(bbox, padding, mask.shape[1], mask.shape[0])
-    content_bbox = trim_to_mask(expanded, mask)
-    if content_bbox is None:
+    alpha_bbox = trim_to_alpha(expanded, rgba)
+    if alpha_bbox is None:
         return None
+    tight_bbox = expand_bbox(alpha_bbox, ALPHA_BBOX_PADDING, mask.shape[1], mask.shape[0])
 
-    sprite = extract_region(rgba, expanded)
+    sprite = extract_region(rgba, tight_bbox)
     if sprite is None:
         return None
-    return sprite, expanded, to_relative_bbox(expanded, content_bbox)
+    content_bbox = visible_alpha_bounds(sprite)
+    if content_bbox is None:
+        return None
+    return sprite, tight_bbox, content_bbox
 
 
 LOCOMOTION_ROLES = {"idle", "walk", "run", "jump", "fall"}
@@ -886,55 +931,66 @@ def normalize_animation_frames(
 
     effective_anchor_type = animation_anchor_type(panel_name, animation_role, anchor_type)
     downward_bias = anchor_bias_for_role(animation_role, effective_anchor_type)
-    raw_anchors = [compute_frame_anchor(frame, effective_anchor_type, downward_bias=downward_bias) for frame in frames]
-    smoothed_anchors = smooth_anchors(raw_anchors)
-    reference_index = default_reference_frame_index(len(frames))
-    reference_anchor = raw_anchors[reference_index]
-    smoothed_anchors[reference_index] = reference_anchor
+    cropped_frames: list[np.ndarray] = []
+    local_raw_anchors: list[tuple[int, int]] = []
+    for frame in frames:
+        raw_anchor = compute_frame_anchor(frame, effective_anchor_type, downward_bias=downward_bias)
+        cropped_frame, local_raw_anchor, _, _ = crop_frame_to_visible_content(frame, raw_anchor, raw_anchor)
+        cropped_frames.append(cropped_frame)
+        local_raw_anchors.append(local_raw_anchor)
 
-    prepared = [
-        crop_frame_to_visible_content(frame, raw_anchor, smoothed_anchor)
-        for frame, raw_anchor, smoothed_anchor in zip(frames, raw_anchors, smoothed_anchors, strict=False)
-    ]
-    cropped_frames = [entry[0] for entry in prepared]
-    local_raw_anchors = [entry[1] for entry in prepared]
-    local_smoothed_anchors = [entry[2] for entry in prepared]
+    max_content_width = max(frame.shape[1] for frame in cropped_frames)
+    max_content_height = max(frame.shape[0] for frame in cropped_frames)
 
-    if shared_size is None or shared_anchor is None:
-        computed_size, computed_anchor = alignment_template(cropped_frames, local_smoothed_anchors, effective_anchor_type)
-    else:
-        computed_size, computed_anchor = shared_size, shared_anchor
-
-    canvas_width, canvas_height = computed_size
+    normalized_source_frames: list[np.ndarray] = []
+    normalized_source_anchors: list[tuple[int, int]] = []
+    for cropped_frame, raw_anchor in zip(cropped_frames, local_raw_anchors, strict=False):
+        padded = np.zeros((max_content_height, max_content_width, 4), dtype=np.uint8)
+        frame_h, frame_w = cropped_frame.shape[:2]
+        pad_x = (max_content_width - frame_w) // 2
+        pad_y = max_content_height - frame_h if effective_anchor_type == "ground" else (max_content_height - frame_h) // 2
+        padded[pad_y : pad_y + frame_h, pad_x : pad_x + frame_w] = cropped_frame
+        normalized_source_frames.append(padded)
+        normalized_source_anchors.append((pad_x + raw_anchor[0], pad_y + raw_anchor[1]))
 
     if shared_anchor is None:
-        shared_anchor = computed_anchor
+        if effective_anchor_type in {"top_left", "none"}:
+            shared_anchor = (0, 0)
+        else:
+            shared_anchor = (
+                int(round(float(np.median([anchor[0] for anchor in normalized_source_anchors])))),
+                int(round(float(np.median([anchor[1] for anchor in normalized_source_anchors])))),
+            )
+
+    if shared_size is None:
+        computed_size, _ = alignment_template(normalized_source_frames, normalized_source_anchors, effective_anchor_type)
+    else:
+        computed_size = shared_size
+    canvas_width = max(computed_size[0], max_content_width)
+    canvas_height = max(computed_size[1], max_content_height)
 
     normalized: list[np.ndarray] = []
     debug_entries: list[FrameAlignmentDebug] = []
-    for cropped_frame, raw_anchor, smoothed_anchor in zip(cropped_frames, local_raw_anchors, local_smoothed_anchors, strict=False):
+    reference_index = default_reference_frame_index(len(frames))
+    reference_anchor = normalized_source_anchors[reference_index]
+    for padded_frame, raw_anchor in zip(normalized_source_frames, normalized_source_anchors, strict=False):
         canvas = np.zeros((canvas_height, canvas_width, 4), dtype=np.uint8)
-        frame_h, frame_w = cropped_frame.shape[:2]
-
-        baseline_offset = baseline_frame_offset(cropped_frame, (canvas_width, canvas_height), effective_anchor_type)
-        baseline_anchor = (
-            baseline_offset[0] + smoothed_anchor[0],
-            baseline_offset[1] + smoothed_anchor[1],
-        )
-        x_offset = shared_anchor[0] - smoothed_anchor[0]
-        y_offset = shared_anchor[1] - smoothed_anchor[1]
+        frame_h, frame_w = padded_frame.shape[:2]
+        x_offset = shared_anchor[0] - raw_anchor[0]
+        y_offset = shared_anchor[1] - raw_anchor[1]
         x_offset = max(0, min(canvas_width - frame_w, x_offset))
         y_offset = max(0, min(canvas_height - frame_h, y_offset))
-        canvas[y_offset : y_offset + frame_h, x_offset : x_offset + frame_w] = cropped_frame
+        canvas[y_offset : y_offset + frame_h, x_offset : x_offset + frame_w] = padded_frame
         normalized.append(canvas)
+        baseline_offset = baseline_frame_offset(padded_frame, (canvas_width, canvas_height), effective_anchor_type)
         debug_entries.append(
             FrameAlignmentDebug(
                 raw_anchor=raw_anchor,
-                smoothed_anchor=smoothed_anchor,
-                reference_anchor=local_raw_anchors[reference_index],
+                smoothed_anchor=shared_anchor,
+                reference_anchor=reference_anchor,
                 offset=(x_offset - baseline_offset[0], y_offset - baseline_offset[1]),
-                baseline_anchor=baseline_anchor,
-                aligned_anchor=(x_offset + smoothed_anchor[0], y_offset + smoothed_anchor[1]),
+                baseline_anchor=(baseline_offset[0] + raw_anchor[0], baseline_offset[1] + raw_anchor[1]),
+                aligned_anchor=shared_anchor,
             )
         )
 
@@ -1045,8 +1101,9 @@ def semantic_player_labels(row_entries: list[dict[str, Any]]) -> None:
         else:
             effect_rows.append(entry)
 
-    body_labels = player_body_label_sequence(len(body_rows))
-    for entry, label in zip(body_rows, body_labels, strict=False):
+    fallback_labels = player_body_label_sequence(len(body_rows))
+    for index, entry in enumerate(body_rows):
+        label = entry.get("preferred_role") or fallback_labels[min(index, len(fallback_labels) - 1)]
         entry["row_role"] = label
         entry["animation_type"] = label
         entry["classification"] = "player"
@@ -1086,29 +1143,91 @@ def validate_animation_row(components: list[SpriteComponent]) -> tuple[bool, str
     if len(components) < ANIMATION_MIN_FRAMES:
         return False, "frame_count_lt_3"
 
-    widths = [component.width for component in components]
-    heights = [component.height for component in components]
-    aspects = [component.aspect_ratio for component in components]
-    spacing = [components[index + 1].x0 - components[index].x0 for index in range(len(components) - 1)]
-    gaps = [components[index + 1].x0 - components[index].x1 for index in range(len(components) - 1)]
-
-    if not consistent_series_ratio(widths, ANIMATION_SIZE_TOLERANCE):
-        return False, "inconsistent_width"
-    if not consistent_series_ratio(heights, ANIMATION_SIZE_TOLERANCE):
-        return False, "inconsistent_height"
-    if not consistent_series_ratio(aspects, ANIMATION_ASPECT_TOLERANCE):
-        return False, "inconsistent_aspect"
     if row_vertical_overlap_ratio(components) < ANIMATION_ROW_OVERLAP_RATIO:
         return False, "row_misaligned"
-    if not consistent_series_ratio(spacing, ANIMATION_SPACING_TOLERANCE):
-        return False, "spacing_inconsistent"
-
-    median_gap = float(np.median(gaps)) if gaps else 0.0
-    median_width = float(np.median(widths))
-    max_gap = max(gaps, default=0)
-    if max_gap > median_width * ANIMATION_MAX_GAP_FACTOR:
-        return False, "gap_too_large"
     return True, None
+
+
+def frame_is_effect_like(frame: np.ndarray) -> bool:
+    bounds = visible_alpha_bounds(frame)
+    if bounds is None:
+        return True
+    x0, y0, x1, y1 = bounds
+    width = max(1, x1 - x0)
+    height = max(1, y1 - y0)
+    alpha = frame[y0:y1, x0:x1, 3]
+    mask = alpha > 0
+    fill_ratio = float(np.count_nonzero(mask)) / float(max(1, width * height))
+    aspect = height / float(width)
+    return aspect < 0.65 or fill_ratio >= PLAYER_MAX_EFFECT_FILL_RATIO
+
+
+def filter_player_row_components(
+    components: list[SpriteComponent],
+    frames: list[np.ndarray],
+) -> tuple[list[int], str | None]:
+    if len(components) != len(frames):
+        return [], "frame_component_mismatch"
+
+    kept_indices: list[int] = []
+    candidate_heights: list[int] = []
+    for index, (component, frame) in enumerate(zip(components, frames, strict=False)):
+        if component.alpha_pixels < PLAYER_MIN_COMPONENT_AREA:
+            continue
+        if component.height / float(max(1, component.width)) < 0.40:
+            continue
+        if component.stroke_ratio < PLAYER_MIN_STROKE_RATIO:
+            continue
+        if frame_is_effect_like(frame):
+            continue
+        if frame_humanoid_score(frame) < PLAYER_COMPONENT_MIN_HUMANOID_SCORE:
+            continue
+        kept_indices.append(index)
+        candidate_heights.append(component.height)
+
+    if not kept_indices:
+        return [], "no_player_like_frames"
+
+    median_height = float(np.median(candidate_heights))
+    filtered_indices = [
+        index
+        for index in kept_indices
+        if abs(components[index].height - median_height) / max(1.0, median_height) <= PLAYER_ROW_SIZE_TOLERANCE
+    ]
+    if len(filtered_indices) < PLAYER_ANIMATION_MIN_FRAMES:
+        return [], "player_frame_count_lt_2"
+    return filtered_indices, None
+
+
+def validate_player_row(components: list[SpriteComponent], frames: list[np.ndarray]) -> RowValidationResult:
+    if len(components) < PLAYER_ANIMATION_MIN_FRAMES:
+        return RowValidationResult(False, "player_frame_count_lt_2", "effect")
+    if len(frames) != len(components):
+        return RowValidationResult(False, "frame_component_mismatch", "effect")
+
+    areas = [component.alpha_pixels for component in components]
+    if float(np.median(areas)) < PLAYER_MIN_COMPONENT_AREA:
+        return RowValidationResult(False, "component_too_small", "effect")
+
+    heights = [component.height for component in components]
+    if not consistent_series_ratio(heights, PLAYER_ROW_SIZE_TOLERANCE):
+        return RowValidationResult(False, "player_height_inconsistent", "effect")
+
+    aspect_ratios = [component.height / float(max(1, component.width)) for component in components]
+    if not all(aspect >= 0.40 for aspect in aspect_ratios):
+        return RowValidationResult(False, "not_humanoid_aspect", "effect")
+    if not all(component.stroke_ratio >= PLAYER_MIN_STROKE_RATIO for component in components):
+        return RowValidationResult(False, "low_stroke_ratio", "effect")
+
+    humanoid_score = row_humanoid_score(frames)
+    if humanoid_score < PLAYER_MIN_HUMANOID_SCORE:
+        return RowValidationResult(False, "low_humanoid_score", "effect")
+
+    effect_like_count = sum(1 for frame in frames if frame_is_effect_like(frame))
+    if effect_like_count > max(0, len(frames) // 3):
+        return RowValidationResult(False, "effect_like_shapes", "effect")
+
+    return RowValidationResult(True, None, "player")
 
 
 def animation_timing_for_role(role: str, frame_count: int) -> dict[str, Any]:
@@ -1203,6 +1322,53 @@ def save_animation_preview(
     cv2.imwrite(str(debug_dir / f"{name}_preview.png"), preview)
 
 
+def stack_labeled_images(title: str, images: list[tuple[str, np.ndarray]]) -> np.ndarray:
+    if not images:
+        canvas = np.zeros((64, 64, 3), dtype=np.uint8)
+        cv2.putText(canvas, title, (8, 18), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (255, 255, 255), 1, cv2.LINE_AA)
+        return canvas
+
+    label_band = 22
+    width = max(image.shape[1] for _, image in images)
+    height = label_band + sum(image.shape[0] + label_band for _, image in images)
+    canvas = np.zeros((height, width, 3), dtype=np.uint8)
+    y = 18
+    cv2.putText(canvas, title, (8, y), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (255, 255, 255), 1, cv2.LINE_AA)
+    y += label_band
+    for label, image in images:
+        canvas[y : y + image.shape[0], : image.shape[1]] = image
+        cv2.putText(canvas, label, (8, y + image.shape[0] + 16), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (180, 220, 255), 1, cv2.LINE_AA)
+        y += image.shape[0] + label_band
+    return canvas
+
+
+def save_animation_panel_debug(
+    panel_name: str,
+    panel_rgba: np.ndarray,
+    merged_boxes: list[dict[str, Any]],
+    row_boxes: list[dict[str, Any]],
+    rejected_boxes: list[dict[str, Any]],
+    final_previews: list[tuple[str, np.ndarray]],
+    debug_dir: Path,
+) -> None:
+    panel_bgr = cv2.cvtColor(panel_rgba, cv2.COLOR_BGRA2BGR)
+    merged_view = draw_boxes(panel_bgr, f"{panel_name} merged", merged_boxes)
+    row_view = draw_boxes(panel_bgr, f"{panel_name} rows", row_boxes)
+    rejected_view = draw_boxes(panel_bgr, f"{panel_name} rejected", rejected_boxes)
+    final_view = stack_labeled_images(f"{panel_name} final frames", final_previews)
+
+    top_height = max(merged_view.shape[0], row_view.shape[0])
+    bottom_height = max(rejected_view.shape[0], final_view.shape[0])
+    left_width = max(merged_view.shape[1], rejected_view.shape[1])
+    right_width = max(row_view.shape[1], final_view.shape[1])
+    canvas = np.zeros((top_height + bottom_height, left_width + right_width, 3), dtype=np.uint8)
+    canvas[: merged_view.shape[0], : merged_view.shape[1]] = merged_view
+    canvas[: row_view.shape[0], left_width : left_width + row_view.shape[1]] = row_view
+    canvas[top_height : top_height + rejected_view.shape[0], : rejected_view.shape[1]] = rejected_view
+    canvas[top_height : top_height + final_view.shape[0], left_width : left_width + final_view.shape[1]] = final_view
+    cv2.imwrite(str(debug_dir / f"{panel_name}_animation_debug.png"), canvas)
+
+
 def draw_boxes(image: np.ndarray, title: str, boxes: list[dict[str, Any]]) -> np.ndarray:
     overlay = image.copy()
     for entry in boxes:
@@ -1263,35 +1429,6 @@ def is_text_like_ui_bbox(bbox: tuple[int, int, int, int], alpha_pixels: int) -> 
     return width >= 110 and height >= 28 and fill_ratio < 0.22
 
 
-def classify_component_for_animation(component: SpriteComponent, panel_name: str, panel_shape: tuple[int, int]) -> tuple[str, str | None]:
-    panel_height, panel_width = panel_shape
-    width = component.width
-    height = component.height
-    area = width * height
-    if width <= 0 or height <= 0:
-        return "misc", "empty_component"
-    if max(width, height) <= 8:
-        return "misc", "tiny_fragment"
-    if panel_name not in {"aura", "light_beam"} and (
-        area >= int(panel_width * panel_height * 0.22) or width >= int(panel_width * 0.7) or height >= int(panel_height * 0.7)
-    ):
-        return "misc", "background_like"
-    if (
-        panel_name in {"ui", "player", "light_beam", "aura"}
-        and component.stroke_ratio >= 0.82
-        and component.fill_ratio <= TEXT_LIKE_MAX_STROKE_RATIO
-        and component.disconnected_parts <= 2
-    ):
-        return "ui", "thin_strokes"
-    if (
-        component.disconnected_parts >= 4
-        and component.fill_ratio <= 0.34
-        and (component.alpha_pixels / float(max(1, area))) <= 0.22
-    ):
-        return "ui", "glyph_cluster"
-    return "", None
-
-
 def bbox_union(boxes: list[tuple[int, int, int, int]]) -> tuple[int, int, int, int]:
     return (
         min(box[0] for box in boxes),
@@ -1299,6 +1436,177 @@ def bbox_union(boxes: list[tuple[int, int, int, int]]) -> tuple[int, int, int, i
         max(box[2] for box in boxes),
         max(box[3] for box in boxes),
     )
+
+
+def bbox_overlap_extent(a0: int, a1: int, b0: int, b1: int) -> int:
+    return max(0, min(a1, b1) - max(a0, b0))
+
+
+def bbox_gap_extent(a0: int, a1: int, b0: int, b1: int) -> int:
+    return max(0, max(a0, b0) - min(a1, b1))
+
+
+def component_vertical_overlap_ratio(a: SpriteComponent, b: SpriteComponent) -> float:
+    overlap = bbox_overlap_extent(a.y0, a.y1, b.y0, b.y1)
+    return overlap / float(max(1, min(a.height, b.height)))
+
+
+def component_row_alignment_score(a: SpriteComponent, b: SpriteComponent) -> float:
+    max_height = max(1.0, float(max(a.height, b.height)))
+    top_delta = abs(a.y0 - b.y0) / max_height
+    bottom_delta = abs(a.y1 - b.y1) / max_height
+    center_delta = abs(a.center_y - b.center_y) / max_height
+    return max(top_delta, bottom_delta, center_delta)
+
+
+def merge_sprite_component_cluster(components: list[SpriteComponent], mask: np.ndarray) -> SpriteComponent:
+    merged_bbox = bbox_union([component.bbox for component in components])
+    x0, y0, x1, y1 = merged_bbox
+    merged_mask = mask[y0:y1, x0:x1]
+    alpha_pixels = int(np.count_nonzero(merged_mask))
+    area = max(1, (x1 - x0) * (y1 - y0))
+    return SpriteComponent(
+        bbox=merged_bbox,
+        area=alpha_pixels,
+        alpha_pixels=alpha_pixels,
+        disconnected_parts=count_nonempty_components(merged_mask),
+        fill_ratio=alpha_pixels / float(area),
+        stroke_ratio=component_stroke_ratio(merged_mask),
+    )
+
+
+def component_from_mask_bbox(mask: np.ndarray, bbox: tuple[int, int, int, int]) -> SpriteComponent | None:
+    x0, y0, x1, y1 = bbox
+    component_mask = mask[y0:y1, x0:x1]
+    alpha_pixels = int(np.count_nonzero(component_mask))
+    if alpha_pixels <= 0:
+        return None
+    area = max(1, (x1 - x0) * (y1 - y0))
+    return SpriteComponent(
+        bbox=bbox,
+        area=alpha_pixels,
+        alpha_pixels=alpha_pixels,
+        disconnected_parts=count_nonempty_components(component_mask),
+        fill_ratio=alpha_pixels / float(area),
+        stroke_ratio=component_stroke_ratio(component_mask),
+    )
+
+
+def should_merge_components(a: SpriteComponent, b: SpriteComponent) -> bool:
+    horizontal_gap = bbox_gap_extent(a.x0, a.x1, b.x0, b.x1)
+    vertical_overlap_ratio = component_vertical_overlap_ratio(a, b)
+    horizontal_overlap = bbox_overlap_extent(a.x0, a.x1, b.x0, b.x1)
+    row_alignment = component_row_alignment_score(a, b)
+    row_aligned = row_alignment <= ROW_ALIGNMENT_TOLERANCE
+    nearby_horizontally = horizontal_gap < STRONG_MERGE_HORIZONTAL_GAP_PX
+    nearby_or_overlapping = nearby_horizontally or horizontal_overlap > 0
+    area_ratio = min(a.alpha_pixels, b.alpha_pixels) / float(max(1, max(a.alpha_pixels, b.alpha_pixels)))
+    width_ratio = min(a.width, b.width) / float(max(1, max(a.width, b.width)))
+    fragment_pair = area_ratio < 0.72 or width_ratio < 0.72
+    return (
+        (vertical_overlap_ratio > STRONG_MERGE_VERTICAL_OVERLAP and nearby_or_overlapping)
+        or (nearby_horizontally and row_aligned and fragment_pair)
+        or (row_aligned and horizontal_overlap > 0)
+    )
+
+
+def merge_nearby_components(components: list[SpriteComponent], mask: np.ndarray) -> list[SpriteComponent]:
+    if len(components) <= 1:
+        return components
+
+    parent = list(range(len(components)))
+
+    def find(index: int) -> int:
+        while parent[index] != index:
+            parent[index] = parent[parent[index]]
+            index = parent[index]
+        return index
+
+    def union(left: int, right: int) -> None:
+        root_left = find(left)
+        root_right = find(right)
+        if root_left != root_right:
+            parent[root_right] = root_left
+
+    for left in range(len(components)):
+        for right in range(left + 1, len(components)):
+            if should_merge_components(components[left], components[right]):
+                union(left, right)
+
+    clusters: dict[int, list[SpriteComponent]] = {}
+    for index, component in enumerate(components):
+        clusters.setdefault(find(index), []).append(component)
+
+    merged = [merge_sprite_component_cluster(cluster, mask) for cluster in clusters.values()]
+    merged.sort(key=lambda component: (component.y0, component.x0))
+    return merged
+
+
+def split_component_by_valleys(component: SpriteComponent, mask: np.ndarray) -> list[SpriteComponent]:
+    local_mask = mask[component.y0 : component.y1, component.x0 : component.x1]
+    if local_mask.size == 0:
+        return [component]
+
+    column_counts = np.count_nonzero(local_mask > 0, axis=0).astype(np.float32)
+    if column_counts.size < 2:
+        return [component]
+
+    smooth_kernel = np.array([1.0, 2.0, 3.0, 2.0, 1.0], dtype=np.float32)
+    smooth_kernel /= np.sum(smooth_kernel)
+    smoothed = np.convolve(column_counts, smooth_kernel, mode="same")
+    peak = float(np.max(smoothed))
+    min_segment_width = max(14, int(round(component.height * 0.45)))
+    if peak <= 0 or component.width < min_segment_width * 2:
+        return [component]
+
+    valley_threshold = max(1.0, peak * 0.16)
+    valley_positions = np.flatnonzero(smoothed <= valley_threshold)
+    if valley_positions.size == 0:
+        return [component]
+
+    cuts: list[int] = []
+    run_start = int(valley_positions[0])
+    run_end = run_start
+    for value in valley_positions[1:]:
+        value = int(value)
+        if value == run_end + 1:
+            run_end = value
+            continue
+        cut = (run_start + run_end) // 2
+        if min_segment_width <= cut <= component.width - min_segment_width:
+            cuts.append(cut)
+        run_start = value
+        run_end = value
+    cut = (run_start + run_end) // 2
+    if min_segment_width <= cut <= component.width - min_segment_width:
+        cuts.append(cut)
+    if not cuts:
+        return [component]
+
+    split_boxes: list[tuple[int, int, int, int]] = []
+    segment_x0 = component.x0
+    for cut in sorted(set(cuts)):
+        segment_x1 = component.x0 + cut
+        if segment_x1 - segment_x0 >= min_segment_width:
+            trimmed = trim_to_mask((segment_x0, component.y0, segment_x1, component.y1), mask)
+            if trimmed is not None and trimmed[2] - trimmed[0] >= min_segment_width:
+                split_boxes.append(trimmed)
+        segment_x0 = component.x0 + cut
+    trimmed = trim_to_mask((segment_x0, component.y0, component.x1, component.y1), mask)
+    if trimmed is not None and trimmed[2] - trimmed[0] >= min_segment_width:
+        split_boxes.append(trimmed)
+
+    refined = [component_from_mask_bbox(mask, bbox) for bbox in split_boxes]
+    refined = [entry for entry in refined if entry is not None]
+    return refined or [component]
+
+
+def refine_merged_components(components: list[SpriteComponent], mask: np.ndarray) -> list[SpriteComponent]:
+    refined: list[SpriteComponent] = []
+    for component in components:
+        refined.extend(split_component_by_valleys(component, mask))
+    refined.sort(key=lambda component: (component.y0, component.x0))
+    return refined
 
 
 def row_vertical_overlap_ratio(components: list[SpriteComponent]) -> float:
@@ -1346,29 +1654,6 @@ def consistent_series_ratio(values: list[float], tolerance: float) -> bool:
     return all(lower <= value <= upper for value in values)
 
 
-def best_animation_subgroup(components: list[SpriteComponent]) -> tuple[list[SpriteComponent], str | None]:
-    if len(components) < ANIMATION_MIN_FRAMES:
-        return [], "frame_count_lt_3"
-
-    best_group: list[SpriteComponent] = []
-    best_reason = "frame_count_lt_3"
-    best_score: tuple[int, int] | None = None
-    for start in range(len(components)):
-        for end in range(start + ANIMATION_MIN_FRAMES, len(components) + 1):
-            subgroup = components[start:end]
-            is_valid, reason = validate_animation_row(subgroup)
-            if not is_valid:
-                if len(subgroup) > len(best_group):
-                    best_reason = reason
-                continue
-            score = (len(subgroup), -start)
-            if best_score is None or score > best_score:
-                best_group = subgroup
-                best_score = score
-                best_reason = None
-    return best_group, best_reason
-
-
 def columns_for_bounds(
     seed_mask: np.ndarray,
     row_y0: int,
@@ -1395,28 +1680,24 @@ def columns_for_bounds(
 def extract_row_frame_candidates(
     content_rgba: np.ndarray,
     content_mask: np.ndarray,
-    seed_mask: np.ndarray,
+    components: list[SpriteComponent],
     config: PanelConfig,
-    row_y0: int,
-    row_y1: int,
-    x_bounds: tuple[int, int] | None = None,
 ) -> tuple[list[np.ndarray], list[tuple[int, int, int, int]], list[tuple[int, int, int, int]], list[tuple[int, int]], list[SpriteComponent]]:
-    columns = columns_for_bounds(seed_mask, row_y0, row_y1, config, x_bounds=x_bounds)
     frames: list[np.ndarray] = []
     row_boxes: list[tuple[int, int, int, int]] = []
     row_content_boxes: list[tuple[int, int, int, int]] = []
     frame_components: list[SpriteComponent] = []
     filtered_columns: list[tuple[int, int]] = []
 
-    for col_x0, col_x1 in columns:
-        cropped = extract_cropped_region(content_rgba, content_mask, (col_x0, row_y0, col_x1, row_y1), config.frame_padding)
+    for component in sorted(components, key=lambda entry: entry.x0):
+        cropped = extract_cropped_region(content_rgba, content_mask, component.bbox, config.frame_padding)
         if cropped is None:
             continue
         sprite, local_bbox, content_bbox = cropped
         frames.append(sprite)
         row_boxes.append(local_bbox)
         row_content_boxes.append(content_bbox)
-        filtered_columns.append((col_x0, col_x1))
+        filtered_columns.append((component.x0, component.x1))
         frame_components.append(component_from_sprite_crop(local_bbox, sprite, content_bbox))
 
     return frames, row_boxes, row_content_boxes, filtered_columns, frame_components
@@ -1487,6 +1768,10 @@ def extract_animation_panel(
     seed_mask = make_seed_mask(content_mask, config)
 
     debug_boxes: list[dict[str, Any]] = []
+    merged_debug_boxes: list[dict[str, Any]] = []
+    row_debug_boxes: list[dict[str, Any]] = []
+    rejected_debug_boxes: list[dict[str, Any]] = []
+    final_debug_previews: list[tuple[str, np.ndarray]] = []
     base_x = crop_x.start or 0
     base_y = crop_y.start or 0
     global_x = global_offset[0] + base_x
@@ -1495,42 +1780,75 @@ def extract_animation_panel(
     anchor_type = anchor_type_for_panel(config.name)
     row_entries: list[dict[str, Any]] = []
     group_debug: list[dict[str, Any]] = []
-    panel_shape = content_mask.shape
-    components = build_sprite_components(seed_mask, config.component_min_area)
+    components = build_sprite_components(seed_mask, MIN_COMPONENT_AREA)
+    merged_components = refine_merged_components(merge_nearby_components(components, seed_mask), seed_mask)
+    for index, component in enumerate(merged_components):
+        merged_debug_boxes.append(
+            {
+                "bbox": (base_x + component.x0, base_y + component.y0, base_x + component.x1, base_y + component.y1),
+                "label": f"m{index}",
+                "color": (0, 255, 255),
+            }
+        )
 
-    accepted_components: list[SpriteComponent] = []
-    rejected_components: list[tuple[SpriteComponent, str, str]] = []
-    for component in components:
-        classification, reason = classify_component_for_animation(component, config.name, panel_shape)
-        if reason:
-            rejected_components.append((component, classification, reason))
-            debug_boxes.append(
-                {
-                    "bbox": (base_x + component.x0, base_y + component.y0, base_x + component.x1, base_y + component.y1),
-                    "label": classification,
-                    "color": (0, 0, 255),
-                }
-            )
-            group_debug.append(
-                {
-                    "bbox": [global_x + component.x0, global_y + component.y0, global_x + component.x1, global_y + component.y1],
-                    "frame_count": 1,
-                    "classification": classification,
-                    "accepted": False,
-                    "reason": reason,
-                }
-            )
-            continue
-        accepted_components.append(component)
-
-    grouped_rows = group_components_into_rows(accepted_components)
+    grouped_rows = group_components_into_rows(merged_components)
     for row_index, coarse_row in enumerate(grouped_rows):
         coarse_row = sorted(coarse_row, key=lambda component: component.x0)
-        valid_group, reason = best_animation_subgroup(coarse_row)
         coarse_bbox = bbox_union([component.bbox for component in coarse_row])
-        if not valid_group:
+        row_frames, row_boxes, row_content_boxes, columns, frame_components = extract_row_frame_candidates(
+            content_rgba,
+            content_mask,
+            coarse_row,
+            config,
+        )
+        if config.name == "player":
+            kept_indices, filter_reason = filter_player_row_components(frame_components, row_frames)
+            rejected_indices = [index for index in range(len(coarse_row)) if index not in kept_indices]
+            if rejected_indices:
+                for index in rejected_indices:
+                    component = coarse_row[index]
+                    rejected_debug_boxes.append(
+                        {
+                            "bbox": (base_x + component.x0, base_y + component.y0, base_x + component.x1, base_y + component.y1),
+                            "label": "reject",
+                            "color": (0, 0, 255),
+                        }
+                    )
+            if kept_indices:
+                coarse_row = [coarse_row[index] for index in kept_indices]
+                row_frames = [row_frames[index] for index in kept_indices]
+                row_boxes = [row_boxes[index] for index in kept_indices]
+                row_content_boxes = [row_content_boxes[index] for index in kept_indices]
+                columns = [columns[index] for index in kept_indices]
+                frame_components = [frame_components[index] for index in kept_indices]
+                coarse_bbox = bbox_union([component.bbox for component in coarse_row])
+            elif filter_reason is not None:
+                row_validation = RowValidationResult(False, filter_reason, "effect")
+                coarse_row = []
+                row_frames = []
+                row_boxes = []
+                row_content_boxes = []
+                columns = []
+                frame_components = []
+            else:
+                row_validation = RowValidationResult(False, "no_player_like_frames", "effect")
+        if config.name == "player" and frame_components:
+            row_validation = validate_player_row(frame_components, row_frames)
+        elif config.name != "player":
+            is_valid, reason = validate_animation_row(frame_components)
+            row_validation = RowValidationResult(is_valid, reason, "effect" if config.name in {"aura", "light_beam"} else "misc")
+
+        row_color = (0, 220, 120) if row_validation.accepted else (0, 0, 255)
+        row_debug_boxes.append(
+            {
+                "bbox": (base_x + coarse_bbox[0], base_y + coarse_bbox[1], base_x + coarse_bbox[2], base_y + coarse_bbox[3]),
+                "label": f"row_{row_index}:{len(coarse_row)}",
+                "color": row_color,
+            }
+        )
+        if not row_validation.accepted:
             for component in coarse_row:
-                debug_boxes.append(
+                rejected_debug_boxes.append(
                     {
                         "bbox": (base_x + component.x0, base_y + component.y0, base_x + component.x1, base_y + component.y1),
                         "label": "misc",
@@ -1543,53 +1861,13 @@ def extract_animation_panel(
                     "frame_count": len(coarse_row),
                     "classification": "misc",
                     "accepted": False,
-                    "reason": reason,
+                    "reason": row_validation.reason,
                 }
             )
             continue
 
-        rejected_remainder = [component for component in coarse_row if component not in valid_group]
-        if rejected_remainder:
-            remainder_bbox = bbox_union([component.bbox for component in rejected_remainder])
-            for component in rejected_remainder:
-                debug_boxes.append(
-                    {
-                        "bbox": (base_x + component.x0, base_y + component.y0, base_x + component.x1, base_y + component.y1),
-                        "label": "misc",
-                        "color": (0, 0, 255),
-                    }
-                )
-            group_debug.append(
-                {
-                    "bbox": [global_x + remainder_bbox[0], global_y + remainder_bbox[1], global_x + remainder_bbox[2], global_y + remainder_bbox[3]],
-                    "frame_count": len(rejected_remainder),
-                    "classification": "misc",
-                    "accepted": False,
-                    "reason": "outlier_in_row",
-                }
-            )
-
-        row_y0 = min(component.y0 for component in valid_group)
-        row_y1 = max(component.y1 for component in valid_group)
-        x_bounds = (min(component.x0 for component in valid_group), max(component.x1 for component in valid_group))
-        row_frames, row_boxes, row_content_boxes, columns, frame_components = extract_row_frame_candidates(
-            content_rgba,
-            content_mask,
-            seed_mask,
-            config,
-            row_y0,
-            row_y1,
-            x_bounds=x_bounds,
-        )
-        selected_frames, _ = best_animation_subgroup(frame_components)
-        if selected_frames:
-            keep_indexes = [index for index, component in enumerate(frame_components) if component in selected_frames]
-            row_frames = [row_frames[index] for index in keep_indexes]
-            row_boxes = [row_boxes[index] for index in keep_indexes]
-            row_content_boxes = [row_content_boxes[index] for index in keep_indexes]
-            columns = [columns[index] for index in keep_indexes]
-
-        if len(row_frames) < ANIMATION_MIN_FRAMES:
+        min_frames = PLAYER_ANIMATION_MIN_FRAMES if config.name == "player" else ANIMATION_MIN_FRAMES
+        if len(row_frames) < min_frames:
             group_debug.append(
                 {
                     "bbox": [global_x + coarse_bbox[0], global_y + coarse_bbox[1], global_x + coarse_bbox[2], global_y + coarse_bbox[3]],
@@ -1604,27 +1882,34 @@ def extract_animation_panel(
         row_entries.append(
             {
                 "row_index": row_index,
+                "source_row_index": row_index,
                 "row_frames": row_frames,
                 "row_boxes": row_boxes,
                 "row_content_boxes": row_content_boxes,
                 "columns": columns,
                 "bbox": bbox_union(row_boxes),
+                "classification": row_validation.classification,
+                "validation_reason": row_validation.reason,
+                "preferred_role": config.animation_labels[row_index] if row_index < len(config.animation_labels) else None,
             }
         )
 
     if not row_entries and config.name in {"aura", "light_beam"}:
         fallback_rows = detect_row_ranges(seed_mask, config)
         for row_index, (row_y0, row_y1) in enumerate(fallback_rows):
+            fallback_components = [
+                component
+                for component in merged_components
+                if bbox_overlap_extent(component.y0, component.y1, row_y0, row_y1) > 0
+            ]
             row_frames, row_boxes, row_content_boxes, columns, frame_components = extract_row_frame_candidates(
                 content_rgba,
                 content_mask,
-                seed_mask,
+                fallback_components,
                 config,
-                row_y0,
-                row_y1,
             )
-            valid_frames, reason = best_animation_subgroup(frame_components)
-            if not valid_frames:
+            is_valid, reason = validate_animation_row(frame_components)
+            if not is_valid:
                 if row_boxes:
                     row_bbox = bbox_union(row_boxes)
                     group_debug.append(
@@ -1637,66 +1922,23 @@ def extract_animation_panel(
                         }
                     )
                 continue
-            keep_indexes = [index for index, component in enumerate(frame_components) if component in valid_frames]
             row_entries.append(
                 {
                     "row_index": row_index,
-                    "row_frames": [row_frames[index] for index in keep_indexes],
-                    "row_boxes": [row_boxes[index] for index in keep_indexes],
-                    "row_content_boxes": [row_content_boxes[index] for index in keep_indexes],
-                    "columns": [columns[index] for index in keep_indexes],
-                    "bbox": bbox_union([row_boxes[index] for index in keep_indexes]),
+                    "source_row_index": row_index,
+                    "row_frames": row_frames,
+                    "row_boxes": row_boxes,
+                    "row_content_boxes": row_content_boxes,
+                    "columns": columns,
+                    "bbox": bbox_union(row_boxes),
+                    "classification": "effect",
+                    "preferred_role": config.animation_labels[row_index] if row_index < len(config.animation_labels) else None,
                 }
             )
 
     apply_semantic_animation_labels(config.name, row_entries)
     for row_index, entry in enumerate(sorted(row_entries, key=lambda row: row["bbox"][1])):
         entry["row_index"] = row_index
-
-    locomotion_rows = [
-        entry for entry in row_entries if config.name == "player" and entry["row_role"] in LOCOMOTION_ROLES
-    ]
-    player_shared_anchor: tuple[int, int] | None = None
-    player_shared_size: tuple[int, int] | None = None
-    player_reference_height: int | None = None
-    player_body_rows = [
-        entry for entry in row_entries if config.name == "player" and entry["row_role"] != "effects"
-    ]
-    if player_body_rows and anchor_type == "ground":
-        idle_reference = next((entry for entry in player_body_rows if entry["row_role"] == "idle"), player_body_rows[0])
-        player_body_frames = [frame for entry in player_body_rows for frame in entry["row_frames"]]
-        player_body_roles = [entry["row_role"] for entry in player_body_rows for _ in entry["row_frames"]]
-        body_anchors = [
-            compute_frame_anchor(frame, anchor_type, downward_bias=anchor_bias_for_role(role, anchor_type))
-            for frame, role in zip(player_body_frames, player_body_roles, strict=False)
-        ]
-        smoothed_body_anchors = smooth_anchors(body_anchors)
-        body_prepared = [
-            crop_frame_to_visible_content(frame, anchor, anchor)
-            for frame, anchor in zip(player_body_frames, smoothed_body_anchors, strict=False)
-        ]
-        body_crops = [entry[0] for entry in body_prepared]
-        body_local_anchors = [entry[2] for entry in body_prepared]
-        reference_frame = idle_reference["row_frames"][default_reference_frame_index(len(idle_reference["row_frames"]))]
-        reference_anchor = compute_frame_anchor(
-            reference_frame,
-            anchor_type,
-            downward_bias=anchor_bias_for_role(idle_reference["row_role"], anchor_type),
-        )
-        _, _, idle_local_anchor, _ = crop_frame_to_visible_content(reference_frame, reference_anchor, reference_anchor)
-        try:
-            idle_reference_index = next(
-                index for index, anchor in enumerate(body_local_anchors) if anchor == idle_local_anchor
-            )
-        except StopIteration:
-            idle_reference_index = 0
-        player_shared_size, player_shared_anchor = shared_template_from_reference(
-            body_crops,
-            body_local_anchors,
-            idle_reference_index,
-            anchor_type,
-        )
-        player_reference_height = int(round(float(np.median([visible_content_height(frame) for frame in idle_reference["row_frames"] if visible_content_height(frame) > 0]))))
 
     for entry in row_entries:
         row_index = entry["row_index"]
@@ -1712,20 +1954,13 @@ def extract_animation_panel(
         role_counts[row_role] = role_count + 1
         base_animation_prefix = f"{panel_asset_prefix(config.name)}_{row_role}"
         animation_prefix = base_animation_prefix if role_count == 0 else f"{base_animation_prefix}_{role_count}"
-        if player_reference_height is not None and (row_role == "effects" or config.name in {"aura", "light_beam"}):
-            row_frames = scale_frames_to_target_height(row_frames, player_reference_height)
-        shared_size = player_shared_size if config.name == "player" and row_role != "effects" else None
-        shared_anchor = player_shared_anchor if config.name == "player" and row_role != "effects" else None
-        if config.name in {"aura", "light_beam"} and player_shared_anchor is not None:
-            shared_anchor = player_shared_anchor
         normalized_frames, normalized_size, shared_anchor, alignment_debug = normalize_animation_frames(
             row_frames,
             anchor_type,
             row_role,
             config.name,
-            shared_anchor=shared_anchor,
-            shared_size=shared_size,
         )
+        final_debug_previews.append((animation_prefix, composite_on_checker(build_sheet(normalized_frames))))
 
         for frame_index, (frame, local_bbox) in enumerate(zip(normalized_frames, row_boxes, strict=False)):
             lx0, ly0, lx1, ly1 = local_bbox
@@ -1823,6 +2058,15 @@ def extract_animation_panel(
         debug_boxes,
     )
     cv2.imwrite(str(debug_dir / f"{config.name}_debug.png"), debug)
+    save_animation_panel_debug(
+        config.name,
+        panel_rgba,
+        merged_debug_boxes,
+        row_debug_boxes,
+        rejected_debug_boxes,
+        final_debug_previews,
+        debug_dir,
+    )
     return items, sheets, group_debug
 
 
@@ -1862,9 +2106,10 @@ def extract_objects_panel(
     item_index = 0
     for candidate_bbox in candidate_boxes:
         expanded_bbox = expand_bbox(candidate_bbox, config.frame_padding, content_mask.shape[1], content_mask.shape[0])
-        content_bbox = trim_to_mask(expanded_bbox, content_mask)
+        content_bbox = trim_to_alpha(expanded_bbox, content_rgba)
         if content_bbox is None:
             continue
+        content_bbox = expand_bbox(content_bbox, ALPHA_BBOX_PADDING, content_mask.shape[1], content_mask.shape[0])
 
         classification = "sprite"
         local_bbox = content_bbox
@@ -2334,8 +2579,6 @@ def write_engine_metadata(
     animations: dict[str, dict[str, dict[str, Any]]] = {}
     for item in items:
         if not item.asset_name:
-            continue
-        if item.asset_name not in placement_map:
             continue
         if item.animation_role:
             entity = normalize_key(item.panel)

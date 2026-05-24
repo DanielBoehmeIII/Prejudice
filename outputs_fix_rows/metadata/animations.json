@@ -1,0 +1,88 @@
+{
+  "player": {
+    "walk": {
+      "frames": [
+        "player_walk_0",
+        "player_walk_1",
+        "player_walk_2",
+        "player_walk_3",
+        "player_walk_4"
+      ],
+      "animation_type": "walk",
+      "frame_duration": 80
+    },
+    "run": {
+      "frames": [
+        "player_run_0",
+        "player_run_1",
+        "player_run_2",
+        "player_run_3",
+        "player_run_4"
+      ],
+      "animation_type": "run",
+      "frame_duration": 60
+    },
+    "jump": {
+      "frames": [
+        "player_jump_0",
+        "player_jump_1",
+        "player_jump_2",
+        "player_jump_3",
+        "player_jump_4"
+      ],
+      "animation_type": "jump",
+      "frame_duration": 90
+    },
+    "fall": {
+      "frames": [
+        "player_fall_0",
+        "player_fall_1"
+      ],
+      "animation_type": "fall",
+      "frame_duration": 80
+    },
+    "attack": {
+      "frames": [
+        "player_attack_0",
+        "player_attack_1",
+        "player_attack_2"
+      ],
+      "animation_type": "attack",
+      "frame_durations": [
+        50,
+        95,
+        140
+      ]
+    },
+    "shield": {
+      "frames": [
+        "player_shield_0",
+        "player_shield_1",
+        "player_shield_2"
+      ],
+      "animation_type": "shield",
+      "frame_duration": 80
+    },
+    "cross_ability": {
+      "frames": [
+        "player_cross_ability_0",
+        "player_cross_ability_1"
+      ],
+      "animation_type": "cross_ability",
+      "frame_duration": 80
+    }
+  },
+  "aura": {
+    "effects": {
+      "frames": [
+        "aura_effects_0",
+        "aura_effects_1",
+        "aura_effects_2",
+        "aura_effects_3",
+        "aura_effects_4"
+      ],
+      "animation_type": "effects",
+      "frame_duration": 80
+    }
+  }
+}
